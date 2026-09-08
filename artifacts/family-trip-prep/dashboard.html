@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>뉴욕 여행 준비 대시보드 v34</title>
+    <title>뉴욕 여행 준비 대시보드 v35</title>
     <!-- 경고 배지: 🔒 고정 시각(예약·지정입장, 절대 못 미룸) / ⏱ 여유 0분 전환구간(늦으면 뒤가 밀림) / ❓ 미확정 가정(개관시각 등, 시간 고정 아님) -->
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,8 +47,8 @@
         <div class="bg-white rounded-lg card-shadow p-6 mb-6">
             <h1 class="text-3xl font-bold text-gray-800 mb-2">뉴욕 가족 여행 준비 대시보드</h1>
             <p class="text-gray-600">2026-12-25 ~ 2027-01-03 (9일) | 성인 2명(부부)</p>
-            <p class="mt-2"><span class="inline-block bg-blue-700 text-white text-sm font-bold px-3 py-1 rounded">v34 · 2026-09-08 기준 출발까지 D-108</span></p>
-            <p class="text-xs text-gray-500 mt-2">회차별 변경 이력(v2~v34)은 git 커밋(<code>가족 여행 준비: N차</code>)에 있습니다. 아래 주황 박스는 v29~v34 핵심 변경 요약입니다. <strong>[v34] 리버티 크라운 12/30→1/2 오전, ESB 1/2→12/30, 귀국편 OZ223 01:30→00:30 정정.</strong></p>
+            <p class="mt-2"><span class="inline-block bg-blue-700 text-white text-sm font-bold px-3 py-1 rounded">v35 · 2026-09-08 기준 출발까지 D-108</span></p>
+            <p class="text-xs text-gray-500 mt-2">회차별 변경 이력(v2~v35)은 git 커밋(<code>가족 여행 준비: N차</code>)에 있습니다. 아래 주황 박스는 v29~v35 핵심 변경 요약입니다. <strong>[v34] 리버티 크라운 12/30→1/2 오전·ESB 1/2→12/30·OZ223 00:30. [v35 · 76차] 한국인 선호 명소 편입 — 그랜드 센트럴·NYPL 사자상(12/26)·황소상·소녀상(12/27)·Friends 아파트·캐리 브라운스톤(12/30)·Russ &amp; Daughters·Prince St Pizza(1/2). 검산 불변.</strong></p>
         </div>
 
         <!-- 우리는 이런 여행자입니다 -->
@@ -155,7 +155,7 @@
             <div class="flex items-start gap-4">
                 <div class="text-3xl font-bold text-orange-500 flex-shrink-0">⚠️</div>
                 <div class="flex-1">
-                    <h3 class="font-bold text-orange-900 text-lg mb-3">v29~v34 핵심 변경 — 출발 전 반드시 확인</h3>
+                    <h3 class="font-bold text-orange-900 text-lg mb-3">v29~v35 핵심 변경 — 출발 전 반드시 확인</h3>
                     <div class="bg-purple-100 rounded px-3 py-2 text-sm text-purple-900 mb-2">
                         <strong>⓪ [v34] 리버티 아일랜드 크라운을 1/2 오전으로 이설 · ESB를 12/30으로 이설 · 귀국편 OZ223 시각 01:30 → 00:30 정정.</strong> 사용자가 "여신상 올라가보고 싶다"고 함 — 크라운은 12/30·12/27 매진, 1/2만 9am 슬롯 생존. 1/2은 06:30 기상·크라운 등반 후 Katz's·스트리트웨어·저녁·공항(19:15 출발). 12/30은 그리니치빌리지 재즈 LP + ESB 16:30으로 회복형 날이 됨. <strong>OZ223 실제 출발은 00:30</strong>(사용자 예약 확인 — 2026-09-04의 "01:30"이 오류였음).
                     </div>
@@ -290,9 +290,10 @@
                     <div class="flex gap-2"><span class="time-label">15:45~16:00</span><span>Top of the Rock 입장 대기(15분)</span></div>
                     <div class="flex gap-2"><span class="time-label">16:00~17:30</span><span><strong>Top of the Rock 전망대</strong> (지정시간 예매) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 지정입장 고정 — 절대 사수</span></span></div>
                     <div class="flex gap-2"><span class="time-label">17:30~17:45</span><span><strong>FAO Schwarz</strong>(30 Rockefeller Plaza · 한정판 Funko Pop·Jellycat)</span></div>
-                    <div class="flex gap-2"><span class="time-label">17:45~18:00</span><span>FAO → 브라이언트 파크 직행 (도보 12분) — <strong> Kinokuniya 삭제</strong>(일본 굿즈 우선순위 하향 결정 정합)</span></div>
-                    <div class="flex gap-2"><span class="time-label">18:00~18:45</span><span>브라이언트 파크 윈터 빌리지 (45분으로 복원) + 여유 22분 → 19:07 Keens로 도보 8분</span></div>
-                    <div class="flex gap-2"><span class="time-label">19:15~21:00</span><span><strong>[유명] Keens Steakhouse</strong> (머튼찹, 예약 필수) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 예약 고정 — 접속 여유 7분뿐</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:45~18:00</span><span>FAO → 5번가 남하 — <strong>NYPL 사자상</strong>(Patience·Fortitude, 5번가·42가) 앞 통과 → 브라이언트 파크 <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">76차</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">18:00~18:30</span><span>브라이언트 파크 윈터 빌리지 (45→30분, 그랜드 센트럴 삽입분)</span></div>
+                    <div class="flex gap-2"><span class="time-label">18:40~19:05</span><span><strong>그랜드 센트럴 터미널</strong> — 중앙홀·천장 별자리 벽화·속삭이는 회랑. 무료·연중 개방 <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">76차 신설 · 붐비면 25분 칸 접기</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">19:15~21:00</span><span><strong>[유명] Keens Steakhouse</strong> (머튼찹, 예약 필수 — 그랜드 센트럴에서 36가/6번가 도보 10분) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 예약 고정</span></span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-orange-200 bg-orange-50 px-3 py-2 rounded text-xs text-orange-900">
                     <strong> 오후 창 12:30~15:45 = 195분:</strong> 커피 45 + LEGO 25 + 이동 10 + Nintendo 40 + Rough Trade 15 + <strong>순여유 60</strong><br>
@@ -308,7 +309,7 @@
                 </div>
                 <div class="space-y-1 text-sm">
                     <div class="flex gap-2"><span class="time-label">11:00~13:15</span><span>9/11 메모리얼·뮤지엄 — <strong>⚠ 타임드 티켓 사전 예매 필수</strong>(911memorial.org, 12/27 11:00 슬롯). 크리스마스 주간이라 매진 위험, 늦어도 12/13까지. 메모리얼 야외 풀은 무료·무예약</span></div>
-                    <div class="flex gap-2"><span class="time-label">13:15~14:15</span><span>로어맨해튼 도보(월스트리트·Stone St)</span></div>
+                    <div class="flex gap-2"><span class="time-label">13:15~14:15</span><span>로어맨해튼 도보 — 오큘러스·트리니티 교회·<strong>두려움 없는 소녀상</strong>(NYSE 앞)·월스트리트·<strong>황소상(볼링그린)</strong>·Stone St <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">76차 · 경로 상</span></span></div>
                     <div class="flex gap-2"><span class="time-label">14:30~15:30</span><span>브루클린 브리지 도보 횡단</span></div>
                     <div class="flex gap-2"><span class="time-label">15:30~17:15</span><span>DUMBO (Washington St·브리지파크·일몰·야경)</span></div>
                     <div class="flex gap-2"><span class="time-label">18:00~19:45</span><span><strong>[유명] Peter Luger Steak House</strong> (Steak for Two) — <strong>현금($325~350) 필수</strong></span></div>
@@ -406,7 +407,7 @@
                     <div class="flex gap-2"><span class="time-label">09:00~10:00</span><span>기상·숙소 커피·정비 (끼니 미포함) — 수면 회복 약 9.5~10시간</span></div>
                     <div class="flex gap-2"><span class="time-label">10:00~10:35</span><span>숙소 인근 커피·간단 요기 (Joe's 전이라 가볍게)</span></div>
                     <div class="flex gap-2"><span class="time-label">10:35~11:15</span><span>숙소 → 그리니치빌리지 (<strong>L선 1 Av → 6 Av</strong> + 도보)</span></div>
-                    <div class="flex gap-2"><span class="time-label">11:15~12:35</span><span>그리니치·웨스트빌리지 산책 (워싱턴 스퀘어·골목·크리스토퍼 스트리트, 완충 겸용)</span></div>
+                    <div class="flex gap-2"><span class="time-label">11:15~12:35</span><span>그리니치·웨스트빌리지 산책 (워싱턴 스퀘어·크리스토퍼 스트리트·<strong>Friends 아파트(90 Bedford)</strong>·<strong>캐리 브라운스톤(66 Perry, 길에서 촬영)</strong>, 완충 겸용) <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">76차 · 경로 상</span></span></div>
                     <div class="flex gap-2"><span class="time-label">12:35~13:30</span><span><strong>[유명] Joe's Pizza</strong> (7 Carmine St, 워크인 카운터)</span></div>
                     <div class="flex gap-2"><span class="time-label">13:35~14:20</span><span><strong>Village Revival Records</strong> (197 Bleecker St, 재즈 LP 1순위) — 평시 매일 12~22시. 휴무 시 12/31 오후 빌리지 블록으로 이월</span></div>
                     <div class="flex gap-2"><span class="time-label">14:50~15:30</span><span><strong>Academy Records EV</strong> (415 E 12th St, 재즈 LP 디깅) — 이스트빌리지·숙소 도보권이라 접기 쉬움. 12/30(수) 영업만 확인</span></div>
@@ -564,9 +565,9 @@
                     <div class="flex gap-2"><span class="time-label">12:00~12:35</span><span>귀환 페리(엘리스 경유·하선 없음) → Battery Park</span></div>
                     <div class="flex gap-2"><span class="time-label">12:35~13:05</span><span>Battery Park → 로어이스트사이드 (F선)</span></div>
                     <div class="flex gap-2"><span class="time-label">13:05~14:20</span><span><strong>[유명] Katz's Delicatessen</strong>(205 E Houston St, 워크인, 2인 세트 $80) — 점심</span></div>
-                    <div class="flex gap-2"><span class="time-label">14:30~16:40</span><span><strong>Bowery/NoLIta 스트리트웨어 루프</strong> — <strong>Supreme</strong>(190 Bowery, 35분·줄 30분~2시간) → <strong>Kith</strong>(337 Lafayette, 20분) → <strong>Stüssy</strong>(50 Prince St, 23분). 메이시스 삭제. ⚠ 크라운 후라 컨디션 보고 Stüssy는 접을 수 있음 · 연말 영업 미확인</span></div>
+                    <div class="flex gap-2"><span class="time-label">14:30~16:40</span><span><strong>Bowery/NoLIta 스트리트웨어 + 피자</strong> — <strong>Supreme</strong>(190 Bowery, 35분) → <strong>Prince St Pizza</strong>(27 Prince St, 페퍼로니 스퀘어, 도보 2분·슬라이스 10분) → <strong>Kith</strong>(337 Lafayette, 20분) → <strong>Stüssy</strong>(50 Prince St, 20분). ⚠ 크라운 후라 Stüssy는 접을 수 있음(피자 흡수처) · 연말 영업 미확인 <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">76차</span></span></div>
                     <div class="flex gap-2"><span class="time-label">16:40~17:15</span><span>유니언스퀘어·이스트빌리지 마지막 산책·기념품·커피 (르뱅 쿠키 등 12/30 못 산 것 회수)</span></div>
-                    <div class="flex gap-2"><span class="time-label">17:15~18:30</span><span><strong>[캐주얼→착석] 이스트빌리지 마지막 저녁</strong> — 숙소 인근. 이후 공항까지 정식 끼니 없음</span></div>
+                    <div class="flex gap-2"><span class="time-label">17:15~18:30</span><span><strong>[캐주얼→착석] Russ &amp; Daughters</strong> — 1914년 LES 애피타이징 아이콘(훈제연어·베이글). Cafe(127 Orchard) 착석 / 본점(179 E Houston) 포장. Katz's 파스트라미(점심)와 LES 유대인 델리 2곳 완성 <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">76차 · 이스트빌리지 저녁 대체</span></span></div>
                     <div class="flex gap-2"><span class="time-label">18:30~19:15</span><span>저녁 → 숙소/보관처 · 짐 회수·방한복 정리·최종 점검 (회수 20~25분은 줄이지 말 것)</span></div>
                     <div class="flex gap-2"><span class="time-label">19:15~21:15</span><span><strong> 숙소 → JFK 대중교통</strong> — Astor Pl(6) → 51 St → E선 → Jamaica → AirTrain (120분, 2인 $23.30) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 1/2~1/3 주말 공사 1주 전 확인</span></span></div>
                     <div class="flex gap-2"><span class="time-label">21:15~</span><span>체크인·수하물·출국 수속(<strong>OZ223 1/3 00:30 출발</strong> — 야간편 체크인 통상 21:00~21:30 오픈·약 23:30 마감. 21:15 도착은 곧바로 수속, 여유 약 2시간)</span></div>
@@ -686,7 +687,7 @@
 
         <!-- 푸터 -->
         <div class="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
-            <p>뉴욕 여행 준비 대시보드 v34 | 2026-09-08 업데이트</p>
+            <p>뉴욕 여행 준비 대시보드 v35 | 2026-09-08 업데이트</p>
         </div>
 
     </div>
