@@ -4470,3 +4470,173 @@ ESB(고정)+ToR·9/11·구겐하임(3택) 조합이면 우리가 원하는 4곳(
 3. The Met·MoMA는 52장 결론(정가 / 현대카드 실물 시 −80,000) 그대로.
 
 출처(56): [loving-newyork.com — Go New York Explorer Pass 2026 가격표](https://loving-newyork.com/new-york-explorer-pass/), [gocity.com — New York Explorer Pass](https://gocity.com/en/new-york), [gocity.com — ESB / ToR 가이드(일몰 업그레이드)](https://gocity.com/en/new-york/things-to-do/empire-state-building-guide), [911memorial.org — Museum Admission Discounts](https://911memorial.org/visit/tickets/museum-admission-discounts), [911memorial.org — Free Monday](https://www.wonderfulmuseums.com/museum/9-11-museum-tickets-free-monday/), [timeout.com — NYC residents free Vessel](https://www.timeout.com/newyork/news/nyc-residents-can-now-visit-the-vessel-at-hudson-yards-for-free-022725), [nyctourism.com — 26% off Vessel](https://www.nyctourism.com/offers/26-percent-off-vessel-at-hudson-yards/), [viator — Sightseeing FLEX Pass 2026](https://www.viator.com/tours/New-York-City/The-New-York-Sightseeing-Flex-Pass/d687-455222FLEXPASS), 본 문서 42장·43장·52장·54장·55장 (조사 시점 2026-09-07. 패스 가격·일몰 제외 조건은 공식·리셀러 1차 소스, 업그레이드 실액은 43-7처럼 미상.)
+
+---
+
+## 57장. 12/28(월) 보스턴 당일치기 재구성 — Amtrak 요금 · 버스투어 vs 자유여행 · 하버드+Stereo Jack's 동선 (조사 시점: 2026-09-08, 82차)
+
+**배경**: 사용자가 12/28 보스턴 당일치기에 **재즈 LP 디깅(Stereo Jack's Records)** 과 **하버드 스퀘어**를 넣는 재구성을 요청. 현행 정본(v37) Day 4 = 프리덤 트레일 남부 + 퀸시 마켓 + 자유시간 75분(하버드 미포함), Northeast Regional 66번(NYP 05:44 → BOS 10:05)·175번(BOS 15:15 → NYP 19:52), 예산 400,000원(2인 왕복), 기상 04:15·수면 5~5.5시간, 예비비 완충 약 39.5%. 아래 3개 조사는 사실관계만 정리하며 시각 배치는 itinerary-planner의 몫.
+
+### 57-1. Amtrak Acela vs Northeast Regional 실제 요금·시각 (NYP ↔ BOS)
+
+#### 57-1-0. ⚠ 예매창은 이미 열려 있다 — 지금 잡는 게 최선
+
+- Amtrak은 출발 **약 11개월 전** 예매 오픈. 12/28/2026 편은 **약 2026-01-28에 열렸으므로 오늘(2026-09-08, D-111) 기준 이미 7개월 넘게 열려 있는 상태**다. 43장이 만든 "60~90일 전" 상대 기한은 순수 추정이었고 65차에 정정됨(CLAUDE.md). **가장 저렴한 Value 재고는 예매 초기에 소진**되므로 지금 바로 잡는 게 원칙.
+- 12/28은 **크리스마스~신정 홀리데이 주간의 월요일**이라 다이내믹 프라이싱 상단에 걸리기 쉽다. 12월 초 Travel Tuesday·Falling Fares 류 세일이 있으나 성수기 날짜는 통상 블랙아웃.
+
+#### 57-1-1. 2026년 요금 체계 변경 — "Saver"가 없어졌다 (43·56장 정정)
+
+Amtrak이 3단계(Saver / Value / Flexible)를 **2단계(Value / Flex)**로 통합(2023년 가을 시행, 2026년 현재 정착):
+
+| Fare | 변경 | 취소 | 성격 |
+|---|---|---|---|
+| **Value** | 변경 불가 | 출발 전 취소 시 약 **25~30% 위약**(2026-04-13부터 인상, 소스별 25%/30% 상이), 나머지 환불 | 최저가 티어 |
+| **Flex** | 수수료 없이 자유 변경 | **전액 환불** | Value보다 비쌈 |
+| **Sale**(세일 한정) | 변경 불가 | 50% 환불 | 세일 진행 시에만 노출 |
+
+- 구매 후 **24시간 내 취소는 전 fare 전액 환불**. 환불은 이제 eVoucher가 아니라 **원결제수단**으로(개선점).
+- **56-1의 4행 "Saver 요금(7~21일 전 창, 성수기 미제공 가능)"은 더 이상 유효하지 않다** — 이제는 Value가 최저가이고 "조기 예매일수록 저렴"이 원칙(별도 조기예매 전용 창 없음).
+- AAA·시니어·군인·학생 할인은 우리 프로필 무자격(56장과 동일).
+
+#### 57-1-2. 편도 1인 요금대 (2026 시즌 공시·평시 스니펫 기반)
+
+| 등급 | 편도 1인 (저가·조기) | 편도 1인 (임박·피크) | 관측 평균 |
+|---|---|---|---|
+| NER Coach (Value) | 약 $29~59 | 약 $90~167 | 약 $116~167 |
+| NER Business | 약 $85~150 | 약 $200~300 | — |
+| Acela Business | 딥세일 시 $49~99 / 통상 $86~150 | 약 $220~301 | 약 $260~271 |
+
+- 실측 스니펫: NER $93(정차 많은 편), Acela 저녁편 $301, Acela 아침 $86~125.
+- ⚠ 위는 **평시** 기준. 12/28 홀리데이 주간 월요일 실가는 이보다 높을 개연성 — **amtrak.com에서 12/28 날짜로 직접 조회 필수**(45차 규칙: 가는 편·오는 편 둘 다 실시각표·실요금 1회 조회).
+
+#### 57-1-3. 2인 왕복 4장 총액 — 800,000원(약 $580) 기준선 대조
+
+환율 **1,357원/USD**(2026-09-03 실측 스팟, 정본 0장 기준) 적용:
+
+| 시나리오 | 1인 편도 가정 | 4장 총 USD | 원화 환산 | 800,000원선 |
+|---|---|---|---|---|
+| NER Coach 조기 (best case) | $45 | $180 | 약 244,000원 | 훨씬 아래 |
+| **NER Coach 성수기 월요일 (현실적)** | $79~99 | $316~396 | **약 429,000~537,000원** | 아래 |
+| NER Coach 피크·임박 | $130~167 | $520~668 | 약 706,000~906,000원 | 경계~초과 |
+| Acela Business 조기 | $110~140 | $440~560 | 약 597,000~760,000원 | 아래(빠듯) |
+| Acela Business 성수기 (현실적) | $170~230 | $680~920 | 약 923,000~1,248,000원 | 초과 |
+
+- **정본 배정 400,000원은 NER 조기 예매가 성립해야 지켜지는 값이다.** 성수기 월요일이면 429,000~537,000원(NER 현실적)이 더 실제에 가깝다 → 차액 약 30,000~140,000원은 미배분(1,940,000)에서 흡수 가능.
+- **정본 실행메모의 Acela A안 전환 조건("Acela 09시대 2인 왕복 ≤ 800,000원")**: 조기 예매가 성립하면(약 597,000~760,000원) 충족 가능, 성수기 실가면 초과. **예매 시점에 실제로 조회해 판단.** Acela의 이점은 편도 30~40분 단축뿐(아래 57-1-4)이라 800,000원을 넘으면 실익 대비 부담이 크다.
+
+#### 57-1-4. 소요시간 재확인 (NYP ↔ BOS)
+
+- **Acela**: 통상 **3시간 40분~3시간 55분**(정차 약 5개). 최속 약 3h35m.
+- **Northeast Regional**: 통상 **4시간 10분~4시간 30분**(정차 약 15~20개: New Haven·New London·Providence 등).
+- 차이: **편도 약 30~40분, 왕복 약 1시간.** (정본 Day 4의 66번 4h21m·175번 4h37m은 NER 실측 범위와 부합)
+- 아침 NYP→BOS 출발대(35장 확인 + 이번 재확인, 소스 간 편차 있음): 05:27(Acela 추정)·**05:44(NER 66번)**·07:03(Acela)·07:41(NER)·08:00·09:05(Acela). 하루 총 **Acela 7편 + NER 9편** 수준.
+- 저녁 BOS→NYP 출발대(trainweb 남행 평일표, ⚠ "Acela Express" 옛 표기라 다소 낡음 — 재확인 필요): R2167 13:15→16:45 · R2171(Acela) 15:15→18:45 · **R175(NER) 16:20~16:30대 → 20:15경** · R2175(Acela) 17:20→20:50 · **R177(NER) 17:35경 → 21:25경** · R179(NER) 18:45→22:45.
+- ⚠ **정본 Day 4는 175번을 "BOS 15:15 → NYP 19:52"로 잡았으나 이번 스니펫에는 175번이 "BOS 16:20대 → NYP 20:15경"으로도 나온다** — 편성·시각이 개정됐을 수 있으니 **예매 시점 amtrak.com에서 12/28로 66번·175번(및 177번)을 재확정**.
+
+#### 57-1-5. 겨울 폭설 — 결항·지연 이력과 환불·변경 정책
+
+- **Northeast Corridor는 전 구간 전철화**라 디젤 장거리 노선보다 폭설에 강하다 — 노이스터에도 대개 "modified schedule"로 상당수 편 운행 유지. 다만:
+  - **2026-02-05~06**: 겨울 날씨 관련 장비 문제로 Acela 7편·NER 10편·Keystone 3편 취소.
+  - **2026-01**: 노이스터로 Acela 개별편(예: No. 2248·2259) 취소.
+  - **Acela 신뢰성 리스크**: 구형 Acela 편성이 2025년 퇴역, NextGen Acela 신편성 도입 중이나 **한파 시 가용 대수 부족으로 취소가 종종 발생**(2026년에도 DC~보스턴 Acela 장비 부족 결항 보도).
+- **악천후 정책**: modified schedule 시 "비슷한 시각 다른 편 또는 다른 날 재배정, 변경 수수료 면제"(1-800-USA-RAIL). **이 경우 Value fare도 무료 변경 대상.**
+- **fare class별 자발적 변경·취소**:
+  - Value: 변경 불가, 취소 시 25~30% 손실(폭설 modified 발동 시엔 면제).
+  - Flex: 자유 변경·전액 환불. 대신 2인 4장 기준 편도 약 $40~70×4 = 약 **150,000~380,000원** 추가.
+  - **비용 효율**: Value로 사고 폭설 시 면제 정책에 기대는 편이 저렴. Flex 프리미엄은 "폭설이 아닌 단순 변심"에만 값어치 → 이번 여행 성격상 불필요.
+- **12/28 대비 액션**: ① 출발 3~5일 전 amtrak.com Service Alerts + 보스턴/뉴욕 예보 확인 ② 강설 특보 시 정본 실행메모대로 "당일치기 자체 포기, 뉴욕 휴식" 폴백 유지(정본 Day 4 메모·15-8-4).
+
+**출처(57-1)**: [Wanderu — Train from New York to Boston](https://www.wanderu.com/en-us/train/us-ny/new-york/us-ma/boston/), [trainpricealerts.com — Acela vs Northeast Regional](https://trainpricealerts.com/blog/acela-vs-northeast-regional), [UpgradedPoints — Amtrak Fare Structure Changes](https://upgradedpoints.com/news/amtrak-fare-structure-changes/), [Travel UpClose — Amtrak Fare Structure Simplified into Two Categories](https://travelupclose.com/amtrak-fare-structure-simplified-into-two-categories/), [The Travel — Amtrak Increases Value Fare Cancellation Penalty (April 13)](https://www.thetravel.com/amtrak-increases-value-fare-cancellation-penalty-fee-starting-from-april-13/), [findamtrakstations.com — Amtrak Cancellation Policy 2026](https://www.findamtrakstations.com/blog/amtrak-cancellation-policy/), [Amtrak — Refund and Cancellation Policy](https://www.amtrak.com/refund-and-cancellation-policy), [Amtrak — Does Amtrak Cancel for Snow?](https://www.amtrak.com/does-amtrak-cancel-for-snow), [Trains.com — Amtrak storm cancellations expand](https://www.trains.com/pro/passenger/intercity/amtrak-storm-cancellations-expand-to-include-eastern-trains/), [newyorkbostontrains.com](https://newyorkbostontrains.com/), [trainweb.us — Amtrak Southbound Boston Weekday Schedules](https://www.trainweb.us/amtrak/ne_bo_smf.html), [Travels With Kev — Amtrak Holiday Travel / 11-month booking](https://travelswithkev.com/amtrak-holiday-travel/), 본 문서 35장·43장·56장 (조사 시점 2026-09-08. 요금·시각표는 2026 시즌 공시·평시 스니펫 기반이며 **2026-27 홀리데이 주간 실가·확정 편성은 미공개** — amtrak.com에서 12/28 날짜로 직접 조회 필수.)
+
+### 57-2. 가이드 버스투어(하버드+프리덤트레일) vs 독립 이동
+
+#### 57-2-1. 한국인·영어 버스투어 상품 실측 (2026-09-08)
+
+| 상품(플랫폼) | 1인가 | 총 소요 | NYC 출발 | NYC 귀환 | 방문지 | 자유시간 | 차량 |
+|---|---|---|---|---|---|---|---|
+| **조아뉴욕 아이비리그&보스턴** (마이리얼트립 3443090) | 약 266,734원(10%↓) | **14시간** | **08:00** (FedEx Bryant Park, 60 W 40th St) | 약 22:00 | **예일(경유) + 하버드 + MIT** + 올드스테이트하우스·퀸시마켓·보스턴커먼·BPL·마라톤 결승선 | 명소별 짧게 | 인원별 미니밴/밴/버스 |
+| **보스턴&하버드 당일** (트리플/Hellotickets) | 약 173,634원 | 약 14시간 | 오전(미드타운) | 밤 | 하버드 + 프리덤트레일 일부 + 코플리 + 퀸시마켓 + 펜웨이파크(차창) | 짧음 | 버스 |
+| **Golden Bus / Empire Vacations 계열** (35장) | $149 (약 202,000원) | 14~15시간 | **06:30**(입장 06:15, Port Authority) | 20:00~20:30 | 프리덤트레일 + 하버드 + 퀸시마켓 + 보스턴커먼 | 약 5~6시간(그룹) | 전세버스 |
+| **JGtours** | 미확인 | — | 04:00~05:00 | 21:00경(보스턴 16:00경 출발) | 유사 | 명소별 자유시간 표방 | 버스 |
+
+#### 57-2-2. 이 부부에게 버스투어가 안 맞는 이유 (확신 높음)
+
+1. **편도 4시간+ 버스 = Amtrak(3h40m~4h30m)과 비슷하거나 느리다.** 조아뉴욕류는 예일까지 경유해 총 14시간·현지 체류가 더 잘게 쪼개진다.
+2. **그룹 일정 고정**: 06:30 또는 08:00 단일 출발, 코스·시각 전부 고정. 정본 Day 4는 12/27 Peter Luger(귀가 20:25) 다음 날이라 수면이 이미 짧은데, 06:30 버스면 기상이 04:30대 → 자유여행(05:44 열차, 기상 04:15)과 이른 정도는 비슷하면서 유연성만 잃는다.
+3. **자유시간 짧음**: 명소별 20~40분. 하버드 스퀘어에서 레코드샵까지 개인 왕복(지하철+버스 40~60분)은 애초에 불가능.
+4. **Stereo Jack's = 재즈 LP 디깅(핵심 취미)은 버스투어로 물리적으로 불가능하다.** 대부분의 버스투어가 "하버드 야드 앞 하차 → 40분 → 재집결" 구조라 서머빌 Ball Square까지 갈 시간이 없다.
+5. **가격도 자유여행이 대체로 유리**: 버스 $149×2 ≈ 404,000원 vs NER 조기예매 2인 왕복 약 244,000~537,000원.
+6. **마케팅 불신·아이코닉/오센틱 성향**과 "예일+하버드+MIT+마라톤 결승선을 하루에 훑는" 패키지는 상충. 택시·라이드셰어 미사용 원칙과도 무관하게, 그룹 밴 이동 자체가 자기주도 동선을 배제.
+
+#### 57-2-3. 독립 이동(Amtrak + 도보·MBTA)로 가능한 12/28 하루 동선
+
+- NER 66번 NYP 05:44 → BOS South Station 약 10:05(정본 확정). 귀환은 175번(BOS 15:15~16:20대) 또는 177번(BOS 17:35경 → NYP 21:25경) 중 선택.
+- South Station 도착 후 가이드 없이 도보 + MBTA로 소화 가능한 요소(순서·시각은 planner 몫):
+  - **프리덤 트레일 남부**(보스턴 커먼 ~ 파뇌일 홀/퀸시 마켓): South Station에서 도보 10~15분, 트레일 자체가 도보 관광.
+  - **하버드 스퀘어**: South Station에서 **Red Line(Alewife 방면) 직통 6정거장·약 13~16분·$2.40**.
+  - **Stereo Jack's**(서머빌 Ball Square): 하버드에서 Red Line 2정거장 Davis + 89번 버스 또는 도보 15분(57-3-3).
+- 정본 35-5의 "가이드 없이 프리덤 트레일·퀸시 마켓 반나절 소화 가능" 결론은 유효. 하버드·Stereo Jack's를 추가하면 프리덤 트레일 북부는 포기(57-3-5).
+
+**출처(57-2)**: [experiences.myrealtrip.com/products/3443090 — 조아뉴욕 아이비리그&보스턴](https://experiences.myrealtrip.com/products/3443090), [triple.guide — 보스턴&하버드 당일여행](https://triple.guide/tna/products/b21e33e3-e302-4580-b8f4-dd0cd9d88710), [Hellotickets — Boston & Harvard Day Trip](https://www.hellotickets.com/us/new-york/boston-harvard-day-trip/a/pa-6782), [JGtours — 보스턴 당일투어](https://www.jgtours.com/tours-boston-one-day), 본 문서 34장·35장 (조사 시점 2026-09-08. 버스투어 출발·귀환 시각은 상품 페이지·검색 스니펫 기반이라 상품별 편차 있음.)
+
+### 57-3. 하버드 스퀘어 + Stereo Jack's Records 동선
+
+#### 57-3-1. Stereo Jack's Records — ⚠ 케임브리지에서 서머빌로 이전했다
+
+- **현 주소: 736 Broadway, Somerville, MA 02144** (Ball Square / 볼 스퀘어 이웃). 전화 (617) 764-0284. 웹 [stereojacks.com](https://stereojacks.com/).
+- ⚠ **옛 주소(1686 Massachusetts Ave, Cambridge — 하버드~포터 사이)는 더 이상 유효하지 않다.** 케임브리지 매장을 접고 최근 서머빌 Ball Square로 재개점. **조사 지시문의 "Davis? Porter? Red Line 하차" 가정은 이 이전으로 바뀐다** — 아래 57-3-3 참조.
+- **영업시간(2026 현재 공시 — 공식 사이트·Yelp 일치)**: 월~금 11:00~19:00 / 토 10:00~19:00 / 일 10:00~18:00. **12/28은 월요일 → 11:00~19:00.** ⚠ 연말(12/24~1/1) 단축·휴무는 미확인 — 방문 전 전화 확인 권장.
+- **재즈/블루스 전문 맞음**: 1982년 창업. 중고·신품 LP·CD·78회전판·책·엽서. 리뷰 다수가 "재즈 앨범 최애 매장", "다른 데서 못 본 물건". 구글 4.7/5(146건). Boston Magazine Best of Boston 수상 이력.
+- **소유권 변경**: 2026년경 **Wayne Rogers**에게 승계 — 하버드 스퀘어의 전설적 레코드숍 **Twisted Village(1996~2008)** 운영자이자 Major Stars·Magic Hour의 기타리스트. **폐업 아님, 운영 지속**(오히려 큐레이션 색이 짙어질 가능성).
+
+#### 57-3-2. South Station → 하버드 스퀘어
+
+- **MBTA Red Line, Alewife 방면 직통.** South Station → Downtown Crossing → Park Street → Charles/MGH → Kendall/MIT → Central → **Harvard**. 6정거장, **약 13~16분, 환승 없음**.
+- 요금 **$2.40**(CharlieCard·컨택리스·CharlieTicket·현금 동일, 2026 공시). CharlieCard 실물은 무료지만 관광객은 **컨택리스(애플페이·해외 신용/체크카드 탭)** 또는 CharlieTicket이 현실적.
+- **[2026-09-01 시행] MBTA 환승 정책 파일럿**: 2시간 창 안에서 **무제한 환승, 가장 비싼 서비스 요금만 지불**. 즉 지하철 → 버스 → 지하철도 2시간 내면 $2.40 한 번. Stereo Jack's행 버스 환승에 유리.
+- 정본·35장의 "약 25~30분·환승 필요할 수 있음" 추정은 **과대** — 실제 직통 15분 안팎.
+
+#### 57-3-3. 하버드 스퀘어 → Stereo Jack's (736 Broadway, Ball Square)
+
+직결 노선 없음. 실용 경로:
+
+- **(A) 권장 — Red Line Harvard → Davis**(Alewife 방면 2정거장·약 4분) **→ 89번 버스**(Davis ↔ Sullivan Sq, Broadway 경유) **→ Ball Square 정류장(Broadway & Boston Ave) 하차 → 도보 1분.** 버스 대기 포함 총 약 15~25분.
+- **(B) Red Line Harvard → Davis → 도보 약 15분**(약 1.1km, College Ave → Broadway 북동진). 겨울 추위 감안하면 (A)가 낫다.
+- **(C) Green Line Extension**: **Ball Square역**(그린라인 메드퍼드/터프츠 지선, 2022-12 개통)이 736 Broadway 도보 1분. 단 하버드에서 그린라인 Ball Square로 가려면 Red → Park St → Green Line 대회전이라 비효율(40분+). **South Station에서 곧장 Stereo Jack's만 갈 거면 (C)가 최단**(Red Line → Park St 환승 → Green Line Medford/Tufts행 → Ball Square, 약 25~30분).
+- **역방향(Stereo Jack's → South Station)**: (A) 역순 Ball Square → 89번 → Davis → Red Line → South Station 약 35~45분, 또는 Green Line Ball Square → Park St → Red Line → South Station 약 30분. **저녁 열차 시각 역산 시 최소 40~45분 확보 권장**(89번 배차 변동).
+
+#### 57-3-4. 하버드 스퀘어 볼거리 + 겨울/방학 캠퍼스 개방
+
+- **⚠ Harvard Yard 일반인 출입 제한(2024~ 시행, 2026 현재 유지)**: 2024년 시위 이후 Harvard Yard 게이트가 상시 개방이 아니라 **경비 배치 + 물리적 HUID(하버드 ID) 제시자만** 통과하는 체제. **관광객은 원칙적으로 야드 자유 출입 불가.**
+  - 예외: **하버드 공식/등록 투어**. Harvard Visitor Center(Smith Campus Center, 1350 Mass Ave) 월~금 09:00~17:00 — 무료 학생 인솔 투어 + 공식 앱 셀프가이드 투어. "등록된 투어 제공자만 야드에서 투어 가능".
+  - ⚠ **12/28은 대학 Winter Recess(12/20~1/25) 중이고, 12/24 정오~1/1 대학 완전 휴무** → **Visitor Center·공식 투어가 운영 안 할 가능성 높음**(출발 전 visitor_center@harvard.edu 확인). 투어가 없으면 **존 하버드 동상·와이드너 도서관 외관·유니버시티 홀은 야드 안이라 게이트 밖에서만** 보게 된다.
+  - 게이트 정책은 유동적 — "day-only 게이트 06:00~19:00 개방"으로 완화된 시기도 있었으니 방문 시점 상태는 재확인.
+- **야드 밖에서 가능한 하버드 스퀘어 도보(게이트 정책과 무관)**:
+  - Harvard Yard 담장·게이트(Johnston Gate 등) 외관, Cambridge Common, Brattle St(Longfellow House 외관), Out of Town News 키오스크(랜드마크), Charles River 강변(도보 10분).
+  - **The Harvard Coop**(1400 Mass Ave) — 월~토 10:00~20:00 / 일 10:00~18:00. **민간 서점이라 대학 휴무와 별개**, 크리스마스·신정만 휴무로 추정 → **12/28 정상 영업 유력**.
+  - **Harvard Book Store**(1256 Mass Ave, 독립서점) — 월~토 09:00~22:00 / 일 10:00~21:00. 역시 민간, **12/28 정상 영업 유력**. 재즈 관련 서적 참고(LP 취급은 적음).
+- 도보 소요: 하버드 스퀘어 핵심 한 바퀴(역 ~ Coop ~ 야드 게이트 외관 ~ Cambridge Common) 30~50분.
+
+#### 57-3-5. 하버드 + Stereo Jack's를 넣으면 프리덤 트레일 북부는 포기 — 시간표 트레이드오프
+
+- 12/28 보스턴 순 체류(정본): 약 10:20 ~ 14:50 = **약 4시간 30분**(66번 도착 10:05, 175번 15:15 출발 기준).
+- **프리덤 트레일 북부**(노스엔드: 올드 노스 교회·폴 리비어 하우스 / 차타운: USS Constitution·벙커힐 기념비)는 파뇌일 홀에서 북쪽 도보 편도 20~35분 + 관람, 차타운은 다리 건너라 **왕복 1.5~2시간**. 하버드 + Stereo Jack's(왕복 지하철·버스 2~2.5시간 + 각 체류)와 **같은 시간 예산을 두고 정면 경쟁**한다.
+- **체류 4h30m(15:15 귀환) 시나리오**: 프리덤 트레일 남부(90~120분) + 퀸시 점심(45분)만으로 거의 참. 여기에 하버드 **또는** Stereo Jack's 하나만 넣으려면 프리덤 트레일을 90분으로 압축. 둘 다는 불가.
+- **체류 7h(177번 BOS 17:35경 → NYP 21:25경 귀환) 시나리오**: 프리덤 트레일 남부(90~120분) + 퀸시 점심(45분) + 하버드 스퀘어(60~90분, 야드 반쪽) + Stereo Jack's(왕복 포함 90~120분)가 **빠듯하게 성립**. 노스엔드·차타운은 그래도 포기.
+- **재즈 LP 디깅이 핵심 취미**라는 우선순위를 적용하면: 하버드 스퀘어(야드는 어차피 방학 + 출입제한으로 반쪽) 체류를 짧게(역 ~ Coop ~ 게이트 외관 40분) 잡고 **Stereo Jack's에 시간을 더 주는 배분**이 취향에 맞다. 최종 시각 배치는 itinerary-planner.
+- **귀환 편을 175(15:15)에서 177류(17:35경)로 늦추는 영향**: 뉴욕 도착 21:25경 → 숙소 22:00~22:15 → 12/29 기상 10:00이라 수면 영향은 적음. 단 12/28 저녁 이스트빌리지 캐주얼 저녁(정본 20:30~21:45)은 22:30로 밀리거나 생략 → 열차 카페칸에서 해결하는 편이 현실적. Amtrak 편도 요금은 늦은 저녁편이 더 비쌀 수 있음(57-1-2).
+
+**출처(57-3)**: [stereojacks.com](https://stereojacks.com/), [recordstore.com — Stereo Jack's, Somerville MA](https://recordstore.com/store/stereo-jack-s-somerville-ma), [Yelp — Stereo Jack's Records, Somerville](https://www.yelp.com/biz/stereo-jacks-records-somerville), [Boston Magazine — Best of Boston: Stereo Jack's](https://www.bostonmagazine.com/best-of-boston-archive/2023/stereo-jacks/), [MBTA — Subway Fares](https://www.mbta.com/fares/subway-fares), [MBTA — 2026 Fall Fare Pilots](https://www.mbta.com/fares/2026-fall-fare-pilots), [Wikipedia — Ball Square station](https://en.wikipedia.org/wiki/Ball_Square_station), [Wikipedia — Davis station (MBTA)](https://en.wikipedia.org/wiki/Davis_station_(MBTA)), [MBTAInfo — Route 89](https://www.mbtainfo.com/89), [The Harvard Crimson — Harvard Yard Gate Closures (2024-10)](https://www.thecrimson.com/image/2024/10/10/harvard-yard-gates-closed/), [Harvard — Visit Harvard](https://content.www.harvard.edu/visit), [Harvard Extension — Visiting Campus](https://extension.harvard.edu/student-experience/visiting-campus/), [Harvard College DSO — Winter Recess](https://dso.college.harvard.edu/winter-recess-students), [Harvard Book Store — Hours & Directions](https://www.harvard.com/about/hours_directions), [Yelp — The Harvard Coop Bookstore](https://www.yelp.com/biz/the-harvard-coop-bookstore-cambridge) (조사 시점 2026-09-08. Stereo Jack's 연말 영업시간·Harvard Yard 12월 방학 게이트 정책·공식 투어 운영 여부·MBTA 89번 배차는 방문 임박 재확인 필요.)
+
+### 57-4. 확인 필요 사항 (57장)
+
+1. **[최우선] Amtrak 12/28 실제 요금·편성** — amtrak.com에서 2026-12-28 NYP→BOS(66번 및 대안)·BOS→NYP(175/177번) 조회. **Acela 09시대 2인 왕복이 800,000원 이하인지** 확인해 A안 전환 판단. 예매창은 이미 열려 있으니 지연 시 저가 재고 소진.
+2. **귀환 편 확정**: 정본 175번(BOS 15:15)을 유지할지, 177번류(17:35경)로 늦춰 하버드 + Stereo Jack's를 넣을지 — planner·사용자 결정. 늦추면 12/28 저녁 이스트빌리지 저녁 조정 필요.
+3. **Stereo Jack's Records 12/28(월) + 연말 주간 실제 영업 여부** — (617) 764-0284 전화 또는 SNS. 월요일 정규 11:00~19:00.
+4. **Harvard Yard 겨울 방학(12/28) 게이트 정책 + 공식 Visitor Center/투어 운영 여부** — visitor_center@harvard.edu. 미운영이면 야드 내부(존 하버드 동상·와이드너)는 못 봄.
+5. Harvard Coop·Harvard Book Store 12/28 영업시간(연말 단축 가능성) — 둘 다 민간이라 정상 영업 유력하나 확인.
+6. **Amtrak Value fare 취소 위약률**(25% vs 30%, 2026-04-13 인상 이후 정확값) 및 폭설 modified schedule 시 무료 변경 실제 적용 범위.
+7. **MBTA 89번 버스 12/28 평일 배차**(Davis ↔ Ball Square)와 저녁 시간대 운행 — 저녁 열차 역산 버퍼 확정용.
+8. **MBTA 컨택리스(해외 발급 신용/체크카드) 탭 결제 실제 호환 여부** — 뉴욕 OMNY와 별개 시스템(AFC 2.0). 불가 시 CharlieTicket 자판기 사용.
+
+**교훈(하네스)**: 조사 지시문·정본·35장 모두 Stereo Jack's를 "하버드/포터 인근 Red Line"으로 전제했으나, 실제로는 서머빌 Ball Square로 이전해 **그린라인 지선 또는 89번 버스 환승**이 필요하다. 레코드숍·소규모 점포는 조사 노트에 한 번 적히면 주소가 갱신되지 않은 채 재인용되므로, 방문 확정 전 현 주소·영업시간을 1차 소스로 재확인해야 한다(11장 A-1·Academy·Village Revival도 동일 주의).
