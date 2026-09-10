@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>뉴욕 여행 준비 대시보드 v39</title>
+    <title>뉴욕 여행 준비 대시보드 v40</title>
     <!-- 경고 배지: 🔒 고정 시각(예약·지정입장, 절대 못 미룸) / ⏱ 여유 0분 전환구간(늦으면 뒤가 밀림) / ❓ 미확정 가정(개관시각 등, 시간 고정 아님) -->
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,8 +47,8 @@
         <div class="bg-white rounded-lg card-shadow p-6 mb-6">
             <h1 class="text-3xl font-bold text-gray-800 mb-2">뉴욕 가족 여행 준비 대시보드</h1>
             <p class="text-gray-600">2026-12-25 ~ 2027-01-03 (9일) | 성인 2명(부부)</p>
-            <p class="mt-2"><span class="inline-block bg-blue-700 text-white text-sm font-bold px-3 py-1 rounded">v39 · 2026-09-09 기준 출발까지 D-107</span></p>
-            <p class="text-xs text-gray-500 mt-2">회차별 변경 이력(v2~v39)은 git 커밋(<code>가족 여행 준비: N차</code>)에 있습니다. 아래 주황 박스는 v29~v39 핵심 변경 요약입니다. <strong>[v34] 리버티 크라운 12/30→1/2 오전·ESB 1/2→12/30·OZ223 00:30. [v35 · 76차] 한국인 선호 명소 편입. [v36 · 77차] Top of the Rock → SUMMIT One Vanderbilt 교체 + Little Island·브루클린 하이츠 프로메나드·타임스퀘어 통과 편입. [v37 · 78차] 12/29 Birdland 후 자정 Midnight Moment 편입 — Day 5 검산 750→875, Day 6 기상 09:30으로 상쇄. [79차] 12/31 자정 볼드롭은 미채택 확정·항목 130 종료. [v38 · 82차] 12/28 보스턴 재구성 — 자유여행 유지·Acela·뉴욕발 버스투어 미채택. [v39 · 83차] 12/28 출발 190번(07:41)으로 수면 약 7시간 확보(04:15→06:00), 프리덤 트레일 자기주도 전환(가이드투어 삭제·예산 54,000 환원), 하버드 사진 15분, 오후 5시경 NER 귀환, Day 4 검산 995분, 완충 39.2%. 리버티 크라운 1/2 09:00 예약 완료.</strong></p>
+            <p class="mt-2"><span class="inline-block bg-blue-700 text-white text-sm font-bold px-3 py-1 rounded">v40 · 2026-09-09 기준 출발까지 D-107</span></p>
+            <p class="text-xs text-gray-500 mt-2">회차별 변경 이력(v2~v40)은 git 커밋(<code>가족 여행 준비: N차</code>)에 있습니다. 아래 주황 박스는 v29~v40 핵심 변경 요약입니다. <strong>[v34] 리버티 크라운 12/30→1/2 오전·ESB 1/2→12/30·OZ223 00:30. [v35 · 76차] 한국인 선호 명소 편입. [v36 · 77차] Top of the Rock → SUMMIT One Vanderbilt 교체 + Little Island·브루클린 하이츠 프로메나드·타임스퀘어 통과 편입. [v37 · 78차] 12/29 Birdland 후 자정 Midnight Moment 편입. [79차] 12/31 자정 볼드롭은 미채택 확정·항목 130 종료. [v38 · 82차] 12/28 보스턴 재구성. [v39 · 83차] 12/28 출발 190번(07:41)으로 수면 약 7시간 확보(04:15→06:00), 프리덤 트레일 자기주도 전환, 하버드 사진 15분. 리버티 크라운 1/2 09:00 예약 완료. [v40 · 84차] ① 12/26 저녁 브로드웨이 「Disney's Aladdin」(New Amsterdam Theatre) 19:30 편입 — 재즈 이틀(12/29 Birdland·12/30 Smalls) 유지, Keens 프리시어터 17:55~19:10로 압축, 윈터 빌리지·NYPL은 도보 통과 10분으로 격하, 리어 메자닌 2인 400,000. Day 2 검산 780→830분. ② 12/28 보스턴 NER → Acela 왕복 전환 — 가는 편 Acela 2150(07:57, ⚠ 조사 미확인·NER 190번 폴백), 오는 편 저녁 Acela(약 17:15). 기상 06:00→06:15, 종료 22:35→22:00, Day 4 검산 995→945분. Amtrak 배정 400,000→475,000. <span class="text-red-700">완충 39.2% → 약 34%(33~35%) — 35% 안전선 첫 접촉.</span></strong></p>
         </div>
 
         <!-- 우리는 이런 여행자입니다 -->
@@ -135,21 +135,25 @@
             <div class="bg-green-50 rounded px-3 py-2 text-sm text-green-900 mb-2">
                 <strong>② 미술관 입장 — [81차 확정]</strong><br>
                 <span class="text-xs"><strong>The Met(12/31)</strong> = <strong>정가 $30/인 = 2인 80,000원 확정</strong>. 사용자 현대백화점 Green 아님 → 무료 경로 없음(2-4에 이미 정가). The Met·구겐하임은 성수기라 온라인 타임드 티켓으로 줄 건너뛰기 권장.<br>
-                <strong>MoMA(12/26)</strong> = <strong>사용자 현대카드 실물 발급 예정 → 2인 무료 확정 예정(−80,000)</strong>. ⚠ 국내외겸용·실물 카드(가상·앱 불가), 영문 신분증, 12/26 전 수령. 12/26 로비 Member Desk에서 실물 카드로 입장 → 타임드 티켓 예매 불필요. 카드 수령 확인되면 미배분 1,915,000 → 1,995,000, 완충 39.2% → 약 40.1%.</span>
+                <strong>MoMA(12/26)</strong> = <strong>사용자 현대카드 실물 발급 예정 → 2인 무료 확정 예정(−80,000)</strong>. ⚠ 국내외겸용·실물 카드(가상·앱 불가), 영문 신분증, 12/26 전 수령. 12/26 로비 Member Desk에서 실물 카드로 입장 → 타임드 티켓 예매 불필요. 카드 수령 확인되면 미배분 1,440,000 → 1,520,000, 완충 약 34% → 약 35%.</span>
             </div>
             <div class="bg-red-50 rounded px-3 py-2 text-sm text-red-900 mb-2">
-                <strong>③ [83차] Amtrak NER 190번(NYP 07:41 → BOS 12:06, Coach $45) + 귀환 「16:50 이후 첫 NER」 왕복 예매</strong> — <strong>이미 예매 가능</strong><br>
-                <span class="text-xs">12/28은 연말 성수기라 요금 상승·매진 전에 <strong>좌석·요금을 지금 잠그는 게 안전</strong>합니다(Amtrak 2단계 Value/Flex — Value가 최저가, 조기 예매일수록 저렴). <strong>Acela 미채택 확정</strong>. ⚠ <strong>귀환편은 amtrak.com에서 12/28 BOS→NYP 오후 4~19시 편을 직접 조회</strong>해 확정(「17:00~17:15대」는 추정). 190번 놓치면 08:45(170번)로 강등. <strong>프리덤 트레일 가이드 투어는 자기주도 전환으로 예매 불필요</strong>(82차 예매 대상 → 83차 삭제).</span>
+                <strong>③ [84차] 브로드웨이 「Disney's Aladdin」 — 12/26(토) 19:30, New Amsterdam Theatre, 리어 메자닌 2인 400,000원</strong> — <strong>Telecharge 예매(상시 오픈)</strong><br>
+                <span class="text-xs">재즈 이틀(12/29 Birdland·12/30 Smalls)은 둘 다 유지하고 12/26 저녁에 끼웠습니다. <strong>예매 = Telecharge</strong>(aladdinthemusical.com/tickets 경유) 또는 Broadway Direct — <strong>리셀러(StubHub·Vivid·SeatGeek·broadway.com) 금지, 성수기 face의 1.5~3배</strong>. 좌석은 <strong>리어 메자닌 앞~중간열</strong>(발코니 오버행 DD열 이후는 피할 것). ⚠ <strong>커튼 19:30은 소스별로 8:00pm 표기도 있어 Telecharge 12월 캘린더에서 확정</strong>(20:00이면 Keens를 18:25로 늦춤). 교환 $12, 전액 환불은 공연 취소 시에만.</span>
+            </div>
+            <div class="bg-red-50 rounded px-3 py-2 text-sm text-red-900 mb-2">
+                <strong>④ [84차] Amtrak 보스턴 Acela 왕복 예매</strong> — <strong>이미 예매 가능</strong> (가는 편 Acela 2150 · NYP 07:57 → BOS 11:44 · Business $75/인, 오는 편 저녁 Acela 약 17:15 · Value ~$95~130/인)<br>
+                <span class="text-xs">12/28은 연말 성수기라 요금 상승·매진 전에 <strong>좌석·요금을 지금 잠그는 게 안전</strong>합니다(Value 버킷 + 구매 후 24h 내 전액 환불). ⚠⚠ <strong>가는 편 「Acela 2150 / 07:57」은 사용자 amtrak.com 실조회 화면 기준이고 조사로는 재확인되지 않았습니다</strong>(조사가 잡은 오전 Acela는 05:27·07:03·09:05). <strong>amtrak.com에서 12/28 NYP→BOS를 직접 조회</strong>해 확정하고, 07:57편이 없으면 <strong>NER 190번(07:41 → BOS 12:06, Coach $45)으로 폴백</strong>(도착 22분 늦어질 뿐 표 성립, 예산 약 80,000원 절감). ⚠ 왕복 다 Acela라 한파 결항 노출이 두 배 — 조사 권고(가는 편은 NER)와 반대 방향이므로 Value fare + 악천후 무료변경 + NER 88번(18:08) 대체를 폴백으로. <strong>프리덤 트레일은 자기주도 전환으로 예매 불필요</strong>.</span>
             </div>
             <div class="bg-yellow-50 rounded px-3 py-2 text-sm text-yellow-900 mb-2">
-                <strong>④ 9/11 메모리얼 & 뮤지엄 타임드 티켓 (12/27 11:00 슬롯)</strong> — <strong>이미 예매 가능</strong>(6개월 전부터, 24h 전까지 환불·교환)<br>
+                <strong>⑤ 9/11 메모리얼 & 뮤지엄 타임드 티켓 (12/27 11:00 슬롯)</strong> — <strong>이미 예매 가능</strong>(6개월 전부터, 24h 전까지 환불·교환)<br>
                 <span class="text-xs">크리스마스 주간이라 인기 슬롯 매진 위험. 지금~11월에 잡고 <strong>늦어도 12/13</strong>. 911memorial.org.</span>
             </div>
             <div class="bg-gray-50 rounded px-3 py-2 text-xs text-gray-700">
-                <strong>⑤ 엠파이어스테이트 빌딩 — [v34] 12/30 16:30 (1/2에서 이설)</strong>: 리버티 크라운을 1/2 오전에 넣으면서 ESB를 12/30으로 옮겼습니다. esbnyc.com에서 <strong>지정 슬롯을 12/30으로</strong> 예매(배정 130,000원).<br>
-                <strong>⑥ [77차] SUMMIT One Vanderbilt — 12/26 16:00 (Top of the Rock 교체·사용자 결정)</strong>: summitov.com 지정시간 예매, 2인 약 150,000원(ToR 대비 +30,000은 예산 버퍼 230→200 흡수). 45 E 42nd St, 그랜드 센트럴 서편 연결. ⚠ 화요일 휴무(12/26 토요일이라 OK)·09~24시. 일몰 슬롯이 빨리 매진되니 뜨는 대로. Edge(12/29 14:30)도 수개월 전부터 열려 있어 원하면 지금.<br>
-                <strong>⑦ [80차 신설] The Vessel 타임드 티켓</strong> — 12/29 16:05, $14/인(Klook $11.50 안팎), 2인 약 38,000원. Edge·SUMMIT 예매하는 김에.<br>
-                <strong>⑧ [80차 신설 · 81차 갱신] 미술관 타임드 입장권 — The Met·구겐하임만</strong>(각 $30, 줄 건너뛰기용). MoMA는 현대카드 무료라 예매 불필요. The Met은 Green 경로 없으니(사용자 그린 아님) 정가 예매 확정.<br>
+                <strong>⑥ 엠파이어스테이트 빌딩 — [v34] 12/30 16:30 (1/2에서 이설)</strong>: 리버티 크라운을 1/2 오전에 넣으면서 ESB를 12/30으로 옮겼습니다. esbnyc.com에서 <strong>지정 슬롯을 12/30으로</strong> 예매(배정 130,000원).<br>
+                <strong>⑦ [77차] SUMMIT One Vanderbilt — 12/26 16:00 (Top of the Rock 교체·사용자 결정)</strong>: summitov.com 지정시간 예매, 2인 약 150,000원(ToR 대비 +30,000은 예산 버퍼 230→200 흡수). 45 E 42nd St, 그랜드 센트럴 서편 연결. ⚠ 화요일 휴무(12/26 토요일이라 OK)·09~24시. 일몰 슬롯이 빨리 매진되니 뜨는 대로. Edge(12/29 14:30)도 수개월 전부터 열려 있어 원하면 지금.<br>
+                <strong>⑧ [80차 신설] The Vessel 타임드 티켓</strong> — 12/29 16:05, $14/인(Klook $11.50 안팎), 2인 약 38,000원. Edge·SUMMIT 예매하는 김에.<br>
+                <strong>⑨ [80차 신설 · 81차 갱신] 미술관 타임드 입장권 — The Met·구겐하임만</strong>(각 $30, 줄 건너뛰기용). MoMA는 현대카드 무료라 예매 불필요. The Met은 Green 경로 없으니(사용자 그린 아님) 정가 예매 확정.<br>
                 <strong>패스·도슨트</strong> — 앳홈트립 픽패스·빅애플패스 같은 멀티 명소 패스는 전망대 일몰 슬롯을 표준 제외라 우리 이득 ≈ 0(43·56차). 도슨트는 The Met 「조희성 소수투어」(마이리얼트립, 11월 예약)만 유효 — 앳홈트립 MoMA 프라이빗 $280~320은 과다.<br>
                 <strong>그 다음 일정</strong> —<strong>11/26 오전(ET) Keens Resy 오픈</strong>(30일 전, 몇 분 만에 매진) · D+80(11/27) Peter Luger Resy 오픈 · 11월 중하순 Smalls 라인업 공개 후 예약 + Birdland TicketWeb(환불 불가) · D+99(12/16 전후) The Met·구겐하임·월먼 링크·J.G. Melon·SUMMIT(12/26 토요일 홀리데이 아워) 연말 운영 재확인.<br>
                 <strong>여권·ESTA·보험은 기한이 아니라 "빠를수록 좋음"</strong> — ESTA는 출발 72시간 전이 법적 하한이나 승인 지연 대비 2주 전 권장, 여권은 입국일 기준 유효기간 6개월 이상이어야 하므로 지금 확인해 두는 편이 안전합니다.
@@ -159,9 +163,15 @@
             <div class="flex items-start gap-4">
                 <div class="text-3xl font-bold text-orange-500 flex-shrink-0">⚠️</div>
                 <div class="flex-1">
-                    <h3 class="font-bold text-orange-900 text-lg mb-3">v29~v39 핵심 변경 — 출발 전 반드시 확인</h3>
+                    <h3 class="font-bold text-orange-900 text-lg mb-3">v29~v40 핵심 변경 — 출발 전 반드시 확인</h3>
+                    <div class="bg-pink-100 rounded px-3 py-2 text-sm text-pink-900 mb-2">
+                        <strong>⑧ [v40 · 84차] 12/26 저녁 브로드웨이 「Disney's Aladdin」 편입.</strong> <strong>재즈 이틀(12/29 Birdland·12/30 Smalls)은 둘 다 유지</strong>하고 12/26 저녁 빈 슬롯에 끼웠습니다. New Amsterdam Theatre(214 W 42nd St) <strong>19:30~22:00</strong>, <strong>리어 메자닌 2인 400,000원</strong>(Telecharge 공식 — v24에서 삭제됐던 브로드웨이 부활). SUMMIT 16:00~17:30 고정 → 그랜드 센트럴 15분 → <strong>Keens 프리시어터 17:55~19:10(105→75분 압축)</strong> → 윈터 빌리지·NYPL 사자상 도보 통과 10분 → 알라딘. Day 2 검산 <strong>780 → 830분</strong>, 종료 22:35. 저녁 여유 칸 0분 — 지연은 오후 창 순여유 40분에서 흡수. ⚠ 커튼 19:30 vs 20:00 미확정(Telecharge 12월 캘린더).
+                    </div>
                     <div class="bg-teal-100 rounded px-3 py-2 text-sm text-teal-900 mb-2">
-                        <strong>⑦ [v39 · 83차] 12/28 보스턴 — 수면 확보 + 자기주도 전환.</strong> 82차의 [가이드 투어 + 하버드 40분 + NER 66번 05:44]를 조정: <strong>출발편 NER 190번(07:41 → 12:06 BOS, Coach $45)</strong>으로 늦춰 <strong>기상 04:15 → 06:00, 수면 약 7시간</strong>(9일 중 「가장 약한 고리」 해소). <strong>Freedom Trail 공식 가이드 투어 삭제 → 자기주도 트레일 60분</strong>(무료·무예약, 예산 54,000원 환원). <strong>하버드 스퀘어 40분 → 사진만 15분</strong>. 귀환 <strong>「오후 5시경 NER」(목표 17:00~17:15 → NYP 약 21:35, ⚠ 편성 미확정 — amtrak.com 직접 조회)</strong>. 보스턴 체류 약 5시간, 명시적 순여유 약 25~30분. Day 4 검산 <strong>995분(≈ 06:00~22:35, ±20~30분)</strong>. Acela·뉴욕발 버스투어 둘 다 미채택 유지. 12/28 저녁 외식 삭제·숙소 취사 야식(82차). <strong>✅ 리버티 크라운 1/2 09:00 예약 완료.</strong>
+                        <strong>⑦ [v40 · 84차] 12/28 보스턴 — NER → Acela 왕복 전환.</strong> 사용자 "Acela 왕복하긴 할 거다". 가는 편 <strong>Acela 2150(NYP 07:57 → BOS 11:44, Business $75/인)</strong>, 오는 편 <strong>저녁 Acela(약 17:15 → NYP 약 21:00, Value ~$95~130/인)</strong>. 기상 06:00 → <strong>06:15</strong>, 보스턴 체류 5시간 9분 → <strong>5시간 31분</strong>, 순여유 25~30분 → <strong>약 47~52분</strong>, 종료 22:35 → <strong>22:00</strong>, Day 4 검산 995 → <strong>945분</strong>. Amtrak 배정 400,000 → <strong>475,000</strong>. ⚠⚠ <strong>가는 편 「Acela 2150 / 07:57」은 사용자 amtrak.com 실조회 기준이고 조사로는 재확인 안 됨</strong>(조사가 잡은 오전 Acela는 05:27·07:03·09:05) → <strong>NER 190번(07:41)이 확정 폴백</strong>. ⚠ 왕복 다 Acela라 한파 결항 노출이 두 배 — 조사 권고는 "가는 편은 NER"인데 사용자 결정은 반대(완화: Value fare + 악천후 무료변경 + NER 88번 18:08 대체 + 강설 특보 시 당일치기 포기). [v39·83차] 프리덤 트레일 자기주도·하버드 사진 15분·수면 약 7시간은 유지. <strong>✅ 리버티 크라운 1/2 09:00 예약 완료.</strong>
+                    </div>
+                    <div class="bg-red-100 rounded px-3 py-2 text-sm text-red-900 mb-2">
+                        <strong>⚠ [84차] 완충이 35% 안전선을 처음 건드렸습니다.</strong> 미배분 1,915,000 → <strong>1,440,000</strong>, 완충 3,815,000(39.2%) → <strong>3,340,000(약 34%)</strong>. 폭 <strong>32.8%</strong>(Acela 실가 상단)~<strong>35.2%</strong>(MoMA 현대카드 무료 확정 시). 예매 화면 실가가 나오면 재계산하고, 상단이면 NER 폴백(−75,000~190,000)을 먼저 검토.
                     </div>
                     <div class="bg-indigo-100 rounded px-3 py-2 text-sm text-indigo-900 mb-2">
                         <strong>⑥ [v37 · 78차] 12/29 Birdland 후 자정 Midnight Moment 편입.</strong> Birdland(21:45)가 타임스퀘어 1블록이라 그 자리에서 심야 상점·디저트·전광판 → 23:57 Midnight Moment → 00:35 귀가. 9일 밤 중 유일. Day 5 검산 750→875, Day 6(회복) 기상 09:30으로 상쇄. 무료·무예약. <strong>컨디션 나쁘면 심야 블록 생략·22:00 귀가(손실 0).</strong>
@@ -199,7 +209,7 @@
 
         <!-- 예산 요약 표 -->
         <div class="bg-white rounded-lg card-shadow p-6 mb-6">
-            <h2 class="text-xl font-bold text-gray-800 mb-4">예산 배분 (v39 — 미배분 1,915,000원 · 완충 약 39.2% · [83차] 가이드투어 54,000 환원 · MoMA 현대카드 무료 확정 시 미배분 1,995,000·완충 약 40.1%)</h2>
+            <h2 class="text-xl font-bold text-gray-800 mb-4">예산 배분 (v40 — 미배분 1,440,000원 · 완충 약 34%(33~35%) · [84차] 알라딘 400,000 + Acela 초과 75,000 인출 · MoMA 현대카드 무료 확정 시 미배분 1,520,000·완충 약 35.2%)</h2>
             <div class="overflow-x-auto">
                 <table class="w-full text-sm">
                     <thead class="bg-gray-100 border-b">
@@ -213,19 +223,19 @@
                         <tr class="border-b"><td class="px-3 py-2">항공권</td><td class="text-right px-3 py-2 font-semibold">2,800,000원</td><td class="text-right px-3 py-2 text-gray-600">18.7%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">숙소(8박)</td><td class="text-right px-3 py-2 font-semibold">2,480,000원</td><td class="text-right px-3 py-2 text-gray-600">16.5%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">식비(유명·캐주얼·간식)</td><td class="text-right px-3 py-2 font-semibold">2,505,000원</td><td class="text-right px-3 py-2 text-gray-600">16.7%</td></tr>
-                        <tr class="border-b"><td class="px-3 py-2">액티비티(전망대 SUMMIT·Edge·ESB·공연·Smalls 135,000·보스턴 Amtrak 400,000·MBTA 25,000)</td><td class="text-right px-3 py-2 font-semibold">1,940,000원</td><td class="text-right px-3 py-2 text-gray-600">13.0%</td></tr>
+                        <tr class="border-b"><td class="px-3 py-2">액티비티(전망대 SUMMIT·Edge·ESB·<strong>알라딘 400,000</strong>·Smalls 135,000·<strong>보스턴 Acela 475,000</strong>·MBTA 25,000)</td><td class="text-right px-3 py-2 font-semibold">2,415,000원</td><td class="text-right px-3 py-2 text-gray-600">16.1%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">새해 전야(캐주얼+Midnight Run)</td><td class="text-right px-3 py-2 font-semibold">180,000원</td><td class="text-right px-3 py-2 text-gray-600">1.2%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">이동(공항 95,000 + OMNY 190,000 — 택시 0원)</td><td class="text-right px-3 py-2 font-semibold">285,000원</td><td class="text-right px-3 py-2 text-gray-600">1.9%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">쇼핑·기념품</td><td class="text-right px-3 py-2 font-semibold">695,000원</td><td class="text-right px-3 py-2 text-gray-600">4.6%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">재즈 라이브(12/29 Birdland)</td><td class="text-right px-3 py-2 font-semibold">200,000원</td><td class="text-right px-3 py-2 text-gray-600">1.3%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">보험</td><td class="text-right px-3 py-2 font-semibold">100,000원</td><td class="text-right px-3 py-2 text-gray-600">0.7%</td></tr>
                         <tr class="bg-blue-50 border-b"><td class="px-3 py-2 font-bold">예비비</td><td class="text-right px-3 py-2 font-bold text-blue-600">1,900,000원</td><td class="text-right px-3 py-2 text-blue-600">12.7%</td></tr>
-                        <tr class="bg-green-50"><td class="px-3 py-2 font-bold">미배분(여유)</td><td class="text-right px-3 py-2 font-bold text-green-600">1,915,000원</td><td class="text-right px-3 py-2 text-green-600">12.8%</td></tr>
+                        <tr class="bg-green-50"><td class="px-3 py-2 font-bold">미배분(여유)</td><td class="text-right px-3 py-2 font-bold text-green-600">1,440,000원</td><td class="text-right px-3 py-2 text-green-600">9.6%</td></tr>
                     </tbody>
                 </table>
             </div>
             <div class="mt-4 pt-4 border-t border-gray-200">
-                <p class="text-sm text-gray-600"><strong>총 예산:</strong> <span class="text-lg font-bold text-blue-600">15,000,000원</span> | 예비비+미배분: 3,815,000원(총예산의 25.4% · 잔여 배분의 약 39.2%) <span class="text-green-700 font-semibold">— [83차] 가이드투어 54,000 환원, 82차 신설 MBTA 25,000만 잔존</span> <span class="text-gray-500">(MoMA 현대카드 무료 확정 시 약 40.1%)</span></p>
+                <p class="text-sm text-gray-600"><strong>총 예산:</strong> <span class="text-lg font-bold text-blue-600">15,000,000원</span> | 예비비+미배분: 3,340,000원(총예산의 22.3% · 잔여 배분의 약 34%) <span class="text-red-700 font-semibold">— [84차] 알라딘 400,000 + Acela 초과 75,000 인출, 35% 안전선 첫 접촉(폭 32.8~35.2%)</span> <span class="text-gray-500">(MoMA 현대카드 무료 확정 시 약 35.2%)</span></p>
             </div>
         </div>
 
@@ -270,8 +280,8 @@
             <!-- Day 2 -->
             <div class="bg-white rounded-lg card-shadow p-5 mb-4 border-l-4 border-orange-400">
                 <div class="flex items-start justify-between mb-3">
-                    <div><h3 class="text-lg font-bold text-gray-800">🎄 Day 2 — 12/26(토) 미드타운 홀리데이</h3><p class="text-sm text-green-700 font-semibold">✅ [77차] Top of the Rock → SUMMIT One Vanderbilt 교체 · 오후 재정렬(FAO 먼저 → 순여유 40 → SUMMIT 16:00 → 그랜드 센트럴 → 윈터 빌리지 → Keens). 검산 780 불변</p></div>
-                    <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">해소</span>
+                    <div><h3 class="text-lg font-bold text-gray-800">🎄 Day 2 — 12/26(토) 미드타운 홀리데이 · 브로드웨이 「Aladdin」</h3><p class="text-sm text-pink-700 font-semibold">🎭 [v40 · 84차] 저녁 알라딘 19:30 편입 — Keens 프리시어터 17:55~19:10로 압축, 윈터 빌리지·NYPL은 도보 통과 10분. 검산 780 → 830분, 종료 22:35. <strong>저녁 여유 칸 0분</strong> — 지연은 오후 창 순여유 40분에서 흡수</p></div>
+                    <span class="inline-block bg-pink-100 text-pink-800 text-xs font-semibold px-2 py-1 rounded">공연</span>
                 </div>
                 <div class="space-y-1 text-sm">
                     <div class="flex gap-2"><span class="time-label">08:45~09:30</span><span>베이글 브런치 (Tompkins Square Bagels)</span></div>
@@ -285,11 +295,15 @@
                     <div class="flex gap-2"><span class="time-label">15:00~15:40</span><span><strong>오후 창 순여유 40분</strong> — 록펠러 NYPD 보행 통제·횡단 지연 흡수용</span></div>
                     <div class="flex gap-2"><span class="time-label">15:40~16:00</span><span>록펠러 → <strong>SUMMIT One Vanderbilt</strong> 입장 대기·보안</span></div>
                     <div class="flex gap-2"><span class="time-label">16:00~17:30</span><span><strong>SUMMIT One Vanderbilt 전망대</strong> (지정시간 예매 · 2인 약 150,000원) <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">77차 · ToR 교체</span> <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 지정입장 고정 — 절대 사수</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">17:30~17:55</span><span><strong>그랜드 센트럴 터미널</strong> — SUMMIT/One Vanderbilt에서 바로 연결. 무료</span></div>
-                    <div class="flex gap-2"><span class="time-label">17:55~18:05</span><span>그랜드 센트럴 → <strong>NYPL 사자상</strong>(Patience·Fortitude, 5번가·42가) 통과 → 브라이언트 파크</span></div>
-                    <div class="flex gap-2"><span class="time-label">18:05~18:35</span><span>브라이언트 파크 윈터 빌리지 (홀리데이 마켓·조명, 30분)</span></div>
-                    <div class="flex gap-2"><span class="time-label">18:45~19:15</span><span>여유 30분 — FAO·윈터 빌리지·그랜드 센트럴 지연 흡수</span></div>
-                    <div class="flex gap-2"><span class="time-label">19:15~21:00</span><span><strong>[유명] Keens Steakhouse</strong> (머튼찹, 예약 필수) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 예약 고정</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:30~17:45</span><span><strong>그랜드 센트럴 터미널</strong> — SUMMIT/One Vanderbilt에서 바로 연결. 무료. <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">84차 · 25→15분(알라딘 편입분)</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:45~17:55</span><span>그랜드 센트럴 → <strong>Keens</strong> (도보 10분) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 실측 12~14분 — 착석 18:00으로 밀려도 19:10 퇴점 사수</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:55~19:10</span><span><strong>[유명] Keens Steakhouse</strong> (72 W 36th St, 머튼찹) — <strong>[84차] 프리시어터 75분</strong>(105→75). 예약 시 "pre-theater seating"·"19:10 퇴점" 명시 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 예약 고정</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">19:10~19:30</span><span>Keens → <strong>브라이언트 파크 윈터 빌리지 도보 통과 10분</strong>(홀리데이 마켓·조명 — 걸으며 훑기, 정차 아님) → <strong>NYPL 사자상</strong> 스쳐 지나감 → New Amsterdam Theatre. <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">84차 · 셋 다 42가 한 줄, 여유 있으면 통과 15~20분으로</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">⚠ 19:30~22:00</span><span><strong>[84차 신설] 「Disney's Aladdin」</strong> (New Amsterdam Theatre, 214 W 42nd St) — <strong>리어 메자닌 앞~중간열</strong>(오버행 DD열 이후 피할 것). 시그니처 "A Whole New World" 마법 양탄자 공중 비행은 2층에서 각도가 잘 읽힘. 러닝타임 2h30m + 인터미션 15분. 2인 <strong>400,000원</strong>(Telecharge 공식 · 리셀러 금지). <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 커튼 19:30 vs 20:00 — Telecharge 12월 캘린더 확인</span> <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 19:30 커튼 고정</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">22:00~22:35</span><span>극장 → 숙소 (도보 2분 + <strong>N/R/W Times Sq–42 St → 8 St–NYU</strong> 약 12분 + 도보 11분, 택시 없음)</span></div>
+                </div>
+                <div class="mt-3 pt-3 border-t border-pink-200 bg-pink-50 px-3 py-2 rounded text-xs text-pink-900">
+                    <strong>⚠️ [84차] 이 날 고정점은 둘 — SUMMIT 16:00 지정입장 · 알라딘 19:30 커튼.</strong> 저녁 여유 칸이 0분이므로 지연은 전부 오후 창 순여유 40분(15:00~15:40)에서 흡수하고, 그래도 밀리면 그랜드 센트럴 15분을 통째로 접어 Keens에 17:45 도착. 커튼이 20:00이면 Keens를 18:25~19:45로 늦추고 통과를 15~20분으로 확대(종료 약 23:05, 12/27이 09:30 기상이라 수용). Keens 실패 시 18:05까지 착석 안내 없으면 즉시 Wolfgang's 타임스퀘어점(극장 도보 3~4분)으로 전환.
                 </div>
             </div>
 
@@ -308,49 +322,51 @@
                     <div class="flex gap-2"><span class="time-label">18:00~19:45</span><span><strong>[유명] Peter Luger Steak House</strong> (Steak for Two) — <strong>현금($325~350) 필수</strong></span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-red-200 bg-red-50 px-3 py-2 rounded text-xs text-red-900">
-                    <strong>⚠️ v21 신규 조건부 사항:</strong> 내일 Day 4 기상 04:15을 대비해 저녁 워터프론트 이동은 도보 대신 지하철 사용 권고.
+                    <strong>ℹ️ [v40] 내일 Day 4 기상 06:15</strong>(Acela 2150 07:57 출발). 22:30 취침을 목표로 저녁 워터프론트 이동은 도보 대신 지하철 권고, 방한복·가방은 오늘 밤 미리.
                 </div>
             </div>
 
-            <!-- Day 4 v39 · 83차 -->
+            <!-- Day 4 v40 · 84차 -->
             <div class="bg-white rounded-lg card-shadow p-5 mb-4 border-l-4 border-teal-400">
                 <div class="flex items-start justify-between mb-3">
-                    <div><h3 class="text-lg font-bold text-gray-800">🚆 Day 4 — 12/28(월) 보스턴 — 자기주도 프리덤 트레일 + 하버드(사진 15분) + Stereo Jack's (v39 · 83차)</h3><p class="text-sm text-teal-600 font-semibold">✅ 06:00 기상·수면 약 7시간(출발편 190번으로 늦춰 확보)·자기주도 트레일·하버드 사진 15분·체류 약 5시간·순여유 25~30분</p></div>
+                    <div><h3 class="text-lg font-bold text-gray-800">🚆 Day 4 — 12/28(월) 보스턴 — 자기주도 프리덤 트레일 + 하버드(사진 15분) + Stereo Jack's (v40 · 84차 Acela 왕복)</h3><p class="text-sm text-teal-600 font-semibold">✅ [84차] NER → Acela 왕복 전환 · 06:15 기상·수면 약 7시간 · 체류 5시간 31분 · 순여유 약 47~52분 · 종료 22:00 · 검산 995 → 945분</p></div>
                     <span class="inline-block bg-teal-100 text-teal-800 text-xs font-semibold px-2 py-1 rounded">장거리</span>
                 </div>
                 <div class="space-y-1 text-sm">
-                    <div class="flex gap-2"><span class="time-label">06:00~06:40</span><span><strong>기상·세면·방한 준비</strong> — 수면 약 7시간 (전날 12/27 피터루거 귀가 20:25 → 취침 22:30 목표). <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">[83차] v38까지 04:15 기상·수면 5.5h는 「가장 약한 고리」였고 해소</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">06:40~07:20</span><span><strong>숙소 출발 — 지하철</strong>(도보 6분 1st Ave L → 14 St–8 Av → A/C/E 1정거장 → 34 St–Penn, 배정 40분·아침 러시 전) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">택시 없음 — 190번 놓치면 08:45(170번)로 강등</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">07:41~12:06</span><span><strong>Amtrak 190번 Northeast Regional → 보스턴 South Station</strong> (265분 열차, 4h25m, Coach $45) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 고정 출발 (이 날 유일한 시각 고정)</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">12:06~12:30</span><span>South Station 정리 → <strong>보스턴 커먼 비지터 센터</strong>(139 Tremont St, 프리덤 트레일 시작점) 도보 13분</span></div>
-                    <div class="flex gap-2"><span class="time-label">12:30~13:30</span><span><strong>[83차] 자기주도 프리덤 트레일 — 남부 압축 60분</strong> (가이드 투어 폐지·사용자 결정). 보스턴 커먼 → 주청사 → 파크 스트리트 교회 → 그래너리 묘지 → 킹스 채플 → Old State House(보스턴 학살터) → 파뇌일 홀. 붉은 벽돌선 따라가면 길찾기 부담 없음·무료·시각 고정 없음. 해설은 무료 오디오 앱(Freedom Trail 앱·NPS Boston 앱) 미리 다운로드</span></div>
-                    <div class="flex gap-2"><span class="time-label">13:30~14:00</span><span><strong>[캐주얼] 퀸시 마켓 점심</strong> (압축, 식비 버퍼 2인 약 60,000원, 트레일 종점 파뇌일 홀 옆. 포장해 걸으며 먹으면 10분 회수)</span></div>
-                    <div class="flex gap-2"><span class="time-label">14:00~14:10</span><span>파뇌일 홀 → <strong>Downtown Crossing역</strong>(레드·오렌지라인) 도보 10분. 시간 남으면 파뇌일 홀 이북 10~15분 (두 번째 컷 대상, 기본 표 미배정)</span></div>
-                    <div class="flex gap-2"><span class="time-label">14:10~14:30</span><span>Downtown Crossing → <strong>하버드역</strong> (레드라인 Alewife 방면 직통·환승 없음, 약 11~14분) ($2.40/인)</span></div>
-                    <div class="flex gap-2"><span class="time-label">14:30~14:45</span><span><strong>[83차 축소] 하버드 스퀘어 — 사진만 15분</strong> (사용자 "사진만 찰칵"). 하버드역 → Johnston Gate·존 하버드 동상 게이트 사진(밖에서) → The Coop(1400 Mass Ave) 빠른 통과 → 역 복귀. 12/28 Winter Recess + 야드 게이트 출입제한이라 어차피 밖에서만 보임 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 지연 시 첫 번째 컷</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">14:45~15:10</span><span>하버드역 → <strong>Davis</strong>(레드라인 2정거장·약 4분) → <strong>89번 버스</strong>(Broadway 경유) → <strong>Ball Square</strong> 하차 → 도보 1분 (25분 — MBTA 2시간 무제한 환승 파일럿, 추가 요금 없음. 버스 안 맞으면 Davis에서 도보 15분)</span></div>
-                    <div class="flex gap-2"><span class="time-label">15:10~16:05</span><span><strong>Stereo Jack's Records</strong>(736 Broadway, Somerville · Ball Square) — 재즈/블루스 전문 LP 디깅 55분. <strong>이 날의 최우선 보호 칸</strong>(부부 핵심 취향, 뉴욕 밖 유일한 디깅 기회). ⚠ 케임브리지(1686 Mass Ave)에서 서머빌로 이전(옛 주소로 가면 헛걸음). 월요일 11:00~19:00, 연말 단축·휴무 미확인 → (617) 764-0284</span></div>
-                    <div class="flex gap-2"><span class="time-label">16:05~16:50</span><span>Stereo Jack's → <strong>South Station</strong> — 89번 버스 → Davis → 레드라인, 또는 그린라인 Ball Sq → Park St → 레드라인. 45분 배정(실주행 30~35분, 여유 10~15분 이미 포함)</span></div>
-                    <div class="flex gap-2"><span class="time-label">16:50~17:15</span><span><strong>South Station 탑승 절차 10분 + 순여유 15분</strong> <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">[83차] 이 날의 명시적 완충 (하버드 40→15분 축소로 확보)</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">17:15~21:35</span><span><strong>[83차] 16:50 이후 첫 Northeast Regional (목표 17:00~17:15대 출발)</strong> → 뉴욕 Penn Station (약 260분·4h20m) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 편성·시각 미확정 — amtrak.com에서 12/28 BOS→NYP 오후 4~19시 편 직접 조회, 종료 ±20~30분</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">21:35~22:05</span><span>Penn Station → 숙소 (지하철 A/C/E → L, 30분)</span></div>
-                    <div class="flex gap-2"><span class="time-label">22:05~22:35</span><span>숙소 복귀·정리·취침 (목표 22:30) — <strong>[82차] 옛 「20:30 이스트빌리지 저녁」 삭제</strong>. 저녁은 열차 카페칸 간식 + 귀가 후 숙소 취사 야식</span></div>
+                    <div class="flex gap-2"><span class="time-label">06:15~06:55</span><span><strong>기상·세면·방한 준비</strong> — 수면 약 7시간 (전날 12/27 피터루거 귀가 20:25 → 취침 22:30 목표). <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">[84차] Acela 2150이 190번보다 16분 늦어 기상 06:00 → 06:15로 15분 더 확보</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">06:55~07:35</span><span><strong>숙소 출발 — 지하철</strong>(도보 6분 1st Ave L → 14 St–8 Av → A/C/E 1정거장 → 34 St–Penn, 배정 40분·아침 러시 전) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">택시 없음</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">07:35~07:57</span><span>Penn Station 도착 · 게이트 확인 · 승강장 이동 (게이트 버퍼 22분)</span></div>
+                    <div class="flex gap-2"><span class="time-label">07:57~11:44</span><span><strong>[84차] Amtrak Acela 2150 → 보스턴 South Station</strong> (227분, 3h47m, Business $75/인) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠⚠ 편명·시각은 사용자 amtrak.com 실조회 기준 · 조사 미확인(조사가 잡은 오전 Acela는 05:27·07:03·09:05) — 07:57편 없으면 NER 190번(07:41→BOS 12:06, Coach $45)으로 폴백</span> <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 이 날 유일한 시각 고정</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">11:44~11:54</span><span>South Station 도착·정리</span></div>
+                    <div class="flex gap-2"><span class="time-label">11:54~12:08</span><span>South Station → <strong>보스턴 커먼 비지터 센터</strong>(139 Tremont St, 프리덤 트레일 시작점) 도보 약 13분</span></div>
+                    <div class="flex gap-2"><span class="time-label">12:08~13:08</span><span><strong>[83차] 자기주도 프리덤 트레일 — 남부 압축 60분</strong> (가이드 투어 폐지·사용자 결정). 보스턴 커먼 → 주청사 → 파크 스트리트 교회 → 그래너리 묘지 → 킹스 채플 → 올드 사우스(외관) → Old State House(보스턴 학살터) → 파뇌일 홀. 붉은 벽돌선 따라가면 길찾기 부담 없음·무료·시각 고정 없음. 해설은 무료 오디오 앱(Freedom Trail 앱·NPS Boston 앱) 미리 다운로드. ⚠ 노스엔드·차타운(USS Constitution·벙커힐)은 이번 일정에서 포기</span></div>
+                    <div class="flex gap-2"><span class="time-label">13:08~13:38</span><span><strong>[캐주얼] 퀸시 마켓 점심</strong> (압축, 식비 버퍼 2인 약 60,000원, 트레일 종점 파뇌일 홀 옆. 포장해 걸으며 먹으면 10분 회수)</span></div>
+                    <div class="flex gap-2"><span class="time-label">13:38~13:48</span><span>파뇌일 홀 → <strong>Downtown Crossing역</strong>(레드·오렌지라인) 도보 10분. 시간 남으면 파뇌일 홀 이북 10~15분 (두 번째 컷 대상, 기본 표 미배정)</span></div>
+                    <div class="flex gap-2"><span class="time-label">13:48~14:08</span><span>Downtown Crossing → <strong>하버드역</strong> (레드라인 Alewife 방면 직통·환승 없음, 약 11~14분) ($2.40/인)</span></div>
+                    <div class="flex gap-2"><span class="time-label">14:08~14:23</span><span><strong>[83차 축소] 하버드 스퀘어 — 사진만 15분</strong> (사용자 "사진만 찰칵"). 하버드역 → Johnston Gate·존 하버드 동상 게이트 사진(밖에서) → The Coop(1400 Mass Ave) 빠른 통과 → 역 복귀. 12/28 Winter Recess + 야드 게이트 출입제한이라 어차피 밖에서만 보임 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 지연 시 첫 번째 컷</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">14:23~14:48</span><span>하버드역 → <strong>Davis</strong>(레드라인 2정거장·약 4분) → <strong>89번 버스</strong>(Broadway 경유) → <strong>Ball Square</strong> 하차 → 도보 1분 (25분 — MBTA 2시간 무제한 환승 파일럿, 추가 요금 없음. 버스 안 맞으면 Davis에서 도보 15분)</span></div>
+                    <div class="flex gap-2"><span class="time-label">14:48~15:43</span><span><strong>Stereo Jack's Records</strong>(736 Broadway, Somerville · Ball Square) — 재즈/블루스 전문 LP 디깅 55분. <strong>이 날의 최우선 보호 칸</strong>(부부 핵심 취향, 뉴욕 밖 유일한 디깅 기회). ⚠ 케임브리지(1686 Mass Ave)에서 서머빌로 이전(옛 주소로 가면 헛걸음). 월요일 11:00~19:00, 연말 단축·휴무 미확인 → (617) 764-0284</span></div>
+                    <div class="flex gap-2"><span class="time-label">15:43~16:28</span><span>Stereo Jack's → <strong>South Station</strong> — 89번 버스 → Davis → 레드라인, 또는 그린라인 Ball Sq → Park St → 레드라인. 45분 배정(실주행 30~35분, 여유 10~15분 이미 포함)</span></div>
+                    <div class="flex gap-2"><span class="time-label">16:28~17:15</span><span><strong>South Station 탑승 절차 10분 + 순여유 37분</strong> <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">[84차] Acela가 NER보다 빨라 25 → 47분으로 커짐. 복편 배정 안의 10~15분 합쳐 실질 순여유 약 47~52분</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:15~21:00</span><span><strong>[84차] 16:28 이후 첫 저녁 Acela (목표 17:15~17:30 출발)</strong> → 뉴욕 Penn Station (약 225분·3h45m) · Business Value ~$95~130/인 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 편명 미확정(소스가 2151·2171·2175로 엇갈림) — amtrak.com에서 12/28 BOS→NYP 오후 4~20시 편 직접 조회, 종료 ±15~30분</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">21:00~21:30</span><span>Penn Station → 숙소 (지하철 A/C/E → L, 30분)</span></div>
+                    <div class="flex gap-2"><span class="time-label">21:30~22:00</span><span>숙소 복귀·정리·취침 (목표 22:00~22:30) — <strong>[82차] 옛 「20:30 이스트빌리지 저녁」 삭제</strong>. 저녁은 열차 카페칸 간식 + 귀가 후 숙소 취사 야식</span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-teal-200 bg-teal-50 px-3 py-2 rounded text-sm text-teal-900 mb-2">
-                    <strong>⚠️ [83차] 귀환편 3단 결정트리 — 예매 화면에서 12/28 BOS→NYP를 조회한 뒤:</strong><br>
-                    <span class="text-xs">1. <strong>[본안] 16:50 도착 이후 첫 NER (목표 17:00~17:15)</strong> → NYP 약 21:35, 취침 약 22:30. 표 그대로 / 2. <strong>17:00대가 없고 16:20~16:30대뿐이면</strong> → 하버드 사진 15분도 컷하고 South Station 직행. 종료 21:30 안팎, 이스트빌리지 저녁 외식 복원 가능 / 3. <strong>다음이 18:45편이면</strong> → NYP 약 22:45~23:05, 취침 23:30대. 체류 +90분이라 Stereo Jack's 75~90분 확대 또는 노스엔드 일부 복원 (12/29 10:00 기상이라 수용). 저녁 Acela($120~200/인)는 미채택</span>
+                    <strong>⚠️ [84차] 귀환편 3단 결정트리 — 예매 화면에서 12/28 BOS→NYP 오후 4시~20시 전 편을 한 번에 조회한 뒤:</strong><br>
+                    <span class="text-xs">1. <strong>[본안] 16:28 이후 첫 저녁 Acela (목표 17:15~17:30)</strong> → NYP 약 21:00~21:15, 취침 약 22:00~22:30. 표 그대로 / 2. <strong>저녁 Acela가 없거나 Value 재고 소진돼 비싸면</strong> → NER 오후 5시경 편(v39 안, → NYP 약 21:35, 종료 22:35). 예산 약 190,000원 절감, 하루 35분 길어질 뿐. NER 88번(BOS 18:08 → NYP 약 22:25)도 저녁 Acela 결항 시 같은 날 대체편 / 3. <strong>더 오래 머물고 싶으면</strong> → 18:15~18:45 Acela(NYP 약 22:00~22:35), 취침 23:15대. 체류 +60~90분이라 Stereo Jack's 75~90분 확대 또는 노스엔드 일부 복원 (12/29 10:00 기상이라 수용). First Class는 미채택(부부 비음주)</span>
                 </div>
                 <div class="mt-2 pt-2 bg-teal-50 px-3 py-2 rounded text-sm text-teal-900 mb-2">
-                    <strong>💡 [83차] 이 날 시각 고정은 「NYP 07:41 출발」 하나뿐입니다:</strong><br>
-                    <span class="text-xs">가이드 투어가 사라져 보스턴 안에 고정 예약이 없습니다. 지연 시 표를 그대로 밀지 말고 컷 순서로 흡수: ① 하버드 사진 15분 통째 생략 → ② 파뇌일 홀 이북(기본 미배정) → ③ 자기주도 트레일 60 → 45~50분 압축. <strong>Stereo Jack's 55분은 지킵니다 — 재즈 LP 디깅이 이 날 최우선</strong></span>
+                    <strong>💡 [84차] 이 날 시각 고정은 「NYP 07:57 출발(Acela 2150)」 하나뿐입니다:</strong><br>
+                    <span class="text-xs">가이드 투어가 사라져 보스턴 안에 고정 예약이 없습니다. Acela는 NER보다 편수가 적어 놓쳤을 때 대가가 큽니다(다음 오전 Acela는 09:05대, 체류 약 1h10m 손실) — 예매 시 NER 190번(07:41)·170번(08:45)을 대체편으로 쓸 수 있는지 함께 확인. 지연 시 컷 순서: ① 하버드 사진 15분 통째 생략 → ② 파뇌일 홀 이북(기본 미배정) → ③ 자기주도 트레일 60 → 45~50분 압축. <strong>Stereo Jack's 55분은 지킵니다 — 재즈 LP 디깅이 이 날 최우선</strong></span>
                 </div>
                 <div class="mt-2 pt-2 bg-teal-50 px-3 py-2 rounded text-sm text-teal-900 mb-2">
-                    <strong>ℹ️ [83차] 보스턴 체류 약 5시간 (v38의 7시간 30분 → −2시간 21분):</strong><br>
-                    <span class="text-xs">12:06 도착 ~ 17:15 출발. 실질 활동 창 4시간 44분(~16:50). 자기주도 트레일 60 + 점심 30 + 하버드 사진 15 + Stereo Jack's 55 + 이동·대기, 명시적 순여유 약 25~30분. Day 4 검산 995분(≈ 06:00~22:35, 귀환편 미확정으로 ±20~30분)</span>
+                    <strong>ℹ️ [84차] 보스턴 체류 5시간 31분 (v39의 5시간 9분 → +22분):</strong><br>
+                    <span class="text-xs">11:44 도착 ~ 17:15 출발. 실질 활동 창 4시간 44분(~16:28). 자기주도 트레일 60 + 점심 30 + 하버드 사진 15 + Stereo Jack's 55 + 이동·대기, 명시적 순여유 약 47~52분. Day 4 검산 945분(≈ 06:15~22:00, 왕복 두 편 다 미확정으로 ±15~30분)</span>
                 </div>
-                <div class="mt-2 pt-2 bg-teal-50 px-3 py-2 rounded text-sm text-teal-900">
-                    <strong>💡 [82차] Acela 미채택 확정 · [83차] 가이드 투어 미채택:</strong><br>
-                    <span class="text-xs">Acela는 편도 30~40분 단축뿐인데 2인 왕복 성수기 실가 약 923,000~1,248,000원·NextGen 편성 부족으로 한파 결항 사례. Freedom Trail Foundation 공식 가이드 투어는 출발편을 늦춰 수면을 확보하는 쪽을 택하며 미채택(예산 54,000원 환원). 둘 다 NER + 자기주도로 확정</span>
+                <div class="mt-2 pt-2 bg-red-50 px-3 py-2 rounded text-sm text-red-900">
+                    <strong>⚠️ [84차] Acela 왕복 — 얻은 것 / 리스크:</strong><br>
+                    <span class="text-xs"><strong>얻은 것</strong>: 체류 +22분, 하루 995→945분, 기상 +15분, 순여유 25~30→47~52분, "NER보다 빠르면서 더 늦게 출발". <strong>판 것</strong>: 예산 400,000→475,000, <strong>왕복 다 Acela라 한파 결항 노출이 두 배</strong>(58-2-5는 "가는 편은 NER로 두라"고 권고 — 사용자 결정은 반대). 완화: Value fare + 악천후 modified schedule 무료변경 + 오는 편 NER 88번(18:08) 대체 + <strong>강설 특보 시 당일치기 자체 포기하고 뉴욕 휴식</strong>. 되돌리기: NER 폴백은 언제든 가능, 예산 약 75,000~190,000 환원</span>
                 </div>
             </div>
 
@@ -504,12 +520,16 @@
                     <div><h4 class="font-semibold text-gray-800">Birdland Jazz Club (12/29)</h4><p class="text-sm text-gray-600">315 W 44th St, 헬스키친 | TicketWeb 사전 티켓 구매 필수</p></div>
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">약 200,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
+                <div class="flex items-center justify-between p-3 bg-pink-50 rounded border border-pink-200">
+                    <div><h4 class="font-semibold text-gray-800">「Disney's Aladdin」 브로드웨이 (12/26 19:30) — [84차 신설]</h4><p class="text-sm text-gray-600">New Amsterdam Theatre, 214 W 42nd St | <strong>리어 메자닌 앞~중간열</strong>(오버행 DD열 이후 피할 것) | <strong>Telecharge 공식</strong>(aladdinthemusical.com 경유) 또는 Broadway Direct — 리셀러 금지 | 교환 $12, 전액 환불은 공연 취소 시에만 | ❓ 커튼 19:30 vs 20:00 Telecharge 12월 캘린더 확인 | 되돌리기 비용 0원 아닌 항목</p></div>
+                    <div class="flex items-center gap-2"><span class="text-lg font-bold text-pink-700">배정 400,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
+                </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
                     <div><h4 class="font-semibold text-gray-800">Smalls Jazz Club (12/30) — Blue Note 대체</h4><p class="text-sm text-gray-600">183 W 10th St, 그리니치빌리지 | 21:30 세트 예약 $35/인 + 1드링크 미니멈 | 11월 중하순 라인업 공개 후 smallslive.com 예약, 만석 시 Mezzrow(≈120,000원)</p></div>
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">약 135,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
-                    <div><h4 class="font-semibold text-gray-800">Keens Steakhouse (12/26)</h4><p class="text-sm text-gray-600">72 W 36th St | Resy 또는 전화 예약 필수 | 머튼찹, 2인 약 $180~260</p></div>
+                    <div><h4 class="font-semibold text-gray-800">Keens Steakhouse (12/26) — [84차] 프리시어터 17:55</h4><p class="text-sm text-gray-600">72 W 36th St | Resy 또는 전화(212-947-3636) 예약 필수 | 머튼찹, 2인 약 $180~260 | <strong>예약 시 "pre-theater seating" 요청 + "19:10 퇴점" 명시</strong>(알라딘 19:30 커튼) | 11/26 오전 10시경(ET) 오픈</p></div>
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">배정 450,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
@@ -529,8 +549,8 @@
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">배정 120,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
-                    <div><h4 class="font-semibold text-gray-800">Amtrak 뉴욕↔보스턴 (12/28)</h4><p class="text-sm text-gray-600"><strong>[83차] Northeast Regional 190번(NYP 07:41→BOS 12:06, Coach $45) + 귀환 「16:50 이후 첫 NER」(목표 17:00~17:15 → NYP 약 21:35)</strong> | ⚠ 귀환편 편성 미확정 — amtrak.com에서 12/28 BOS→NYP 직접 조회 | 190번 놓치면 08:45(170번) | <strong>Acela·가이드 투어 미채택</strong></p></div>
-                    <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">약 400,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
+                    <div><h4 class="font-semibold text-gray-800">Amtrak 뉴욕↔보스턴 (12/28) — [84차] Acela 왕복</h4><p class="text-sm text-gray-600"><strong>가는 편 Acela 2150(NYP 07:57→BOS 11:44, Business $75/인) + 오는 편 저녁 Acela(약 17:15→NYP 약 21:00, Value ~$95~130/인)</strong> | ⚠⚠ 가는 편 시각은 사용자 amtrak.com 실조회 기준·조사 미확인 → <strong>NER 190번(07:41)이 확정 폴백</strong> | ⚠ 왕복 다 Acela라 한파 결항 노출 두 배(조사 권고는 가는 편 NER — 사용자 결정은 반대) | 편명 미확정 — amtrak.com 직접 조회 | Value fare + 구매 후 24h 내 전액 환불</p></div>
+                    <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">약 475,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
                     <div><h4 class="font-semibold text-gray-800">The Met (12/31)</h4><p class="text-sm text-gray-600">1000 5th Ave (82nd St) | 12/31 운영시간 재확인 | <strong>[81차] 정가 80,000원 확정</strong> — 사용자 현대백화점 Green 아님, 무료 경로 없음. 타임드 티켓 온라인 예매 권장</p></div>
@@ -545,7 +565,7 @@
 
         <!-- 푸터 -->
         <div class="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
-            <p>뉴욕 여행 준비 대시보드 v39 | 2026-09-09 업데이트 · [83차] Day 4 — NER 190번(07:41)으로 수면 약 7시간 확보, 프리덤 트레일 자기주도, 하버드 사진 15분, 오후 5시경 NER 귀환 · 리버티 크라운 1/2 09:00 예약 완료</p>
+            <p>뉴욕 여행 준비 대시보드 v40 | 2026-09-09 업데이트 · [84차] ① 12/26 저녁 브로드웨이 「Disney's Aladdin」 19:30 편입(재즈 이틀 유지, Keens 프리시어터 17:55, 리어 메자닌 400,000) · ② 12/28 보스턴 NER → Acela 왕복 전환(가는 편 2150 07:57 ⚠조사 미확인·NER 190번 폴백, 오는 편 저녁 Acela) · Day 2 검산 830분·Day 4 검산 945분 · 완충 약 34%(35% 안전선 첫 접촉) · 리버티 크라운 1/2 09:00 예약 완료</p>
         </div>
 
     </div>
@@ -555,9 +575,9 @@
         new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: ['식비(16.7%)', '액티비티(13.0%)', '예비비(12.7%)', '항공(18.7%)', '숙소(16.5%)', '이동(1.9%)', '쇼핑(4.6%)', '재즈 라이브(1.3%)', '새해전야(1.2%)', '보험(0.7%)', '미배분(12.8%)'],
+                labels: ['식비(16.7%)', '액티비티(16.1%)', '예비비(12.7%)', '항공(18.7%)', '숙소(16.5%)', '이동(1.9%)', '쇼핑(4.6%)', '재즈 라이브(1.3%)', '새해전야(1.2%)', '보험(0.7%)', '미배분(9.6%)'],
                 datasets: [{
-                    data: [2505, 1940, 1900, 2800, 2480, 285, 695, 200, 180, 100, 1915],
+                    data: [2505, 2415, 1900, 2800, 2480, 285, 695, 200, 180, 100, 1440],
                     backgroundColor: ['#f59e0b', '#8b5cf6', '#84cc16', '#3b82f6', '#10b981', '#06b6d4', '#f97316', '#14b8a6', '#ec4899', '#6366f1', '#6b7280'],
                     borderColor: '#ffffff',
                     borderWidth: 2

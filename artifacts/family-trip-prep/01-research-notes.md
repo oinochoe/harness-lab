@@ -4640,3 +4640,136 @@ Amtrak이 3단계(Saver / Value / Flexible)를 **2단계(Value / Flex)**로 통�
 8. **MBTA 컨택리스(해외 발급 신용/체크카드) 탭 결제 실제 호환 여부** — 뉴욕 OMNY와 별개 시스템(AFC 2.0). 불가 시 CharlieTicket 자판기 사용.
 
 **교훈(하네스)**: 조사 지시문·정본·35장 모두 Stereo Jack's를 "하버드/포터 인근 Red Line"으로 전제했으나, 실제로는 서머빌 Ball Square로 이전해 **그린라인 지선 또는 89번 버스 환승**이 필요하다. 레코드숍·소규모 점포는 조사 노트에 한 번 적히면 주소가 갱신되지 않은 채 재인용되므로, 방문 확정 전 현 주소·영업시간을 1차 소스로 재확인해야 한다(11장 A-1·Academy·Village Revival도 동일 주의).
+
+---
+
+## 58장. 12/26(토) 저녁 브로드웨이 「Disney's Aladdin」 + 12/28(월) 저녁 Acela 귀환편 (조사 시점: 2026-09-09, 84차)
+
+**배경**: (1) v24에서 "브로드웨이 완전 포기, 재즈 우선"을 확정했으나 사용자가 **12/26(토) 저녁 「Disney's Aladdin」(New Amsterdam Theatre, 214 W 42nd St) 예매**를 새로 결정. 재즈(12/29 Birdland·12/30 Smalls)는 둘 다 유지하고 알라딘만 12/26 저녁에 끼움. (2) 사용자가 amtrak.com 실조회에서 "12/28 저녁 Acela에 싼 게 있다"고 확인 — 57장이 다루지 않은 저녁 Acela 귀환 옵션을 정리. **두 조사 모두 사실관계만 정리하며 시각 배치·Keens 충돌 해소·검산 반영은 itinerary-planner 몫.**
+
+### 58-1. Disney's Aladdin — New Amsterdam Theatre
+
+> ⚠ **취향 객관 기술**: 알라딘은 디즈니 상업 프로덕션(Disney Theatrical)의 대형 스펙터클 뮤지컬이다. 시그니처 무대효과는 **"A Whole New World" 장면의 마법 양탄자 공중 비행**(무대 위에서 배우 2인이 별밤을 나는 illusion)이며, "Friend Like Me"의 대규모 군무·의상 전환도 유명하다. 부부의 "마케팅된 것보다 아이코닉·오센틱" 성향과는 결이 다르나 **사용자가 직접 고른 항목이므로 그 결정을 존중하고, 여기서는 무대효과·요금·좌석 정보만 객관 기술한다.**
+
+#### 58-1-1. 12/26/2026(토) 공연 스케줄
+- 알라딘은 주 8회 공연, **월요일 휴관**. 통상 주간 스케줄: 화~금 19:00 / **토 14:00 + 19:30** / 일 13:00 + 18:30. (broadway.com 스케줄, newyorktheatreguide)
+- ⚠ **소스 간 커튼시각 불일치**: broadway.com 스케줄 데이터는 **토요일 저녁 19:30**으로 나오나, 일부 좌석 안내 사이트는 "토 저녁 7:30pm", headout류는 "토 2pm/8pm"으로도 표기. **broadway.com의 12/26 홀리데이 주간 실제 데이터는 12/26(토) 14:00 + 19:30 두 회차.**
+- 12/26은 크리스마스 다음 날 토요일 → **공연 확실**(연말 성수기, broadway.com이 12/26·12/27을 "holiday pricing" 별도 표기). 크리스마스 주간엔 추가 회차·월요일 공연·시각 변경이 있을 수 있음 — **확정 불가, Telecharge 12월 캘린더 직접 확인 필요.**
+- **러닝타임: 2시간 30분, 15분 인터미션 1회 포함**(공식 FAQ 일치). 19:30 시작 → 종료 약 **22:00**. 14:00 마티네 → 종료 약 **16:30**.
+
+#### 58-1-2. 요금 티어 (2026 시즌·조회 시점 기준, face value 추정)
+- 알라딘 **평시(비수기 평일) 정가** 대략: 발코니·후면 메자닌 최저 약 **$72~**, 평균 약 **$173**, 센터 오케스트라 프리미엄 약 **$307**. (seatplan, broadway.com)
+- **12/26(토) 저녁은 홀리데이 프리미엄 주간** — broadway.com 표시 최저가(수수료·마크업 포함): 12/26 19:30 "from $237.96", 12/26 14:00 "from $243.51", 12/27(일) 13:00 "from $253.22". 이는 리셀러(broadway.com) 최저가라 **실제 face value는 이보다 낮을 수 있으나**, 성수기라 최저가 구역도 $150~200대로 올라가 있다는 신호.
+- **홀리데이 주간 좋은 자리 face value 추정(확신 낮음 — 반드시 Telecharge 실조회)**:
+  | 구역 | 12/26 저녁 face 추정/석 |
+  |---|---|
+  | 프리미엄석(센터 오케스트라 앞~중앙, 프론트 메자닌 앞줄) | 약 $350~550 |
+  | 오케스트라 센터(D~O열) | 약 $200~320 |
+  | 프론트 메자닌(AA~CC열) | 약 $160~260 |
+- **사용자 희망("확실한 좋은 자리") 2인 총액 추정** (환율 1,357원/USD, 정본 0장 기준):
+  - **오케스트라 센터 2인**: 약 $400~640 ≈ **543,000~869,000원**
+  - **프리미엄석 2인**: 약 $700~1,100 ≈ **950,000~1,493,000원**
+- ⚠ **전액 신규 지출** — 정본 예산에 브로드웨이 항목 없음(v24에서 삭제). itinerary-planner/사용자가 미배분(약 1,940,000원)에서 배정 판단.
+
+#### 58-1-3. 공식 예매처 — 리셀러 주의
+- **공식 예매: aladdinthemusical.com/tickets → 현재 Telecharge 경유**(telecharge.com/Aladdin-Tickets · telecharge.com/Broadway/Aladdin/Overview). **Broadway Direct**(broadwaydirect.com/show/aladdin)도 디즈니 공식 계열 판매처. 과거 Ticketmaster 체제에서 이전된 정황(Lion King은 2023년 Broadway Direct로 이전, Aladdin도 Telecharge/Broadway Direct 체제로 정리됨).
+- Ticketmaster에 아직 아티스트 페이지(artist/1858715)가 남아 있으나 **공식 사이트(aladdinthemusical.com) 링크를 따라가 구매**할 것.
+- **리셀러 주의**: Broadway.com은 라이선스 판매처지만 마크업+수수료로 face 이상. **StubHub·Vivid Seats·SeatGeek·"aladdintickets.nyc" 등은 2차 리셀러** — 성수기엔 face의 1.5~3배가 흔함. 반드시 Telecharge/Broadway Direct 최종 도메인 확인.
+- 디즈니 온 브로드웨이 **티켓 교환 정책: 동일 공연물 내 날짜·회차 교환 시 $12 수수료**(800-439-9000 또는 구매처) — 공연 취소·날짜 변경 대비 유용.
+- $35 디지털 로터리(aladdinthemusical.com/lottery) 존재하나 크리스마스~신정 성수기엔 당첨률 극악 + "확실한 자리" 희망과 배치 → 참고만.
+- 2026-01-20~02-12 "2매 이상 구매 시 각 $135" 프로모가 있었으나 **우리 여행일(12/26) 이후·이미 만료** — 해당 없음.
+
+#### 58-1-4. 좌석 배치도 — 마법 양탄자 비행 관람
+- New Amsterdam Theatre: 1903년 개관, 3층 구조(오케스트라·메자닌·발코니), **전 층 엘리베이터 有**(1903년 건물로는 드묾).
+- **"A Whole New World" 양탄자 비행 illusion 최적석 = 프론트 센터 메자닌 AA~CC열**(복수 좌석 가이드 일치). 높이 + 중앙 위치에서 "별이 빛나는 밤하늘을 실제로 나는 것처럼" 보이며 와이어·장치가 드러나지 않음.
+- **오케스트라**: 몰입감·배우 표정은 좋으나 양탄자를 올려다보는 각도라 illusion은 프론트 메자닌만 못함. 오케스트라 내 최적은 **센터 D~K(또는 F~O)열** — A~C열은 너무 가까워 측면 무대 액션을 놓침.
+- **오버행 주의**: 메자닌 오버행이 오케스트라 P열 부근부터 시작(무대 상단 시야 일부 가림). 발코니 오버행은 메자닌 DD열 이후 영향. **발코니는 매우 높고 가파름 + 기둥석 있음 → 피할 것.**
+- **정리**: 양탄자 장면 우선 → 프론트 센터 메자닌(AA~CC). 전반적 몰입·배우 디테일 우선 → 센터 오케스트라(D~O). 사용자가 "좋은 자리"를 원하므로 이 둘 중 하나 — 가격은 대체로 오케스트라 센터가 더 비쌈.
+
+#### 58-1-5. 동선
+- New Amsterdam Theatre(214 W 42nd St, 7~8번가 사이) ↔ **Times Square–42 St 역**: 도보 1~2분(극장이 역 바로 위). 1·2·3·7·N·Q·R·W·S + 42 St–Port Authority의 A·C·E 지하 연결.
+- ↔ **Keens Steakhouse(72 W 36th St, 5~6번가 사이)**: 도보 약 **10~13분**(약 0.5마일 = 남쪽 6블록 + 동쪽 약 1.5애비뉴). 지하철은 오히려 번거로움 — 도보 권장.
+- ↔ 숙소(이스트빌리지 331 E 8th St): 42 St–Times Sq에서 7번선 → Grand Central 6번선 환승, 또는 1/2/3 → 14 St → L/6, 약 30~35분.
+- ⚠ **12/26(토) = 크리스마스 다음 날 = 타임스퀘어·5번가 연중 최고 인파**(54-5). 극장가는 통제구역 아니나 42가 보행 혼잡 극심 → 공연 시작 30~40분 전 도착 권장.
+
+#### 58-1-6. Keens·SUMMIT 충돌 (planner 위임, 사실만)
+- 현행 정본 12/26 저녁 = **Keens 19:15 예약**(앵커), 오후 = **SUMMIT One Vanderbilt 16:00**(77차 확정).
+- 알라딘 **토 저녁 19:30**이면 Keens 19:15와 **정면 충돌**(같은 날 저녁 둘 다 불가). 알라딘 **14:00 마티네**(~16:30)면 SUMMIT 16:00과 충돌.
+- 옵션(planner 결정): ① 알라딘 14:00 마티네 + Keens 19:15 유지 + SUMMIT을 다른 시각/날로 이동 ② 알라딘 19:30 + Keens를 다른 날로 이동 ③ 알라딘을 다른 날 저녁으로(12/29·12/30은 재즈로 막힘 / 12/25 도착일·12/27 Peter Luger·12/28 보스턴 고려 시 실질 후보 = 1/1·1/2 저녁 정도).
+- **14:00 마티네 안이 기존 앵커(Keens)·재즈 이틀을 모두 보존** — 대신 12/26 오후(SUMMIT 등) 재배치 필요.
+
+#### 58-1-7. 확인 필요 사항 (58-1)
+1. **12/26/2026 정확한 커튼 시각** — Telecharge 12월 캘린더에서 직접(19:30인지 홀리데이 특별시각인지, 14:00 마티네 존재 여부).
+2. 크리스마스 주간(12/22~1/4) 추가 공연·월요일 공연 여부.
+3. 12/26 저녁/마티네 각 구역 **실제 face value**(Telecharge) — 프리미엄 / 오케스트라 센터 / 프론트 메자닌 2인 총액.
+4. 예매 오픈 상태 — 브로드웨이는 통상 3~6개월 전 오픈, 12/26분은 이미 열려 있을 가능성 높음(성수기 좋은 자리 조기 소진 → 확정 시 조기 예매).
+5. 공연 취소·변경 시 환불/교환 정책($12 교환)과 여행자보험 커버 여부.
+
+**출처(58-1)**: [broadway.com — Aladdin schedule](https://www.broadway.com/shows/aladdin-broadway/schedule/), [aladdinthemusical.com — Tickets](https://aladdinthemusical.com/tickets/), [aladdinthemusical.com — Show Length](https://aladdinthemusical.com/showlength/), [newyorktheatreguide.com — Guide to Aladdin](https://www.newyorktheatreguide.com/theatre-news/news/everything-you-need-to-know-about-aladdin-on-broadway), [disneyonbroadway.com — Promotion Terms](https://disneyonbroadway.com/promotion-terms/), [telecharge.com — Aladdin Tickets](https://www.telecharge.com/Aladdin-Tickets), [broadwaydirect.com — Aladdin](https://broadwaydirect.com/show/aladdin/), [seatplan.com — Aladdin Broadway tickets](https://seatplan.com/new-york/aladdin-broadway-tickets/), [headout.com — New Amsterdam Theatre seating chart](https://www.headout.com/blog/new-amsterdam-theatre-seating-chart/), [stageandstreetnyc.com — New Amsterdam seating guide](https://stageandstreetnyc.com/broadway/theaters/new-amsterdam/seating-guide/), [ticketnews.com — Lion King → Broadway Direct](https://www.ticketnews.com/2023/09/broadways-lion-king-switches-to-broadway-direct-for-ticketing/) (조사 시점 2026-09-09. 스케줄·요금은 2026 시즌 공시·리셀러 스니펫 기반이며 **12/26 확정 커튼시각·구역별 face value·홀리데이 프리미엄 요금표는 미공개** — 예매 시점 Telecharge 직접 조회 필수.)
+
+### 58-2. 12/28(월) 저녁 Acela 귀환편 (BOS South Station → NYP)
+
+> **최종 편성·요금은 amtrak.com에서 12/28 날짜로 직접 조회해 확정**(45차 규칙: 가는 편·오는 편 둘 다 1회 실조회). 아래는 2026 시즌 공시·평시 스니펫·옛 아카이브 혼합이라 **편명·정확 시각은 추정**이다.
+
+#### 58-2-1. BOS→NYP 저녁 Acela 편성 (⚠ 편명·정확 시각 미확정)
+- Acela는 BOS→NYP 하루 약 **7편**, 소요 통상 **3시간 40분~3시간 55분**(최속 약 3h35m). NER은 약 4시간 10~30분. **Acela가 편도 약 30~40분 빠름.**
+- 전 등급 마지막 열차는 BOS 20:00경 출발.
+- 오후~저녁 Acela 출발대(소스 종합, 편차 큼): 약 **15:15** · 약 **17:15~17:20** · 약 **18:15~18:45**. (57장 trainweb 스니펫: 15:15→18:45, 17:20→20:50 — 옛 "Acela Express" 표기라 재확인 필요)
+  | BOS 출발(추정) | NYP 도착(추정) |
+  |---|---|
+  | 15:15 | 약 19:00~19:10 |
+  | 17:15~17:20 | 약 21:00~21:10 |
+  | 18:15~18:45 | 약 22:00~22:35 |
+- **NER 저녁 편(폴백 참고)**: NER 88번 BOS 18:08 출발(→ NYP 약 22:25), 이후 20:00·20:05대 편(94·96번류)도 있음.
+- ⚠ **Acela 편명은 소스마다 엇갈림**(2151·2154·2167·2171·2173·2175 등 혼재) — Amtrak Acela 번호 체계가 구간·개정마다 바뀌어 신뢰 불가. **amtrak.com 12/28 조회로 편명·시각 확정.**
+
+#### 58-2-2. 저녁 Acela Business 요금대 (2026 시즌·조회 시점 기준)
+- BOS↔NYP Acela Business 시작가 통상 약 **$75~**(딥세일 시 $49~99), 평시 관측 평균 약 **$260~271**, 성수기·임박 약 **$220~301**.
+- 사용자가 본 "싼 저녁 Acela"는 **Value 또는 Sale 버킷**일 개연성 — 늦은 시간대(18시 이후)나 상대적 비인기 슬롯에서 **약 $86~130**대가 나올 수 있음(성수기 월요일이라 확언 불가). **본 값·편·fare class 스크린샷을 사용자가 확보해 두는 게 최선.**
+- Amtrak 2026 요금 체계 = **Value / Flex 2단**(57-1-1). Value = 변경 불가·취소 시 25~30% 위약(나머지 환불). Sale(세일 한정) = 50% 환불. **구매 후 24시간 내 취소는 전 등급 전액 환불.**
+- ⚠ **"싼 값"을 봤을 때 바로 잡는 게 원칙** — Value/Sale 저가 재고는 소진되면 안 돌아옴. 12/28은 홀리데이 주간 월요일이라 다이내믹 프라이싱 상단에 걸리기 쉬움.
+
+#### 58-2-3. 가는 편 재확인 (Acela 오전 / NER 66번)
+- **정본 확정(57장)**: NER 66번 NYP 05:44 → BOS 약 10:05. (83차에서 190번 07:41로 늦춰 수면 확보하는 안도 논의 — 정본 Day 4 메모 확인.) Coach Value 조기 예매 약 $29~59, 성수기 월요일 현실가 약 $79~99.
+- **조사 지시문의 "Acela 2150 (NYP 07:57 → BOS 11:44, 3h47m, Business $75)"**:
+  - 오전 Acela NYP→BOS 출발대는 57-1-4에서 약 **05:27 · 07:03 · 09:05**로 조사됨. **"07:57 출발편"은 이번 조사·57장 어디에도 확인되지 않음** — 편명 2150·시각 07:57·$75는 **미확인, 추정으로 처리**. Business $75는 딥세일가로 성수기 12/28에는 재현이 어려울 수 있음(평시 $86~125).
+  - **가는 편도 amtrak.com 12/28 실조회로 편명·시각·요금 확정 필요.**
+- Acela는 NER보다 편도 30~40분 빠르나 Business가 $100~180 더 비쌈 — 시간 이득 대비 부담. **정본은 NER 유지가 기본**, Acela는 "2인 왕복 ≤ 800,000원" 성립 시에만 A안 전환(57-1-3).
+
+#### 58-2-4. Acela 왕복 2인 4장 총액 — 정본 배정 400,000원 대비 (환율 1,357원/USD)
+| 시나리오 | 1인 편도 가정 (가는+오는) | 4장 총 USD | 원화 | 정본 400,000원 대비 |
+|---|---|---|---|---|
+| 가는 편 NER Coach 조기 + 오는 편 저녁 Acela Business 세일 | $50 + $95 | $290 | 약 394,000원 | ≈ 부합 |
+| 가는 편 NER Coach 성수기 + 오는 편 저녁 Acela Business 저가 | $90 + $120 | $420 | 약 570,000원 | +170,000 |
+| 왕복 다 Acela Business 조기 | $110 + $130 | $480 | 약 651,000원 | +251,000 |
+| 왕복 다 Acela Business 성수기 | $180 + $220 | $800 | 약 1,086,000원 | +686,000 |
+- **지시문 명세대로("가는 편 Acela 2150 Business $75" + "오는 편 저녁 Acela Business $86~120")** 조합이면: 4장 약 $322~390 ≈ **437,000~529,000원** → 정본 400,000 대비 **+37,000~129,000원**. 차액은 미배분(약 1,940,000원)에서 흡수 가능.
+- ⚠ 위 전부 추정 — **amtrak.com 12/28 실가로 재산정하고 Day 4 검산·완충률 반영은 planner.**
+
+#### 58-2-5. 겨울 결항 리스크 — 왕복이면 더 커지는가
+- 57-1-5: NEC 전 구간 전철화라 디젤 노선보다 폭설에 강하나, **NextGen Acela 편성 부족으로 한파 시 Acela 취소가 NER보다 잦음**(2026-02 겨울 장비 문제로 Acela 7편 취소, 2026-01 노이스터로 개별편 취소, 2026년 DC~보스턴 Acela 장비부족 결항 보도).
+- **왕복을 다 Acela로 잡으면 두 다리 모두 이 리스크에 노출** — 가는 편 취소 시 당일치기 자체 무산, 오는 편 취소 시 보스턴에서 발이 묶여 12/29 일정(기상 10:00, Birdland 저녁)까지 흔들림.
+- **완화**: 최소한 한쪽(특히 시간 압박이 큰 가는 편)은 편수가 많은 **NER로 두는 편이 안전**. 오는 편 저녁 Acela가 취소돼도 뒤이은 NER(88번 18:08 등)로 대체 가능.
+- **Fare 정책**: 악천후 modified schedule 발동 시 Value도 무료 변경(1-800-USA-RAIL). 단순 변심 대비 Flex 프리미엄(2인 4장 약 150,000~380,000원)은 이 여행 성격상 불필요 — Value로 사고 폭설 면제 정책에 기대는 게 저렴(57-1-5).
+- 출발 3~5일 전 amtrak.com Service Alerts + 뉴욕·보스턴 예보 확인, 강설 특보 시 정본대로 "당일치기 포기·뉴욕 휴식" 폴백(15-8-4).
+
+#### 58-2-6. Business vs First (우리는 Business)
+- **First Class**: 2-1 좌석, 좌석 식사·음료 제공, BOS·NYP Acela 클럽 라운지 이용. Business 대비 BOS↔NYP 약 **$80~150 더 비쌈**(세일 시 Business $49 vs First $174 사례, 통상 차액 $70~100+).
+- **우리는 Business** — First의 식사·라운지는 3시간 40분 구간에 값어치 낮고, **비음주라 First의 주류 서비스도 무의미**. 조사 지시문·정본과 일치.
+
+#### 58-2-7. 저녁 Acela 귀환이 Day 4에 주는 영향 (사실만, 시각 배치는 planner)
+- 정본 현행 귀환: NER 175번류(BOS 15:15경 → NYP 19:52) 또는 83차 논의의 "16:50 이후 첫 NER"(→ NYP 약 21:35).
+- 저녁 Acela로 바꾸면:
+  - **17:15 Acela → NYP 21:00~21:10**: 보스턴 체류가 NER 175번(15:15 출발) 대비 약 2시간 늘고, NYP 도착은 오히려 30분 이상 빠름(Acela가 빠르므로). 하버드+Stereo Jack's(57-3-5) 넣을 시간 확보에 유리.
+  - **18:15~18:45 Acela → NYP 22:00~22:35**: 체류 최대, 숙소 도착 약 22:40~23:15. 12/29 기상 10:00이면 수면 영향 적음. 12/28 저녁 이스트빌리지 캐주얼 저녁은 열차 카페칸/보스턴에서 해결.
+- **저녁 Acela의 이점 = "NER보다 빠르면서 더 늦게 출발" → 보스턴 체류시간을 늘리면서도 뉴욕 도착이 안 늦어짐.** 사용자가 "싼 걸" 봤다면 비용 페널티도 작음. 57-3-5의 "귀환 편 175 → 177류로 늦추기" 트레이드오프를 저녁 Acela가 더 유리하게 해소.
+
+#### 58-2-8. 확인 필요 사항 (58-2)
+1. **[최우선] amtrak.com 12/28 실조회** — BOS→NYP 저녁 Acela 편명·출발/도착 시각·Business Value/Sale 실가. 사용자가 본 "싼 값"의 편·금액·fare class 스크린샷 확보.
+2. **가는 편 확정** — NER 66번(정본) 유지 vs 지시문의 "Acela 2150 07:57"(미확인). 오전 Acela NYP→BOS 실제 편성·07:57편 존재 여부·Business 실가.
+3. Acela 편명 — 번호 체계 혼선. 실조회 편명으로 정본·04 갱신.
+4. 저녁 Acela 취소 시 대체 NER(88번 18:08 등) 실제 시각·잔여석.
+5. Value fare 위약률(25 vs 30%) 2026-04-13 인상 후 정확값, 폭설 modified 무료변경 적용 범위(57-4와 중복).
+6. 왕복 총액 확정 후 Day 4 검산·완충률 재계산(planner).
+
+**출처(58-2)**: [amtrak.com — Acela Train](https://www.amtrak.com/acela-train), [content.amtrak.com — Acela Route Timetable(PDF)](https://content.amtrak.com/content/timetable/Acela.pdf), [wanderu.com — Train from Boston to New York](https://www.wanderu.com/en-us/train/us-ma/boston/us-ny/new-york/), [wanderu.com — Acela carrier](https://www.wanderu.com/en-us/carrier/acela-182/), [cwrr.com — Acela Southbound(⚠ 2007 아카이브, 패턴 참고만)](https://cwrr.com/Amtrak/Acela_SB_3.html), [moovitapp.com — ACELA Boston](https://moovitapp.com/index/en/public_transit-line-acela-Boston_MA-141-2310283-47833623-0), [zadrails.com — Boston to New York by Amtrak](https://www.zadrails.com/blog/how-to-travel-from-boston-to-new-york-by-amtrak/), [zadrails.com — Acela First Class 2026](https://www.zadrails.com/blog/amtrak-acela-first-class/), [thepointsguy.com — Acela Business Class review](https://thepointsguy.com/travel/acela-business-class/), [hopstrains.com — First Class NY→Boston](https://hopstrains.com/2023/07/08/riding-in-first-class-on-amtraks-acela/), 본 문서 35장·57장 (조사 시점 2026-09-09. 편명·시각·요금은 2026 시즌 공시·평시 스니펫·옛 아카이브 혼합이며 **2026-27 홀리데이 주간 실가·확정 편성은 미공개** — amtrak.com 12/28 직접 조회 필수. 45차 규칙: 가는 편·오는 편 둘 다 1회 실조회.)
