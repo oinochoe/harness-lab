@@ -4773,3 +4773,176 @@ Amtrak이 3단계(Saver / Value / Flexible)를 **2단계(Value / Flex)**로 통�
 6. 왕복 총액 확정 후 Day 4 검산·완충률 재계산(planner).
 
 **출처(58-2)**: [amtrak.com — Acela Train](https://www.amtrak.com/acela-train), [content.amtrak.com — Acela Route Timetable(PDF)](https://content.amtrak.com/content/timetable/Acela.pdf), [wanderu.com — Train from Boston to New York](https://www.wanderu.com/en-us/train/us-ma/boston/us-ny/new-york/), [wanderu.com — Acela carrier](https://www.wanderu.com/en-us/carrier/acela-182/), [cwrr.com — Acela Southbound(⚠ 2007 아카이브, 패턴 참고만)](https://cwrr.com/Amtrak/Acela_SB_3.html), [moovitapp.com — ACELA Boston](https://moovitapp.com/index/en/public_transit-line-acela-Boston_MA-141-2310283-47833623-0), [zadrails.com — Boston to New York by Amtrak](https://www.zadrails.com/blog/how-to-travel-from-boston-to-new-york-by-amtrak/), [zadrails.com — Acela First Class 2026](https://www.zadrails.com/blog/amtrak-acela-first-class/), [thepointsguy.com — Acela Business Class review](https://thepointsguy.com/travel/acela-business-class/), [hopstrains.com — First Class NY→Boston](https://hopstrains.com/2023/07/08/riding-in-first-class-on-amtraks-acela/), 본 문서 35장·57장 (조사 시점 2026-09-09. 편명·시각·요금은 2026 시즌 공시·평시 스니펫·옛 아카이브 혼합이며 **2026-27 홀리데이 주간 실가·확정 편성은 미공개** — amtrak.com 12/28 직접 조회 필수. 45차 규칙: 가는 편·오는 편 둘 다 1회 실조회.)
+
+---
+
+## 59장. 12/26 전망대 재검토(ToR vs SUMMIT) + 동선상 무료 박물관 2곳(NMAI·엘 무세오) — 부분 재조사 (조사 시점: 2026-09-10)
+
+**배경**: 오케스트레이터 지시로 두 건을 재조사함. ① 77차에 Top of the Rock → SUMMIT One Vanderbilt로 교체한 12/26(토) 오후 전망대를, 사용자가 "탑오브더락도 좋다더라, 서밋보다 낫다는 사람도 있다"며 되돌릴지 재검토 요청. ② 42·52·56장은 "이미 가는 곳"(MoMA·구겐하임·The Met)의 무료 경로만 봤고 전부 무산 — 이번엔 **현행 동선에 실제로 붙는 새 무료 박물관 2곳**(NMAI, 엘 무세오 델 바리오)의 편입 가능성. **`02-itinerary-current.md`·`00-trip-brief.md` 등 다른 산출물은 수정하지 않음** — 사용자 확인 후 별도 회차에서 planner가 반영.
+
+현행 정본(v41) 관련 표: Day 2(12/26) = MoMA 10:30 → 5번가·록펠러 굿즈 → **SUMMIT One Vanderbilt 16:00 지정입장, 2인 약 150,000원** → 그랜드센트럴 15분 → 윈터빌리지 도보통과 10분 → Keens 프리시어터 17:55~19:10 → 알라딘 19:30. Day 3(12/27) = 9/11 뮤지엄 11:00~13:15 → **13:15~14:15 로어맨해튼 도보 관광(오큘러스·트리니티·소녀상·월스트리트·황소상=볼링그린·Stone St)** → 14:30 브루클린 브리지. Day 8(1/1) = 10:35 구겐하임 이동 → 11:15~13:15 관람 → UES 점심 → 14:15 90가 게이트로 센트럴파크 남하 → 월먼링크 16:45 → 트램 18:30 → J.G. Melon 19:30. Day 8은 전날 자정 Midnight Run으로 **수면 약 6~6.5시간**이라 이미 빡빡(정본 실행메모가 월먼링크·트램을 "컨디션 따라 컷"으로 명시).
+
+---
+
+### 59-1. 조사 A — Top of the Rock vs SUMMIT One Vanderbilt
+
+#### 59-1-0. 결론 선요약
+
+- **판단: ToR 되돌림을 "취향 적합도" 근거로 약하게 권장. 단 "예산 절감"이라는 명분은 성립하지 않는다** — 기본 입장가는 두 곳이 사실상 같고($44~49), 성수기 일몰 슬롯이면 오히려 ToR이 더 비쌀 수 있다. 정본의 "2인 약 30,000원 절감"은 배정액(150,000 vs 120,000)을 되돌리는 것이지 실비 차이가 아니다.
+- 되돌림 논거: ① 부부 확정 취향(마케팅된 것보다 아이코닉·정통 / 관광상품보다 애호가 — 메모리)과 SUMMIT의 "인스타 명소·몰입형 아트·심한 혼잡" 성격이 정면 충돌 ② SUMMIT·Edge(12/29)가 "현대 유리 전망대"로 성격이 반쯤 겹침 — ToR이면 전망대 3곳(ToR/Edge/ESB)이 "고전·스릴·아르데코"로 완전 분화 ③ ToR의 "ESB 정면 프레임 + 센트럴파크 축조망 동시" 는 한국어·영문 소스 공통으로 "대체 불가"로 언급 ④ ToR이 악천후 리스케줄에 더 관대.
+- 유지 논거(반대): SUMMIT이 One Vanderbilt라 그랜드센트럴·Keens 프리시어터 동선과 물리적으로 더 매끄러움(77차 채택 사유). 되돌리면 planner가 12/26 오후 동선을 재설계해야 함.
+
+#### 59-1-1. 요금 — 2026 시즌 공시 기준(⚠ 2026-12 홀리데이 실판매가는 미발표)
+
+**Top of the Rock** (환율 가정 1,350원/USD 명시)
+
+| 항목 | USD | 원화(2인) | 비고 |
+|---|---|---|---|
+| General Admission 성인(13+) | 시작 **$45**, 실제 범위 약 **$42~$71** (수요 다이내믹, 일몰·야간 상단) — 일부 2차 소스 $47~$60 | 기본 2인 ≈ 122,000원 / **성수기 일몰 슬롯 2인 $110~130 ≈ 149,000~176,000원** | 3개 전망 레벨(67·69·70층) 타임드 입장 포함 |
+| **The Beam**(빔 위 착석 사진 체험) | **+$15/인** (전 연령) | +약 40,000원 | 「Lunch atop a Skyscraper」 재현 빔 착석·사진. Beam Combo(입장+빔) 시작 $73 |
+| **Skylift**(70층 회전 유리 승강 플랫폼) | **+$15/인** | +약 40,000원 | 2023~24 신설 부가체험 |
+
+- ⚠ 위는 citypass·viator·thebettervacation·decks-nyc 등 2차 소스의 "2026 시즌" 값. **2026-12-26(토, 홀리데이 주간) 실판매가는 미공시** — 다이내믹 프라이싱이라 예매 시점 rockefellercenter.com에서 12/26 16:00 슬롯 실조회 필수. rockefellercenter.com 공식 페이지는 이번 조사에서 403.
+
+**SUMMIT One Vanderbilt** (summitov.com/tickets 직접 확인, 확신 높음)
+
+| 등급 | USD(일반) | USD(NYC·롱아일랜드 거주자) | 포함 |
+|---|---|---|---|
+| **SUMMIT Experience(기본)** | **$44~** (주말 일부 소스 $49) | $39~ | 3개 층 몰입형 아트·360도 뷰·**Levitation(외팔보 유리 스카이박스)**·**Après 바 접근**·외부 테라스·카페 |
+| **SUMMIT Signature** | $58~ | $53~ | 기본 + Après 시그니처 (목)칵테일/목테일 1잔 |
+| **SUMMIT Ascent** | $68~ | $63~ | 기본 + **Ascent(외벽 전면 유리 엘리베이터, 12층 상승)** |
+| **Ultimate SUMMIT** | $82~ | $77~ | 기본 + Ascent + Après 음료 |
+| SUMMIT Premium(90분 가이드+우선입장+사진팩) | $149 (+$3 수수료) | — | — |
+
+- **핵심**: Levitation(유리 스카이박스)·Après 바 접근·외부 테라스는 **기본 Experience에 이미 포함**(별도 요금 아님). 별도 등급이 필요한 건 **Ascent(글라스 엘리베이터)** 뿐. Après에서 음료를 마시려면 별도 결제(또는 Signature 등급).
+- 2인 총액: **기본 Experience 2인 $88 ≈ 119,000원**(1,350). 정본의 "2인 약 150,000원"은 이보다 높음 — 주말가 + 세금·수수료 또는 tourvis·마이리얼트립 재판매가로 추정. **실제 기본 2인은 약 119,000~135,000원.** Ascent까지면 2인 $136 ≈ 184,000원.
+
+#### 59-1-2. 12/26(토) 개장시간·홀리데이 아워·일몰
+
+- **ToR**: 통상 매일 09:00(일부 소스 08:00)~24:00, **막차 엘리베이터 23:00~23:10**. 12/26 특별 단축 공시 없음(연말은 오히려 연장 경향). 16:00 지정입장 문제없음.
+- **SUMMIT**: 매일 **08:00~24:00, 막입장 22:30**. 16:00 입장 문제없음.
+- **일몰**: 2026-12-26 뉴욕 일몰 **약 16:33**(12월 말 약 16:32~16:38). **16:00 지정입장이면 두 곳 다 일몰 직전 도착 → 블루아워 → 야경을 한 번에 커버** — 좋은 배치. ToR은 70층 야외 완전개방형에서, SUMMIT은 실내 유리·미러룸에서 일몰을 봄. 정본 메모의 "일몰 약 16:32"와 일치.
+
+#### 59-1-3. 악천후·변경·환불 정책
+
+| | 공식 직접구매 | 재판매 플랫폼(Tiqets·GetYourGuide·Klook 등) |
+|---|---|---|
+| **ToR** | 환불 불가. **단 시야 불량·악천후 시 향후 날짜 리스케줄 가능**(환불 아님). 예약 변경은 24시간 전·재고 있을 때, 상위가 슬롯이면 차액 | 24시간 전까지 무료 취소·전액 환불 |
+| **SUMMIT** | 공식 T&C: "모든 판매 최종, **날씨·대기시간 이유로도 환불 없음**(당사 재량 예외)" | 24시간 전까지 무료 취소·변경 / 24시간 이내는 변경·환불 불가 |
+
+- → **날씨 리스크 헤지가 필요하면 두 곳 다 재판매 플랫폼에서 "24h 무료취소" 조건으로 구매**하는 편이 안전. ToR은 공식 구매해도 최소한 "리스케줄"은 되므로 SUMMIT보다 관대. 12/26은 12/25 도착 다음 날이라 만약 12/25에 대설·결항이 나도 12/26 오전에 상태 보고 취소/변경할 창이 있음.
+
+#### 59-1-4. 경험의 성격 비교 (한국어 소스 우선 + 영문 후기 보강)
+
+**한국어 소스 종합** (브런치 @kkday 218·369, 네이버/키자드/오쇼 블로그, 나무위키·NewYork.kr):
+- **ToR**: "엠파이어스테이트 빌딩을 정면에서, 그리고 센트럴파크를 동시에 볼 수 있는" 유일한 전망대로 반복 언급. 70층은 **유리펜스 없는 완전 개방형**이라 뷰가 가장 선명, 일몰이 방문 베스트. kkday 5곳 비교에서 **에디터 픽**. "낮엔 ToR/Edge, 밤엔 ESB/SUMMIT" 분담 추천이 여러 글에서 반복 — 즉 한국 여행자 사이에서도 ToR은 "정통·대표 전망"으로 자리매김.
+- **SUMMIT**: 미러룸(Reflect / Transcendence)이 "이 장소 때문에 유명해졌다". "사방 유리라 시공간 초월한 느낌", "포토존 파라다이스", 은색 마일러 풍선 사진. 단점 언급: "OB 2층은 반복적이고 볼거리가 1층에 몰림", 드레스코드(거울 바닥 때문에 짧은 치마·메탈힐 제한, 신발 비닐 착용). **긍정 일색이지만 "인생샷"·"필수 코스" 프레이밍이 강함 = 관광 상품·SNS 명소 성격.**
+
+**영문 후기**(Tripadvisor·여행블로그 다수):
+- SUMMIT 부정: "너무 비싸고 너무 붐빔", "위로 올라가기까지 줄 40~60분", "창가·바닥에 누워 셀카만 찍는 사람들", "차라리 ESB 갈 걸 — 돈 낭비", "우리 취향엔 너무 붐벼서 Edge로 갔다". "클래식 전망대를 기대하면 과대평가 — 미러·조명·끊임없는 이동 동선이 스카이라인 뷰포인트라기보다 **attraction(체험형 어트랙션)처럼** 느껴진다".
+- SUMMIT 긍정: "사진·몰입형 아트엔 최고", "미러룸과 일몰 뷰는 정말 장관", "대부분의 방문객, 특히 사진·아트에 관심 있으면 값어치 있음".
+- ToR: "메이저 전망대 중 유일하게 ESB를 맨해튼 스카이라인의 일부로 볼 수 있는 곳" — 아이코닉 스카이라인 사진엔 ToR이 선호됨(영문 소스도 동일).
+
+**이 부부 취향 대입**: 확정 선호가 "아이코닉·정통 > 마케팅된 것", "관광상품 < 애호가 지향"(메모리). **SUMMIT의 "인스타 명소 + 몰입형 아트 + 심한 혼잡 + 어트랙션 느낌"은 이 축과 정면으로 어긋난다.** ToR의 "1933년 록펠러 옥상 고전 전망대 + ESB 정면 + 센트럴파크 축조망"은 정통 뉴욕 전망대의 원형. **ToR의 The Beam·Skylift 부가체험은 포토 기믹이라 취향상 굳이 안 사도 됨(기본 입장만).**
+
+#### 59-1-5. Edge(12/29 14:30 확정)·ESB(1/2 확정)와의 중복 판단
+
+| 전망대 | 성격 | 유리 요소 | 관람시간 |
+|---|---|---|---|
+| **Edge** (12/29) | 외부로 튀어나온 경사 유리벽 + 중앙 유리바닥 패널, **스릴·아드레날린 중심** | 경사 유리벽 + 바닥 패널 | 30~45분 |
+| **SUMMIT** | 91·92층 **전면 유리 인클로저** + Levitation 유리 스카이박스 + 미러룸, **몰입형·현대 유리 체험** | 전면 유리 + 유리 스카이박스 + 거울 바닥 | 1시간+ |
+| **ToR** | 록펠러 70층 **고전 3층 옥외 전망대**, ESB 정면·센트럴파크 축조망 | 없음(70층 유리펜스 없는 개방형) | 45~90분 |
+| **ESB** (1/2) | 아르데코 아이콘, 86층 옥외(겨울 난방기) + 102층 실내 | 없음 | 90분 |
+
+- **SUMMIT ↔ Edge는 "현대 유리 전망대"로 성격이 반쯤 겹친다** — 둘 다 유리바닥/유리박스 요소 + 현대적 연출. 영문 비교글이 실제로 "붐벼서 SUMMIT 대신 Edge 갔다"처럼 **상호 대체재**로 취급.
+- **ToR로 되돌리면 전망대 4곳이 전부 다른 축**: ToR(고전 옥외) / Edge(현대 스릴 유리바닥) / SUMMIT 없음 / ESB(아르데코 옥외). SUMMIT 유지 시 "SUMMIT + Edge = 현대 유리"로 콘텐츠 중복이 남음.
+- 43장이 이미 지적한 "전망대 중복" 문제와 같은 맥락 — 되돌림이 이 중복을 해소.
+
+#### 59-1-6. 예산 영향 (되돌릴 경우)
+
+- 정본은 77차에 ToR 120,000 → SUMMIT 150,000으로 배정 인상하고 2-4 「연말 성수기 버퍼」를 230,000 → 200,000으로 30,000 흡수했음.
+- 되돌리면: **기본 입장가로는 ToR·SUMMIT이 거의 동일**($44~49). "2인 30,000원 절감"은 배정액 차이를 되돌리는 것이지 **실비 절감이 아니다.**
+  - ToR 2인 기본, 성수기 일몰 슬롯 현실가 약 $110~130 ≈ **149,000~176,000원** → SUMMIT 기본(약 119,000~135,000원)보다 **오히려 비쌀 수 있음**.
+  - 정본 120,000 배정으로 그냥 되돌리면 성수기 일몰가에 못 미칠 위험 → **배정을 130,000~150,000 사이로 두는 게 안전**.
+- **∴ 예산상 이득은 사실상 0. 되돌림의 근거는 "취향 적합도·콘텐츠 분화"이지 "절감"이 아니다.** 「연말 성수기 버퍼」 200,000 → 220,000~230,000 복원 여부는 planner 판단이되, **확정 절감액으로 계상하지 말 것**(2026-09-03 규칙 ⑧: 자격·조건 미확인 혜택은 금액 확정 금지 — 여기서는 "실판매가 미발표"라 동일하게 적용).
+
+#### 59-1-7. 결론 (조사 A)
+
+- **ToR 되돌림 = 약하게 권장(취향 근거). 예산 명분은 폐기.**
+- 최종 선택은 사용자 취향: **"미러룸·유리 스카이박스·현대 연출을 한 번쯤"** 이 끌리면 SUMMIT 유지 / **"정통 뉴욕 전망대 + 대체 불가 조망(ESB 정면·센트럴파크)"** 이면 ToR.
+- 되돌릴 경우 planner 재설계 항목: 12/26 오후 동선을 ToR 기준으로 — ToR은 록펠러 구내라 LEGO·Nintendo·Rough Trade·FAO와 **같은 건물**(굿즈 동선엔 오히려 유리), 다만 이후 Keens(36가)로 남하는 SUMMIT(그랜드센트럴 옆)보다 약간 멀고 **그랜드센트럴 편입(현재 15분)을 유지할지** 재검토 필요. 브라이언트파크 윈터빌리지 도보통과(10분)는 ToR·SUMMIT 어느 쪽이든 5번가 남하 동선에 그대로 걸림.
+
+---
+
+### 59-2. 조사 B — 현행 동선에 붙는 무료 박물관 후보 2곳
+
+#### 59-2-1. 국립 아메리칸 인디언 박물관 (NMAI / George Gustav Heye Center, 1 Bowling Green) — **12/27 Day 3에 편입 가능(추가 20~35분), 약하게 권장**
+
+| 항목 | 내용 | 확신 |
+|---|---|---|
+| 입장료 | **완전 무료**(스미소니언). 특별전 포함 별도 요금 없음. 예약 불필요 | 높음 |
+| 개장 | 매일 **10:00~17:00**(목 20:00까지). **연중 유일 휴관일 = 12/25 크리스마스**(2차 소스 다수 일치). **12/27(일) 10:00~17:00 개관**(확신 중간~높음 — 공식 americanindian.si.edu/visit/new-york 이번 조사에서 403이라 1차 미확인, 출발 임박 재확인) | 중간~높음 |
+| 1/1 신정 | "유일 휴관일은 크리스마스"라는 서술이 여러 2차 소스에 있으나 신정 명시는 못 봄 | 중간(참고용, Day 8엔 어차피 안 씀) |
+| 건물 | **알렉산더 해밀턴 U.S. 세관(Cass Gilbert 설계, 1907, 보자르)** — 정면에 대니얼 체스터 프렌치의 「4대륙」 좌상 4점 + 프리즈 12상. 로어맨해튼 대표 건축물이라 외관만으로도 볼 가치 | 높음 |
+| 전시 | 상설 **Infinity of Nations**(북미 원주민 유물 700+), Why We Serve, Stretching the Canvas. ⚠ 카페·극장·일부 그룹공간 임시 휴실 중(실내 좌석 대피처 기능은 제한적일 수 있음) | 중간 |
+| 소요시간 | 로툰다 + Infinity of Nations 하이라이트만 **30~45분** 가능. 깊게 보면 1.5시간 | 중간 |
+
+- **동선**: 1 Bowling Green = **볼링그린 공원을 사이에 두고 황소상(Charging Bull) 바로 맞은편, 도보 1~2분.** 현행 Day 3 표 13:15~14:15 로어맨해튼 도보 관광이 "…소녀상 → **황소상(Charging Bull, 볼링그린)** → 되돌아 북상" 순서 — **황소상 지점이 NMAI 정문 앞이다.** 이동 추가 0.
+- **끼워넣기 여유 판단**: 현행 Day 3 검산 655분(09:30~20:25). 정본이 "도보량 최대일, 지연 시 로어맨해튼 도보 관광·DUMBO·프로메나드를 먼저 줄이고 Peter Luger 18:00을 지킴"이라 명시 — **순여유가 큰 날이 아님.** 다만 NMAI는:
+  1. **무료·무예약이라 손실 0으로 언제든 컷** 가능
+  2. **실내라 로어맨해튼 옥외 도보 구간 중 유일한 대피처** — Day 3 옥외 노출은 15-2에서 "브루클린 브리지+DUMBO 약 2시간 45분, 9개 구간 중 2위 부담"으로 평가된 날. 로어맨해튼 도보 관광 60분도 옥외. NMAI 30분이 이 날 오후의 실내 휴식 역할
+  3. 위치가 도보 경로 위 + 황소상 사진 줄(성수기 10~20분)과 같은 15분에 겹쳐 처리 가능
+- **planner 반영안(택1)**: (a) 13:15~14:15 도보 관광(60분)을 **13:15~14:30(75분)으로 15분 확대**하고 그 안에 NMAI 로비·로툰다·Infinity of Nations 하이라이트 30분 삽입 → 브루클린 브리지 진입이 15분 늦어지는 것을 다리 횡단·DUMBO·프로메나드(15-2가 "먼저 줄이라"고 한 구간)에서 흡수. (b) 브런치(09:30~10:20)를 10분 당기고 9/11 뮤지엄 종료 시각을 조정해 순증분 확보.
+- **판정: 물리적으로 편입 가능(추가 실질 20~35분). "무료 + 무예약 + 실내 대피처 + 건물 자체 가치 + 동선 위" 5박자라 Day 3에 넣을 값어치가 있으나, 도보 최대일이라 「지연 시 1순위 컷」 꼬리표를 반드시 달 것.** 취향(정통·아이코닉·건축)과도 부합.
+
+#### 59-2-2. 엘 무세오 델 바리오 (El Museo del Barrio, 1230 5th Ave @ 104–105th St) — **1/1 Day 8에 편입 불가(신정 휴관). 다른 날도 부적합. 넣을 자리 없음.**
+
+| 항목 | 내용 | 확신 |
+|---|---|---|
+| 입장료 | **Pay-What-You-Wish**(권장 기부 성인 $9). 무료 성격 맞음 | 높음 |
+| 개장 | **목~일 11:00~17:00** (월·화·수 휴관) | 높음 |
+| **1/1 신정** | **휴관 확정** — "New Year's Day, Juneteenth, July 4, Thanksgiving, Christmas 휴관"(2차 소스 복수 일치). **구겐하임(1/1 10:00~18:00 개관)과 달리 엘 무세오는 1/1에 닫는다** | 높음 |
+| 소요시간 | 소규모(전시장 2~3개), 30~45분 | 중간 |
+
+- **Day 8(1/1) 편입 불가**: ① 신정 휴관 확정. ② 설령 열려도 엘 무세오(104가)는 구겐하임(89가)보다 **북쪽 15블록**이라, 현행 Day 8 동선(구겐하임 → 90가 게이트로 센트럴파크 진입·**남하**)과 방향이 반대 — 끼우려면 구겐하임 전에 별도 북상. ③ Day 8은 이미 전날 자정 Midnight Run으로 **수면 6~6.5시간** + 구겐하임+UES점심+센트럴파크 남하 산책+월먼링크+트램+J.G. Melon으로 포화(정본 실행메모가 월먼링크·트램을 "컨디션 따라 컷"으로 이미 지정). 박물관 추가 여지 없음.
+- **다른 날 대안도 없음**: 여행 중 엘 무세오 개장 요일(목~일)에 해당하는 날 = 12/25(금·크리스마스 휴관)·12/26(토)·12/27(일)·1/2(토). 12/26은 미드타운(MoMA·록펠러), 12/27은 로어맨해튼(남단), 1/2은 리버티 크라운+LES — **전부 104가와 동선 무관**하고 12/27만 지하철로 닿지만 Day 3는 도보 최대일 + 방향이 정반대(맨해튼 최남단 ↔ 최북단).
+- **판정: 편입할 자리 없음.** 1/1 휴관이 결정적이고 다른 날도 동선이 맞지 않는다.
+
+#### 59-2-3. (참고) 동선상 다른 무료 후보 — 쿠퍼 휴이트
+
+- 42-2가 이미 쿠퍼 휴이트(2 E 91st St, 매일 17~18시 PWYW)·모건 라이브러리(매일 15~17시 무료, 서재 한정)를 "규모 낮음·우선순위 낮음"으로 기록.
+- 쿠퍼 휴이트는 **구겐하임(89가)에서 도보 약 2분** — 이론상 Day 8 구겐하임 직후 붙일 수 있으나: ① 쿠퍼 휴이트도 1/1 휴관 가능성 높음(스미소니언 산하지만 뉴욕 디자인 뮤지엄은 자체 휴일 정책, 이번 조사 미확인) ② PWYW가 17~18시 한정이라 Day 8 오전 동선과 안 맞음 ③ Day 8 포화. → **비권장, 참고만.**
+
+---
+
+### 59-3. 확인 필요 사항 (59장)
+
+1. **ToR / SUMMIT 2026-12-26(토) 성수기·일몰 슬롯 실판매가** — 둘 다 다이내믹, 홀리데이 실가 미발표. 예매 시점 rockefellercenter.com / summitov.com에서 12/26 16:00 슬롯 실조회. (rockefellercenter.com은 이번 조사 403.)
+2. **ToR 12/26 특별 개장시간**(연말 연장/단축 여부) — 공식 미발표.
+3. **NMAI 뉴욕 1/1·12/27 정확한 개장 여부** — 공식 americanindian.si.edu/visit/new-york 이번 조사 403, 2차 소스 근거. 출발 임박 재확인.
+4. **NMAI 카페·극장·그룹공간 임시 휴실**이 2026-12까지 이어지는지(대피처로서 실내 좌석 유무).
+5. (ToR로 되돌릴 경우) planner의 12/26 오후 동선 재설계 — ToR(록펠러 구내) → Keens(36가) 남하 시간, 그랜드센트럴 편입(현재 15분) 유지 여부.
+6. 되돌릴 경우 2-4 배정 150,000 → 130,000~150,000 사이, 「연말 성수기 버퍼」 200,000 → 220,000~230,000 복원은 실판매가 확정 후 planner 판단(확정 절감으로 선반영 금지).
+
+**출처(59장)**:
+- ToR: [viator — Top of the Rock](https://www.viator.com/New-York-City-attractions/Top-of-the-Rock/d687-a1273), [thebettervacation.com — Top of the Rock 2026](https://thebettervacation.com/new-york/top-of-the-rock/), [decks-nyc.com — Top of the Rock tickets](https://decks-nyc.com/top-of-the-rock/top-of-the-rock-tickets/), [rockefellercenter.com — Terms & Conditions(PDF)](https://www.rockefellercenter.com/documents/RC_TermsAndConditions.pdf), [tripadvisor — Top of the Rock snowy day refund forum](https://www.tripadvisor.com/ShowTopic-g60763-i5-k7118771-Worth_it_a_Top_of_the_Rock_refund_because_of_a_snowy_day-New_York_City_New_York.html), [top-of-the-rock-nyc.com — opening hours](https://top-of-the-rock-nyc.com/opening-hours/)
+- SUMMIT: [summitov.com/tickets](https://summitov.com/tickets/), [summitov.com/ticketterms](https://summitov.com/ticketterms/), [info.summitov.com — Are SUMMIT tickets refundable](https://info.summitov.com/faq/Are-SUMMIT-One-Vanderbilt-Tickets-Refundable/), [info.summitov.com — How to Change or Upgrade](https://info.summitov.com/faq/How-to-Change-or-Upgrade-SUMMIT-One-Vanderbilt-Tickets/), [thebettervacation.com — SUMMIT 2026](https://thebettervacation.com/new-york/summit-one-vanderbilt/), [tripadvisor — SUMMIT "Too expensive and Way Too Crowded"](https://www.tripadvisor.com/ShowUserReviews-g60763-d23709243-r934236556-SUMMIT_One_Vanderbilt-New_York_City_New_York.html), [nyctouristtipsandtricks.com — Is SUMMIT worth it 2026](https://nyctouristtipsandtricks.com/is-summit-one-vanderbilt-worth-it/), [22places.com — SUMMIT honest review](https://www.22places.com/summit-one-vanderbilt/)
+- 비교(한국어): [브런치 @kkday/369 — 뉴욕 전망대 5곳 비교](https://brunch.co.kr/@kkday/369), [브런치 @kkday/218 — 써밋 전망대 후기](https://brunch.co.kr/@kkday/218), [pappa.nblogos.com — 뉴욕 전망대 TOP 5 비교](https://pappa.nblogos.com/103), [newyork.kr — 뉴욕 최고의 전망대](https://www.newyork.kr/best-observation-decks-in-new-york), [keyzard.cc — 서밋 전망대 후기](https://keyzard.cc/views/nb/NSoxAG9vPDAqLzM6ZWVtbWtsbW1sbWlubmY)
+- Edge 비교: [thebettervacation.com — SUMMIT vs Edge](https://thebettervacation.com/summit-one-vanderbilt-vs-edge/), [decks-nyc.com — SUMMIT or Edge](https://decks-nyc.com/summit-one-vanderbilt-or-the-edge/), [wherearethosemorgans.com — 5 NYC observation decks ranked](https://wherearethosemorgans.com/best-observation-decks-in-nyc/)
+- NMAI: [americanindian.si.edu — visit New York](https://americanindian.si.edu/visit/new-york) (403, 미확인), [freetoursbyfoot.com — NMAI New York Guide](https://freetoursbyfoot.com/national-museum-of-the-american-indian-new-york/), [ny.com — NMAI](https://www.ny.com/museums/national.museum.of.the.american.indian.html), [whichmuseum.com — NMAI NY opening hours](https://whichmuseum.com/museum/national-museum-of-the-american-indian-new-york-9290/opening-hours), [wonderfulmuseums.com — NMAI NYC](https://www.wonderfulmuseums.com/museum/national-museum-of-the-american-indian-nyc/), [dashboard.si.edu — Heye Center hours](https://dashboard.si.edu/museums/american-indian-museum-heye-center)
+- 엘 무세오: [elmuseo.org — Plan your visit](https://elmuseo.org/visit/plan-your-visit/) (403), [whichmuseum.com — El Museo del Barrio opening hours](https://whichmuseum.com/museum/el-museo-del-barrio-new-york-9342/opening-hours), [permanentcollection.nyc — El Museo del Barrio](https://permanentcollection.nyc/museums/el-museo-del-barrio/), [ny.com — El Museo del Barrio](https://www.ny.com/museums/el.museo.del.barrio.html)
+- 일몰: [timeanddate.com — NYC sun December 2026](https://www.timeanddate.com/sun/usa/new-york?month=12)
+
+(조사 시점 2026-09-10. 전망대 요금은 2026 시즌 2차 소스 기준이며 **2026-12 홀리데이 주간 실판매가·ToR 12/26 특별시간·NMAI 1/1·12/27 개장은 미확인** — 공식 페이지 다수가 403이라 2차 소스 교차검증에 의존. 위 확인 필요 사항대로 예매·출발 임박 시 재확인.)
+
+---
+
+### 59장 요약 — itinerary-planner가 반영을 검토할 항목
+
+- **전망대(12/26)**: **ToR 되돌림을 취향 근거로 약하게 권장** — SUMMIT은 "인스타 명소·몰입형 아트·심한 혼잡" 성격이 부부 확정 취향(아이코닉·정통 > 마케팅)과 충돌하고, SUMMIT·Edge가 "현대 유리"로 콘텐츠가 반쯤 겹침. ToR이면 전망대 3곳이 "고전(ToR)·스릴(Edge)·아르데코(ESB)"로 완전 분화되고, ToR의 ESB 정면+센트럴파크 동시 조망은 한국어·영문 소스 공통 "대체 불가".
+- **⚠ "2인 30,000원 절감"은 성립하지 않음** — 기본 입장가는 두 곳이 거의 같고($44~49), 성수기 일몰 슬롯이면 ToR이 오히려 더 비쌀 수 있음. 되돌리면 배정을 130,000~150,000으로 두고 **확정 절감액으로 계상하지 말 것**.
+- **The Beam·Skylift(각 +$15/인, 2인 +약 40,000원씩)**: 포토 기믹이라 취향상 비권장 — 기본 입장만.
+- **NMAI(무료, 1 Bowling Green)**: 12/27 Day 3 도보 관광의 **황소상 지점이 정문 앞** — 이동 추가 0, 실질 추가 20~35분으로 편입 가능. 무료·무예약·로어맨해튼 옥외 도보 중 유일한 실내 대피처·보자르 세관 건물 가치. **"도보 최대일이라 지연 시 1순위 컷" 꼬리표 필수.**
+- **엘 무세오 델 바리오**: **1/1 신정 휴관 확정 + 다른 날도 동선 불일치 → 편입할 자리 없음.** Day 8은 수면 6~6.5h로 이미 포화.
+- 되돌림 시 planner 재설계: 12/26 오후 ToR(록펠러 구내) → Keens 남하 동선 + 그랜드센트럴 편입 유지 여부. NMAI 편입 시 브루클린 브리지 진입 15분 지연을 다리·DUMBO·프로메나드에서 흡수하는 검산.
+- 전망대·NMAI 모두 「출발 임박 재확인」(04)에 항목 추가: ToR/SUMMIT 12/26 실판매가·개장시간, NMAI 1/1·12/27 개장.
