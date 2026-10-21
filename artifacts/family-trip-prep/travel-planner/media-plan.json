@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "city-cover", "role": "hero", "place_id": "nyc",
+      "path": "assets/nyc.jpg", "depicts": "landscape",
+      "alt": "해 질 녘 브루클린 브리지 파크에서 본 로어맨해튼 스카이라인",
+      "caption": "Lower Manhattan from Brooklyn Bridge Park · Superbass / CC BY-SA 4.0",
+      "creator": "Superbass", "source_url": "https://commons.wikimedia.org/wiki/File:2024-11-17-Lower_Manhattan-0593.jpg",
+      "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "checked_at": "2026-10-21", "visually_verified": true
+    }
+  ],
+  "unavailable": [
+    {"role": "stay", "place_id": "nyc", "reason": "숙소는 호스트가 올린 에어비앤비 개인 아파트(331 E 8th St)로 공식 호텔 갤러리가 없고, 리스팅 링크·사진을 받은 적이 없어 이 건물/유닛임을 확인할 수 있는 재사용 가능 사진을 찾지 못했습니다(이웃 건물·유사 사진은 사용하지 않음).", "checked_at": "2026-10-21"}
+  ]
+}

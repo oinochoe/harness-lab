@@ -1,0 +1,15 @@
+# Claude environment
+
+This is a portable skill, not a Claude API connector. In Claude's code-execution environment, locate the uploaded skill folder and use its bundled Python scripts. Use Claude's actual file reading/vision/search tools for ingestion and research; availability varies. Do not assume a browser-control plugin, ChatGPT Sites, paid image tool or API key exists.
+
+Check only the selected output dependencies with preflight. If ReportLab/Pillow are absent and package installation is available and within the user's authorized task, install requirements in the task/container environment; do not modify global/system Python. Do not claim a restricted or failed installation succeeded. If PDF remains unavailable, report that selected PDF cannot be generated. Provide HTML as a partial result only when HTML was also selected. Never attach a Python error log as a travelbook.
+
+Return the final selected files using Claude's supported downloadable-file mechanism. A file existing inside the container is not enough; ensure the attachment points to that file. Do not invent sandbox URLs. Preserve a working private baseline internally; attach a JSON backup only on request. A new chat can use that backup without needing the old conversation.
+
+Keep every delivery in a new subfolder of Claude's supported output directory, for example `<outputs>/<trip_id>/r2-<generation-id>/`. Copy only this run's selected files into that folder and attach their exact paths. Keep `travel.html` and `travelbook.pdf` together when both were selected so the relative PDF link works. Do not reuse fixed paths at the output-directory root, overwrite earlier attachments, or delete an earlier HTML because the new request is PDF-only. A previously delivered file belongs to its earlier response; choosing fewer formats now controls only the new delivery. If nested attachment paths are unsupported, give new unique filenames and adjust the HTML's sibling PDF link accordingly.
+
+Installation by recipient (official guide checked 2026-09-21): enable Code execution and file creation as permitted for the account; open Customize → Skills → + → Create skill → Upload a skill; choose the supplied ZIP containing the travel-planner folder, then enable it. Organization policy can limit this. UI labels may change; use the current visible controls.
+
+Sources: [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [Create custom skills](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills). Package structure/requirements are not evidence that installation and generation succeeded in a particular Claude account.
+
+Photo acquisition is a normal part of a new travelbook. Use this host's actual web/image search and image-inspection tools, then the bundled `media_pipeline.py` for downloaded or local assets. Use an available Python/Pillow runtime for photo preparation. In Claude, inspect available search and code-execution network access rather than assuming Codex plugins exist. If a tool is blocked, record the actual reason and disclose the missing photos; do not silently produce a photo-free result as complete.

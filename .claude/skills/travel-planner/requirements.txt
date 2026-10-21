@@ -1,0 +1,5 @@
+# HTML rendering and validation use Python 3.10+ standard library only.
+# Photo preparation also requires Pillow, even for HTML-only output.
+# PDF tested with ReportLab 4.4.9 and Pillow 12.3.0.
+reportlab>=4.0,<5
+Pillow>=10,<13

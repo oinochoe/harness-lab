@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "trip_id": "fictional-city-weekend",
+  "revision": 1,
+  "title": "A little time in the city",
+  "subtitle": "CITY NOTES",
+  "country_label": "A FICTIONAL CITY TRIP",
+  "start_date": "2027-05-21",
+  "end_date": "2027-05-23",
+  "language": "en",
+  "base_currency": "JPY",
+  "audience": "private",
+  "requested_outputs": [
+    "html",
+    "pdf"
+  ],
+  "is_fictional_demo": true,
+  "notice": "Fictional itinerary and bookings for package testing. No real reservation has been made.",
+  "party": {
+    "adults": 2,
+    "children": 0
+  },
+  "places": [
+    {
+      "id": "city",
+      "name": "City centre",
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "source_ids": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": "stay-city",
+      "type": "stay",
+      "name": "Example Central Hotel",
+      "status": "fictional",
+      "place_id": "city",
+      "check_in": "2027-05-21",
+      "check_out": "2027-05-23",
+      "nights": 2,
+      "check_in_time": null,
+      "check_out_time": null,
+      "address": null,
+      "phone": null,
+      "conditions": null,
+      "source_ids": [
+        "D01"
+      ],
+      "locked_fields": [],
+      "booking_reference": "DEMO-PRIVATE-123",
+      "passenger_names": [
+        "Fictional Traveller"
+      ],
+      "private_notes": "PRIVATE-SENTINEL-XYZ",
+      "source_path": "/private/fictional/voucher.pdf"
+    }
+  ],
+  "costs": [
+    {
+      "id": "hotel-cost",
+      "category": "Hotel",
+      "total_amount": "42000",
+      "paid_amount": "10000",
+      "currency": "JPY",
+      "booking_id": "stay-city",
+      "status": "fictional",
+      "source_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "transit-cost",
+      "category": "Airport transport",
+      "total_amount": "150000",
+      "paid_amount": null,
+      "currency": "KRW",
+      "status": "fictional",
+      "source_ids": []
+    },
+    {
+      "id": "food-cost",
+      "category": "Food",
+      "total_amount": null,
+      "paid_amount": null,
+      "currency": "JPY",
+      "status": "unknown",
+      "source_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "D01",
+      "title": "Fictional booking note",
+      "type": "document",
+      "url": null,
+      "checked_at": null,
+      "public": false,
+      "file_name": "fictional-voucher.pdf",
+      "page": 1,
+      "private_path": "/private/fictional/voucher.pdf"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "documents",
+      "text": "Save booking documents",
+      "checked": false
+    },
+    {
+      "id": "transport",
+      "text": "Check airport connections",
+      "checked": false
+    }
+  ],
+  "media": [],
+  "legs": [],
+  "availability": [],
+  "overnight_exceptions": [],
+  "days": [
+    {
+      "date": "2027-05-21",
+      "title": "Arrive and settle in",
+      "subtitle": "Leave enough time for rest",
+      "region": "CITY CENTRE",
+      "place_ids": [
+        "city"
+      ],
+      "summary": {
+        "agenda": "Arrive and settle in",
+        "transit": "Connections unconfirmed",
+        "stay": "Example Central Hotel",
+        "purpose": "Keep the plan flexible until transport is confirmed."
+      },
+      "important_notes": [
+        "Exact times and operating hours have not been checked."
+      ],
+      "activities": [
+        {
+          "id": "city-0-a",
+          "title": "Arrive at the hotel",
+          "description": "An optional draft activity. Shorten it if tired.",
+          "time_label": "Afternoon",
+          "start_at": null,
+          "end_at": null,
+          "place_id": "city",
+          "booking_id": null,
+          "status": "proposed",
+          "type": "rest",
+          "icon": "leaf",
+          "source_ids": []
+        }
+      ],
+      "guide": {
+        "intro": "Start with the confirmed essentials and leave open time around them.",
+        "sections": [
+          {
+            "heading": "Keep the day manageable",
+            "body": "Check the route and local opening hours before leaving. This is a planning suggestion, not a confirmed booking.",
+            "source_ids": []
+          }
+        ],
+        "fallback_title": "If plans change",
+        "fallback": "Rest at the accommodation and review the next connection."
+      },
+      "alternatives": {
+        "weather": {
+          "title": "Stay indoors",
+          "description": "Use a nearby indoor option after checking its opening hours.",
+          "effect": "Keep the hotel booking.",
+          "source_ids": []
+        },
+        "fatigue": {
+          "title": "Rest first",
+          "description": "Remove the optional walk and take a break.",
+          "effect": "Reduce walking.",
+          "source_ids": []
+        },
+        "delay": {
+          "title": "Protect the next connection",
+          "description": "Recheck transport before adding another stop.",
+          "effect": "Keep fixed bookings.",
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "date": "2027-05-22",
+      "title": "A slow day outdoors",
+      "subtitle": "Leave enough time for rest",
+      "region": "CITY CENTRE",
+      "place_ids": [
+        "city"
+      ],
+      "summary": {
+        "agenda": "A slow day outdoors",
+        "transit": "Connections unconfirmed",
+        "stay": "Example Central Hotel",
+        "purpose": "Keep the plan flexible until transport is confirmed."
+      },
+      "important_notes": [
+        "Exact times and operating hours have not been checked."
+      ],
+      "activities": [
+        {
+          "id": "city-1-a",
+          "title": "A nearby walk",
+          "description": "An optional draft activity. Shorten it if tired.",
+          "time_label": "Afternoon",
+          "start_at": null,
+          "end_at": null,
+          "place_id": "city",
+          "booking_id": null,
+          "status": "proposed",
+          "type": "rest",
+          "icon": "leaf",
+          "source_ids": []
+        }
+      ],
+      "guide": {
+        "intro": "Start with the confirmed essentials and leave open time around them.",
+        "sections": [
+          {
+            "heading": "Keep the day manageable",
+            "body": "Check the route and local opening hours before leaving. This is a planning suggestion, not a confirmed booking.",
+            "source_ids": []
+          }
+        ],
+        "fallback_title": "If plans change",
+        "fallback": "Rest at the accommodation and review the next connection."
+      },
+      "alternatives": {
+        "weather": {
+          "title": "Stay indoors",
+          "description": "Use a nearby indoor option after checking its opening hours.",
+          "effect": "Keep the hotel booking.",
+          "source_ids": []
+        },
+        "fatigue": {
+          "title": "Rest first",
+          "description": "Remove the optional walk and take a break.",
+          "effect": "Reduce walking.",
+          "source_ids": []
+        },
+        "delay": {
+          "title": "Protect the next connection",
+          "description": "Recheck transport before adding another stop.",
+          "effect": "Keep fixed bookings.",
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "date": "2027-05-23",
+      "title": "Leave room for the return",
+      "subtitle": "Leave enough time for rest",
+      "region": "CITY CENTRE",
+      "place_ids": [
+        "city"
+      ],
+      "summary": {
+        "agenda": "Leave room for the return",
+        "transit": "Connections unconfirmed",
+        "stay": "Return journey",
+        "purpose": "Keep the plan flexible until transport is confirmed."
+      },
+      "important_notes": [
+        "Exact times and operating hours have not been checked."
+      ],
+      "activities": [
+        {
+          "id": "city-2-a",
+          "title": "Prepare for departure",
+          "description": "An optional draft activity. Shorten it if tired.",
+          "time_label": "Morning",
+          "start_at": null,
+          "end_at": null,
+          "place_id": "city",
+          "booking_id": null,
+          "status": "proposed",
+          "type": "rest",
+          "icon": "leaf",
+          "source_ids": []
+        }
+      ],
+      "guide": {
+        "intro": "Start with the confirmed essentials and leave open time around them.",
+        "sections": [
+          {
+            "heading": "Keep the day manageable",
+            "body": "Check the route and local opening hours before leaving. This is a planning suggestion, not a confirmed booking.",
+            "source_ids": []
+          }
+        ],
+        "fallback_title": "If plans change",
+        "fallback": "Rest at the accommodation and review the next connection."
+      },
+      "alternatives": {
+        "weather": {
+          "title": "Stay indoors",
+          "description": "Use a nearby indoor option after checking its opening hours.",
+          "effect": "Keep the hotel booking.",
+          "source_ids": []
+        },
+        "fatigue": {
+          "title": "Rest first",
+          "description": "Remove the optional walk and take a break.",
+          "effect": "Reduce walking.",
+          "source_ids": []
+        },
+        "delay": {
+          "title": "Protect the next connection",
+          "description": "Recheck transport before adding another stop.",
+          "effect": "Keep fixed bookings.",
+          "source_ids": []
+        }
+      }
+    }
+  ]
+}

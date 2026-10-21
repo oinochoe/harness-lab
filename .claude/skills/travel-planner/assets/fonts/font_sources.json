@@ -1,0 +1,36 @@
+{
+  "downloaded_date": "2026-09-21",
+  "pretendard": {
+    "version": "1.3.9",
+    "source": "https://github.com/orioncactus/pretendard/releases/download/v1.3.9/Pretendard-1.3.9.zip",
+    "files": [
+      "Pretendard-Regular.ttf",
+      "Pretendard-Medium.ttf"
+    ],
+    "archive_path": "public/static/alternative/",
+    "license": "pretendard-LICENSE.txt",
+    "modified": false
+  },
+  "noto_serif_kr": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifkr/NotoSerifKR%5Bwght%5D.ttf",
+    "source_sha256": "11f8d5de6f1b79195efba3828aaa2ec95c1178f5ae976fb23c8d53250a9938f3",
+    "file": "NotoSerifKR-Regular.ttf",
+    "instance_weight": 400,
+    "process": "fontTools instantiateVariableFont with updateFontNames=True; static instance of official variable font",
+    "license": "notoserifkr-OFL.txt"
+  },
+  "sha256": {
+    "Pretendard-Medium.ttf": "3bae579377eb8e9ac412cb4809ebc3de1d956ed75995c1e346f0c1311053f4e2",
+    "Pretendard-Regular.ttf": "6d0af5258997aec7354a6e340fc2325ba321c410ca48b3af858c8c3d6e92a324",
+    "NotoSerifKR-Regular.ttf": "b2b0d27d49359dd3428e67b2b75a7b468f4e739ba98d332ed12f37e2e0c4c04d",
+    "NotoSansJP-Regular.ttf": "7a6e2b876db70ac288da8359fd16742f619ce0cd9a19cdc8a853bf47314c8019"
+  },
+  "noto_sans_jp": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+    "source_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+    "file": "NotoSansJP-Regular.ttf",
+    "instance_weight": 400,
+    "process": "fontTools 4.65.0 instantiateVariableFont with updateFontNames=True; static instance of official variable font",
+    "license": "notosansjp-OFL.txt"
+  }
+}

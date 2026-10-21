@@ -1,0 +1,3112 @@
+{
+ "schema_version": "1.0",
+ "trip_id": "nyc-winter-2026",
+ "revision": 1,
+ "title": "뉴욕, 부부의 겨울",
+ "subtitle": "NEW YORK · 12.25 – 1.3",
+ "country_label": "UNITED STATES · NEW YORK CITY",
+ "start_date": "2026-12-25",
+ "end_date": "2027-01-03",
+ "language": "ko",
+ "base_currency": "KRW",
+ "audience": "private",
+ "requested_outputs": [
+  "html",
+  "pdf"
+ ],
+ "timezone": "America/New_York",
+ "notice": "저장소 정본 02-itinerary-current v48(2026-10-21) 기준. 결제 완료 항목은 사용자 노션 기록, 나머지는 계획·추정값입니다. 비밀번호·여권번호는 포함하지 않았습니다.",
+ "party": {
+  "adults": 2,
+  "children": 0
+ },
+ "places": [
+  {
+   "id": "nyc",
+   "name": "New York City",
+   "address": null,
+   "lat": null,
+   "lng": null,
+   "timezone": "America/New_York",
+   "source_ids": []
+  }
+ ],
+ "bookings": [
+  {
+   "id": "stay-airbnb",
+   "type": "stay",
+   "name": "에어비앤비 — 331 East 8th Street, East Village",
+   "status": "confirmed",
+   "place_id": "nyc",
+   "check_in": "2026-12-25",
+   "check_out": "2027-01-02",
+   "nights": 8,
+   "check_in_time": "09:00",
+   "check_out_time": "16:00",
+   "address": "331 East 8th Street, New York, NY 10009",
+   "phone": null,
+   "conditions": "예약서 체크아웃 15:00(가방만 19:00까지) / 사용자 일정 16:00 + 짐 19:00까지 호스트 무료 보관 — 서면 확인 필요. 체크인 12/25 09:00부터 가능.",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  },
+  {
+   "id": "flight-oz222",
+   "type": "flight",
+   "name": "아시아나 OZ222 인천(T2) → JFK(T1)",
+   "status": "confirmed",
+   "place_id": null,
+   "start_at": "2026-12-25T08:40:00+09:00",
+   "end_at": "2026-12-25T09:00:00-05:00",
+   "origin": "ICN T2",
+   "destination": "JFK T1",
+   "flight_number": "OZ222",
+   "time_note": "비행 14h20m · B777 · 위탁 2개 23kg / 기내 1개 10kg",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  },
+  {
+   "id": "flight-oz223",
+   "type": "flight",
+   "name": "아시아나 OZ223 JFK(T1) → 인천(T2)",
+   "status": "confirmed",
+   "place_id": null,
+   "start_at": "2027-01-03T00:30:00-05:00",
+   "end_at": "2027-01-04T06:10:00+09:00",
+   "origin": "JFK T1",
+   "destination": "ICN T2",
+   "flight_number": "OZ223",
+   "time_note": "비행 15h40m · B777",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  },
+  {
+   "id": "act-aladdin",
+   "type": "activity",
+   "name": "Disney's Aladdin — New Amsterdam Theatre 12/26 19:30 · A103·104",
+   "status": "confirmed",
+   "place_id": "nyc",
+   "start_at": "2026-12-26T19:30:00-05:00",
+   "end_at": "2026-12-26T22:00:00-05:00",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  },
+  {
+   "id": "act-met-docent",
+   "type": "activity",
+   "name": "The Met 한국어 도슨트 12/31 10:10 파라오상 앞 집결",
+   "status": "confirmed",
+   "place_id": "nyc",
+   "start_at": "2026-12-31T10:10:00-05:00",
+   "end_at": "2026-12-31T12:40:00-05:00",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  },
+  {
+   "id": "act-midnight-run",
+   "type": "activity",
+   "name": "NYRR Midnight Run 12/31 (부부 2인)",
+   "status": "confirmed",
+   "place_id": "nyc",
+   "start_at": "2026-12-31T23:59:00-05:00",
+   "end_at": "2027-01-01T00:20:00-05:00",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  },
+  {
+   "id": "act-liberty",
+   "type": "activity",
+   "name": "자유의 여신상 Crown Reserve 1/2 09:00 (Battery Park 출발)",
+   "status": "confirmed",
+   "place_id": "nyc",
+   "start_at": "2027-01-02T09:00:00-05:00",
+   "end_at": "2027-01-02T12:00:00-05:00",
+   "source_ids": [
+    "S01"
+   ],
+   "locked_fields": []
+  }
+ ],
+ "costs": [
+  {
+   "id": "c-flight",
+   "category": "항공 2인 왕복 (OZ222/OZ223)",
+   "total_amount": "2934200",
+   "paid_amount": "2934200",
+   "currency": "KRW",
+   "booking_id": "flight-oz222",
+   "status": "confirmed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-stay",
+   "category": "숙소 8박 에어비앤비",
+   "total_amount": "2484664",
+   "paid_amount": "2484664",
+   "currency": "KRW",
+   "booking_id": "stay-airbnb",
+   "status": "confirmed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-food",
+   "category": "식비(외식 18끼)",
+   "total_amount": "2750000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-aladdin",
+   "category": "브로드웨이 Aladdin 앞자리 A103·104",
+   "total_amount": "728418",
+   "paid_amount": "728418",
+   "currency": "KRW",
+   "booking_id": "act-aladdin",
+   "status": "confirmed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-met",
+   "category": "The Met 한국어 도슨트(입장 포함)",
+   "total_amount": "173966",
+   "paid_amount": "173966",
+   "currency": "KRW",
+   "booking_id": "act-met-docent",
+   "status": "confirmed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-run",
+   "category": "NYRR Midnight Run 2인 등록",
+   "total_amount": "206000",
+   "paid_amount": "206000",
+   "currency": "KRW",
+   "booking_id": "act-midnight-run",
+   "status": "confirmed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-liberty",
+   "category": "리버티 크라운 Crown Reserve",
+   "total_amount": "70000",
+   "paid_amount": "70000",
+   "currency": "KRW",
+   "booking_id": "act-liberty",
+   "status": "confirmed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-act",
+   "category": "기타 액티비티(전망대·Amtrak·Smalls·MBTA·구겐하임 등)",
+   "total_amount": "1710000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-nye",
+   "category": "새해 전야 기타(점심·예비)",
+   "total_amount": "80000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-move",
+   "category": "이동(공항 75,000 + OMNY 190,000)",
+   "total_amount": "265000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-shop",
+   "category": "쇼핑·기념품",
+   "total_amount": "695000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-jazz",
+   "category": "재즈 라이브(Birdland)",
+   "total_amount": "200000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-ins",
+   "category": "여행자보험",
+   "total_amount": "100000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-reserve",
+   "category": "예비비",
+   "total_amount": "1900000",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  },
+  {
+   "id": "c-buffer",
+   "category": "미배분 완충",
+   "total_amount": "702752",
+   "paid_amount": null,
+   "currency": "KRW",
+   "booking_id": null,
+   "status": "proposed",
+   "source_ids": [
+    "S01"
+   ]
+  }
+ ],
+ "declared_totals": [
+  {
+   "currency": "KRW",
+   "total_amount": "15000000",
+   "source_ids": [
+    "S01"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S01",
+   "title": "사용자 노션 「봉봉겨울뉴욕여행」 확정 예약 기록 + 02-itinerary-current v48",
+   "type": "user",
+   "url": null,
+   "checked_at": "2026-10-21",
+   "public": false,
+   "file_name": null,
+   "page": null,
+   "private_path": null
+  }
+ ],
+ "checklist": [
+  {
+   "id": "ck1",
+   "text": "여권 유효기간 확인(입국일 기준 6개월 이상) · ESTA 승인",
+   "checked": false
+  },
+  {
+   "id": "ck2",
+   "text": "현금 $500 환전(Peter Luger·J.G. Melon 현금 전용, 소액권 포함)",
+   "checked": false
+  },
+  {
+   "id": "ck3",
+   "text": "The Modern 12/26 점심 Resy — 11/28 정오(EST) 오픈",
+   "checked": false
+  },
+  {
+   "id": "ck4",
+   "text": "Keens 12/26 Resy(pre-theater, 19:10 퇴점 명시) — 11/26 오전 10시경(ET)",
+   "checked": false
+  },
+  {
+   "id": "ck5",
+   "text": "Peter Luger Resy 12/27 — 11/27 오픈",
+   "checked": false
+  },
+  {
+   "id": "ck6",
+   "text": "Amtrak NER 12/28 왕복 예매(오는 편 16:50 이후 첫 편 실조회)",
+   "checked": false
+  },
+  {
+   "id": "ck7",
+   "text": "9/11 메모리얼 12/27 11:00 타임드 티켓(늦어도 12/13)",
+   "checked": false
+  },
+  {
+   "id": "ck8",
+   "text": "Top of the Rock 12/26 16:00 · Edge 12/29 16:30(16:15 슬롯 우선) · SUMMIT 12/30 16:30 예매",
+   "checked": false
+  },
+  {
+   "id": "ck9",
+   "text": "Birdland TicketWeb 12/29(환불 불가) · Smalls 12/30 라인업 확인 후 예약",
+   "checked": false
+  },
+  {
+   "id": "ck10",
+   "text": "호스트에게 1/2 체크아웃 16:00·짐 19:00까지 서면 확인",
+   "checked": false
+  },
+  {
+   "id": "ck11",
+   "text": "NYRR에 12/29 RUN CENTER 배번 배부 여부·마감 시각 확인(부부 2인)",
+   "checked": false
+  },
+  {
+   "id": "ck12",
+   "text": "현대카드 실물 수령(MoMA 무료)",
+   "checked": true
+  },
+  {
+   "id": "ck13",
+   "text": "Aladdin 12/26 결제 · The Met 도슨트 결제 · Midnight Run 2인 결제 · 리버티 크라운 예약",
+   "checked": true
+  },
+  {
+   "id": "ck14",
+   "text": "출발 1주 전: 12/31 자정 예보 · 1/2~1/3 MTA 주말 공사(E·6선) · 12/28 보스턴 예보",
+   "checked": false
+  }
+ ],
+ "media": [],
+ "legs": [],
+ "availability": [],
+ "overnight_exceptions": [
+  {
+   "date": "2027-01-02",
+   "reason": "귀국 야간 항공 OZ223(1/3 00:30 출발) — 16:00 체크아웃 후 19:15 숙소 출발·21:15 JFK 도착",
+   "booking_id": "flight-oz223"
+  }
+ ],
+ "days": [
+  {
+   "date": "2026-12-25",
+   "title": "12/25(금) 크리스마스 도착",
+   "subtitle": "[92·93차] 실예약 도착 09:00(T1) · 체크인 09:00부터 가능 · 점심 Shake Shack·저녁 Dos Toros(Veselka 삭제 확정) · 검산 765분(09:00~21:45)",
+   "region": "이스트빌리지 · 미드타운",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "도착·시차 적응·5번가 야경",
+    "transit": "AirTrain + E선 + 6호선 (택시 없음)",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "시차 피로가 가장 큰 날 — 낮잠 우선, 쇼핑은 선택."
+   },
+   "important_notes": [
+    "도착은 실예약 09:00(T1) — 체크인은 09:00부터 가능(호스트 확인).",
+    "낮 매장(슈프림·스투시)은 12/25 휴무 가능성이 높음 — 닫혀 있으면 차이나타운 산책으로 대체.",
+    "Astor Pl은 엘리베이터가 없음(계단 1개 층). 부담이면 14 St–Union Sq 하차."
+   ],
+   "activities": [
+    {
+     "id": "d1-01",
+     "title": "JFK 도착",
+     "description": "JFK 도착 — 입국심사(MPC 앱 전용 레인)·수하물 60분. 실예약 OZ222 ICN T2 08:40 → JFK T1 09:00",
+     "time_label": "09:00~10:00",
+     "start_at": "2026-12-25T09:00:00-05:00",
+     "end_at": "2026-12-25T10:00:00-05:00",
+     "place_id": null,
+     "booking_id": "flight-oz222",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "plane",
+     "note": "❓ e-ticket 편명·기종(B777) 대조",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    {
+     "id": "d1-02",
+     "title": "JFK → 숙소 대중교통",
+     "description": "JFK → 숙소 대중교통 — AirTrain → Jamaica → E선 → Lex/53 St 환승 6호선 → Astor Pl → 도보 10분 (120분, 2인 $23.30)",
+     "time_label": "10:00~12:00",
+     "start_at": "2026-12-25T10:00:00-05:00",
+     "end_at": "2026-12-25T12:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": "Astor Pl 계단(엘리베이터 없음)",
+     "source_ids": []
+    },
+    {
+     "id": "d1-03",
+     "title": "숙소 도착·체크인·짐 정리·샤워 — 체크인 09:0",
+     "description": "숙소 도착·체크인·짐 정리·샤워 — 체크인 09:00부터 가능(호스트 확인)이라 짐 보관 문제 없음",
+     "time_label": "12:00~12:30",
+     "start_at": "2026-12-25T12:00:00-05:00",
+     "end_at": "2026-12-25T12:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d1-04",
+     "title": "Shake Shack(Astor Place)",
+     "description": "[캐주얼] Shake Shack(Astor Place) 점심 (45분)",
+     "time_label": "12:30~13:15",
+     "start_at": "2026-12-25T12:30:00-05:00",
+     "end_at": "2026-12-25T13:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "92차 사용자 편집",
+     "source_ids": []
+    },
+    {
+     "id": "d1-05",
+     "title": "슈프림·스투시·차이나타운 선택 + 시차 적응 겸 낮잠·카페",
+     "description": "슈프림·스투시·차이나타운 선택 + 시차 적응 겸 낮잠·카페 (210분). 낮잠이 우선, 쇼핑은 선택 — 12/25는 매장 휴무 가능성 높음(닫혀 있으면 차이나타운 산책·카페, 쇼핑은 1/2 이월)",
+     "time_label": "13:15~16:45",
+     "start_at": "2026-12-25T13:15:00-05:00",
+     "end_at": "2026-12-25T16:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": "92차 사용자 편집",
+     "source_ids": []
+    },
+    {
+     "id": "d1-06",
+     "title": "Exit9 Gift Emporium",
+     "description": "Exit9 Gift Emporium (51 Ave A, 소품·피규어 편집숍)",
+     "time_label": "16:45~17:05",
+     "start_at": "2026-12-25T16:45:00-05:00",
+     "end_at": "2026-12-25T17:05:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d1-07",
+     "title": "A-1 Records",
+     "description": "A-1 Records (439 E 6th St, 재즈 LP 디깅 — 크리스마스 휴무면 산책 지속, 손실 0)",
+     "time_label": "17:05~17:25",
+     "start_at": "2026-12-25T17:05:00-05:00",
+     "end_at": "2026-12-25T17:25:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d1-08",
+     "title": "Tompkins Square Park → St. M",
+     "description": "Tompkins Square Park → St. Marks Place 산책 (30분)",
+     "time_label": "17:25~17:55",
+     "start_at": "2026-12-25T17:25:00-05:00",
+     "end_at": "2026-12-25T17:55:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d1-09",
+     "title": "숙소권 → 미드타운(세인트패트릭 성당 인근) — 6",
+     "description": "숙소권 → 미드타운(세인트패트릭 성당 인근) — 6호선 Astor Pl → 51st St (35분)",
+     "time_label": "17:55~18:30",
+     "start_at": "2026-12-25T17:55:00-05:00",
+     "end_at": "2026-12-25T18:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d1-10",
+     "title": "Dos Toros",
+     "description": "[캐주얼] Dos Toros 저녁 (세인트패트릭 근처 지점, 45분) — 옛 [유명] Veselka는 삭제 확정",
+     "time_label": "18:30~19:15",
+     "start_at": "2026-12-25T18:30:00-05:00",
+     "end_at": "2026-12-25T19:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "93차 · Veselka 삭제 확정",
+     "source_ids": []
+    },
+    {
+     "id": "d1-11",
+     "title": "5번가 쇼윈도(Saks·Bergdorf) → 세인트패트릭 성당(외관만) → 록펠러 트리·프로메나드",
+     "description": "5번가 쇼윈도(Saks·Bergdorf) → 세인트패트릭 성당(외관만) → 록펠러 트리·프로메나드 — 일몰 이후라 점등이 실제로 보임 (90분)",
+     "time_label": "19:15~20:45",
+     "start_at": "2026-12-25T19:15:00-05:00",
+     "end_at": "2026-12-25T20:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": "붐비면 5번가만, 록펠러는 12/26 낮에 회수",
+     "source_ids": []
+    },
+    {
+     "id": "d1-12",
+     "title": "미드타운 → 숙소 (6호선 51st St → Ast",
+     "description": "미드타운 → 숙소 (6호선 51st St → Astor Pl, 30분) → 정리·취침 (21:45)",
+     "time_label": "20:45~21:45",
+     "start_at": "2026-12-25T20:45:00-05:00",
+     "end_at": "2026-12-25T21:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "시차 피로가 가장 큰 날 — 낮잠 우선, 쇼핑은 선택.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 포기 순서(시차 피로 + 짐 든 환승 2회·계단): 록펠러 트리·프로메나드 → 성당 → Exit9 → A-1 → 산책. Dos Toros와 조기 취침은 지킵니다. 12/25는 지하철 일요일 감축 배차(환승 대기 +5~10분). 5번가 3곳은 야외·무료라 매장 휴무와 무관. OMNY는 Jamaica 첫 태그부터.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "포기 순서",
+    "fallback": "록펠러 트리 → 성당 → Exit9 → A-1 → 산책 순으로 줄이고 Dos Toros와 조기 취침은 지킵니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "실내 대체",
+     "description": "비가 오면 5번가 쇼윈도를 생략하고 숙소권 카페에서 쉽니다.",
+     "effect": "5번가 블록 생략, 손실 0원.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "포기 순서",
+     "description": "록펠러 트리 → 성당 → Exit9 → A-1 → 산책 순으로 줄이고 Dos Toros와 조기 취침은 지킵니다.",
+     "effect": "저녁 외출을 5번가만으로 축소.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "입국 지연",
+     "description": "입국이 늦으면 낮 자유시간(210분)에서 흡수합니다.",
+     "effect": "낮 자유시간 축소.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-12-26",
+   "title": "12/26(토) 미드타운 홀리데이 · 브로드웨이 「Aladdin」",
+   "subtitle": "[91~93차] MoMA 무료(현대카드 수령) · The Modern 점심 · 알라딘 앞자리 결제 완료 · 검산 830분(08:45~22:35) · 저녁 여유 0분",
+   "region": "미드타운",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "MoMA · The Modern · 록펠러 · Top of the Rock · Keens · 알라딘",
+    "transit": "도보 + 6호선 + N/R/W",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "고정점 둘(ToR 16:00, 알라딘 19:30) 사이를 순여유 20분으로 버티는 날."
+   },
+   "important_notes": [
+    "저녁 여유 0분 — 지연은 오후 창 순여유 20분에서 흡수.",
+    "Top of the Rock 16:00 지정입장과 알라딘 19:30 커튼은 양보하지 않습니다.",
+    "The Modern은 Resy 28일 전 정오(EST) 오픈 = 11/28."
+   ],
+   "activities": [
+    {
+     "id": "d2-01",
+     "title": "숙소 인근 베이글 브런치 (Tompkin",
+     "description": "[캐주얼] 숙소 인근 베이글 브런치 (Tompkins Square Bagels 등)",
+     "time_label": "08:45~09:30",
+     "start_at": "2026-12-26T08:45:00-05:00",
+     "end_at": "2026-12-26T09:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-02",
+     "title": "숙소 정비 → MoMA 이동 (6호선 Astor P",
+     "description": "숙소 정비 → MoMA 이동 (6호선 Astor Pl → 51st St, 약 30분)",
+     "time_label": "09:30~10:30",
+     "start_at": "2026-12-26T09:30:00-05:00",
+     "end_at": "2026-12-26T10:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-03",
+     "title": "MoMA 관람 + MoMA Design Store",
+     "description": "MoMA 관람 + MoMA Design Store (120분) — 현대카드 실물 수령 완료 → 본인+동반 2인 무료(0원), 로비 Member Desk에서 카드+영문 신분증 제시. 한국어: Bloomberg Connects 무료 오디오가이드",
+     "time_label": "10:30~12:30",
+     "start_at": "2026-12-26T10:30:00-05:00",
+     "end_at": "2026-12-26T12:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "✅ 92차 현대카드 수령",
+     "source_ids": []
+    },
+    {
+     "id": "d2-04",
+     "title": "The Modern 점심",
+     "description": "[유명급] The Modern 점심 (9 W 53rd St, MoMA 조각공원 옆·미슐랭 1스타) — Bar Room 아라카르트 기준 90분. Resy 28일 전 정오(EST) 오픈 = 11/28, 2인 300,000원 배정(추정·실가 미확인)",
+     "time_label": "12:30~14:00",
+     "start_at": "2026-12-26T12:30:00-05:00",
+     "end_at": "2026-12-26T14:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "❓ 예약 필요(11/28) · 91차 신설",
+     "source_ids": []
+    },
+    {
+     "id": "d2-05",
+     "title": "The LEGO Store",
+     "description": "이동 10분 → The LEGO Store (620 5th Ave, 레고 21046 목표, 20분)",
+     "time_label": "14:00~14:30",
+     "start_at": "2026-12-26T14:00:00-05:00",
+     "end_at": "2026-12-26T14:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-06",
+     "title": "Nintendo New York",
+     "description": "록펠러 구내 이동 10분 → Nintendo New York (2층 포켓몬, 대기 포함 30분)",
+     "time_label": "14:30~15:10",
+     "start_at": "2026-12-26T14:30:00-05:00",
+     "end_at": "2026-12-26T15:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-07",
+     "title": "FAO Schwarz",
+     "description": "FAO Schwarz (30 Rockefeller Plaza, 매장 단독 Funko·Jellycat, 15분)",
+     "time_label": "15:10~15:25",
+     "start_at": "2026-12-26T15:10:00-05:00",
+     "end_at": "2026-12-26T15:25:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-08",
+     "title": "오후 창 순여유 20분",
+     "description": "오후 창 순여유 20분 — 록펠러 보행 통제·횡단 지연 흡수. 이 20분이 저녁 전체의 유일한 완충",
+     "time_label": "15:25~15:45",
+     "start_at": "2026-12-26T15:25:00-05:00",
+     "end_at": "2026-12-26T15:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-09",
+     "title": "Top of the Rock 입장 대기·보안·엘리베이터",
+     "description": "Top of the Rock 입장 대기·보안·엘리베이터 (FAO와 같은 건물, 입구 W 50th St, 15분)",
+     "time_label": "15:45~16:00",
+     "start_at": "2026-12-26T15:45:00-05:00",
+     "end_at": "2026-12-26T16:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-10",
+     "title": "Top of the Rock 전망대",
+     "description": "Top of the Rock 전망대 (67·69·70층, 일몰 약 16:33~야경, 2인 약 150,000원, 80분). 70층은 유리펜스 없는 완전 개방형 옥외 — 방풍 셸·장갑 챙길 것",
+     "time_label": "16:00~17:20",
+     "start_at": "2026-12-26T16:00:00-05:00",
+     "end_at": "2026-12-26T17:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 지정입장 고정",
+     "source_ids": []
+    },
+    {
+     "id": "d2-11",
+     "title": "ToR → 그랜드 센트럴 도보 10분 (실측 10~",
+     "description": "ToR → 그랜드 센트럴 도보 10분 (실측 10~12분 — 17:25까지 미도착이면 그랜드 센트럴 스킵·Keens 직행)",
+     "time_label": "17:20~17:30",
+     "start_at": "2026-12-26T17:20:00-05:00",
+     "end_at": "2026-12-26T17:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "⚠ 하단값",
+     "source_ids": []
+    },
+    {
+     "id": "d2-12",
+     "title": "그랜드 센트럴 터미널",
+     "description": "그랜드 센트럴 터미널 — 중앙홀·천장 별자리·속삭이는 회랑 (15분, 무료, 붐비면 접기)",
+     "time_label": "17:30~17:45",
+     "start_at": "2026-12-26T17:30:00-05:00",
+     "end_at": "2026-12-26T17:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-13",
+     "title": "Keens",
+     "description": "그랜드 센트럴 → Keens (도보 10분, 실측 12~14분)",
+     "time_label": "17:45~17:55",
+     "start_at": "2026-12-26T17:45:00-05:00",
+     "end_at": "2026-12-26T17:55:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "⚠ 착석 18:00으로 밀려도 19:10 퇴점 사수",
+     "source_ids": []
+    },
+    {
+     "id": "d2-14",
+     "title": "Keens Steakhouse",
+     "description": "[유명] Keens Steakhouse (72 W 36th St, 머튼찹) — 프리시어터 75분. 예약 시 \"pre-theater seating\"·\"19:10 퇴점\" 명시",
+     "time_label": "17:55~19:10",
+     "start_at": "2026-12-26T17:55:00-05:00",
+     "end_at": "2026-12-26T19:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "🔒 예약 고정(Resy 11/26)",
+     "source_ids": []
+    },
+    {
+     "id": "d2-15",
+     "title": "Keens → 브라이언트 파크 윈터 빌리지 도보 통",
+     "description": "Keens → 브라이언트 파크 윈터 빌리지 도보 통과 10분 → NYPL 사자상 → New Amsterdam Theatre",
+     "time_label": "19:10~19:30",
+     "start_at": "2026-12-26T19:10:00-05:00",
+     "end_at": "2026-12-26T19:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "셋 다 42가 한 줄",
+     "source_ids": []
+    },
+    {
+     "id": "d2-16",
+     "title": "「Disney's Aladdin」",
+     "description": "「Disney's Aladdin」 (New Amsterdam Theatre, 214 W 42nd St) — 앞자리 A열 103·104, $543 = 728,418원 결제 완료 (Ticketmaster). 러닝타임 2h30m + 인터미션 15분",
+     "time_label": "19:30~22:00",
+     "start_at": "2026-12-26T19:30:00-05:00",
+     "end_at": "2026-12-26T22:00:00-05:00",
+     "place_id": null,
+     "booking_id": "act-aladdin",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "✅ 결제 완료 · 🔒 19:30 커튼",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    {
+     "id": "d2-17",
+     "title": "극장 → 숙소 (도보 2분 + N/R/W Times",
+     "description": "극장 → 숙소 (도보 2분 + N/R/W Times Sq–42 St → 8 St–NYU 약 12분 + 도보 11분, 택시 없음)",
+     "time_label": "22:00~22:35",
+     "start_at": "2026-12-26T22:00:00-05:00",
+     "end_at": "2026-12-26T22:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "고정점 둘(ToR 16:00, 알라딘 19:30) 사이를 순여유 20분으로 버티는 날.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 이 날 고정점은 둘 — Top of the Rock 16:00 · 알라딘 19:30. 저녁 여유 0분. 지연은 순여유 20분에서 흡수하고, 그래도 밀리면 그랜드 센트럴 15분을 접어 Keens 직행. 잘라내는 순서: LEGO 20 → FAO 15 → 윈터 빌리지 통과 10→5 → 그랜드 센트럴 15. Keens 실패 시 18:05까지 착석 없으면 Wolfgang's 타임스퀘어점으로 전환.",
+      "source_ids": [
+       "S01"
+      ]
+     },
+     {
+      "heading": "실행 메모",
+      "body": "✅ 오후 창 12:30~16:00 = 210분 = The Modern 90 + 이동 10 + LEGO 20 + 이동 10 + Nintendo 30 + FAO 15 + 순여유 20 + ToR 대기 15 (91차에 Rough Trade·커피 브레이크 삭제로 재배열, 합 불변).",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "잘라내는 순서",
+    "fallback": "LEGO 20 → FAO 15 → 윈터 빌리지 통과 10→5 → 그랜드 센트럴 15분 순."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "강풍·한파",
+     "description": "ToR 70층은 완전 개방형 옥외입니다. 67·69층은 유리로 막혀 있어 내려와 피할 수 있습니다.",
+     "effect": "관람 시간 단축.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "잘라내는 순서",
+     "description": "LEGO 20 → FAO 15 → 윈터 빌리지 통과 10→5 → 그랜드 센트럴 15분 순.",
+     "effect": "예약 고정 항목 유지.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "Keens 지연",
+     "description": "18:05까지 착석 안내가 없으면 Wolfgang's 타임스퀘어점으로 전환합니다.",
+     "effect": "알라딘 19:30 사수.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-12-27",
+   "title": "12/27(일) 로어맨해튼 → 브루클린 브리지 → DUMBO → 윌리엄스버그",
+   "subtitle": "[86차] NMAI 35분 편입(무료·무예약 — 지연 시 1순위 컷) · 도보 최대일 · 검산 655분",
+   "region": "로어맨해튼 · 브루클린",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "9/11 → 로어맨해튼 도보 → NMAI → 브루클린 브리지 → DUMBO → Peter Luger",
+    "transit": "6호선 + 도보 + F · J/M",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "도보량이 가장 많은 날 — NMAI가 1순위 컷."
+   },
+   "important_notes": [
+    "9/11 타임드 티켓 사전 예매 필수(늦어도 12/13).",
+    "Peter Luger는 카드 불가 — 현금 $325~350.",
+    "내일 06:00 기상 — 22:30 취침 목표."
+   ],
+   "activities": [
+    {
+     "id": "d3-01",
+     "title": "숙소 인근 베이글·샌드위치 브런치",
+     "description": "[캐주얼] 숙소 인근 베이글·샌드위치 브런치",
+     "time_label": "09:30~10:20",
+     "start_at": "2026-12-27T09:30:00-05:00",
+     "end_at": "2026-12-27T10:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-02",
+     "title": "숙소 → 9/11 메모리얼 (6호선 Astor Pl",
+     "description": "숙소 → 9/11 메모리얼 (6호선 Astor Pl → Brooklyn Bridge–City Hall, 약 28분)",
+     "time_label": "10:30~11:00",
+     "start_at": "2026-12-27T10:30:00-05:00",
+     "end_at": "2026-12-27T11:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-03",
+     "title": "9/11 메모리얼 & 뮤지엄",
+     "description": "9/11 메모리얼 & 뮤지엄 (135분) — 타임드 티켓 사전 예매 필수(911memorial.org, 12/27 11:00 슬롯, 늦어도 12/13). 야외 풀은 무료·무예약",
+     "time_label": "11:00~13:15",
+     "start_at": "2026-12-27T11:00:00-05:00",
+     "end_at": "2026-12-27T13:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 예매 필요",
+     "source_ids": []
+    },
+    {
+     "id": "d3-04",
+     "title": "두려움 없는 소녀상",
+     "description": "로어맨해튼 도보 — 오큘러스·트리니티·두려움 없는 소녀상·월스트리트·황소상·Stone St (45분)",
+     "time_label": "13:15~14:00",
+     "start_at": "2026-12-27T13:15:00-05:00",
+     "end_at": "2026-12-27T14:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-05",
+     "title": "국립 아메리칸 인디언 박물관(NMAI)",
+     "description": "국립 아메리칸 인디언 박물관(NMAI) (1 Bowling Green) — 완전 무료·무예약, 황소상 바로 맞은편. 로툰다+Infinity of Nations 35분",
+     "time_label": "14:00~14:35",
+     "start_at": "2026-12-27T14:00:00-05:00",
+     "end_at": "2026-12-27T14:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "86차 신설 · ⚠ 지연 시 1순위 컷",
+     "source_ids": []
+    },
+    {
+     "id": "d3-06",
+     "title": "브루클린 브리지 도보 횡단",
+     "description": "볼링그린 → 브루클린 브리지 진입 15분 → 브루클린 브리지 도보 횡단 (50분)",
+     "time_label": "14:35~15:40",
+     "start_at": "2026-12-27T14:35:00-05:00",
+     "end_at": "2026-12-27T15:40:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-07",
+     "title": "브루클린 하이츠 프로메나드",
+     "description": "브루클린 하이츠 프로메나드 — 맨해튼 스카이라인 클래식 뷰 (25분, 무료)",
+     "time_label": "15:40~16:05",
+     "start_at": "2026-12-27T15:40:00-05:00",
+     "end_at": "2026-12-27T16:05:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-08",
+     "title": "DUMBO",
+     "description": "DUMBO (Washington St 포토스팟·브루클린 브리지 파크, 일몰 약 16:35, 70분)",
+     "time_label": "16:05~17:15",
+     "start_at": "2026-12-27T16:05:00-05:00",
+     "end_at": "2026-12-27T17:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-09",
+     "title": "DUMBO → 윌리엄스버그 (F선 York St →",
+     "description": "DUMBO → 윌리엄스버그 (F선 York St → J/M Marcy Ave, 약 30분)",
+     "time_label": "17:15~17:50",
+     "start_at": "2026-12-27T17:15:00-05:00",
+     "end_at": "2026-12-27T17:50:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d3-10",
+     "title": "Peter Luger Steak House",
+     "description": "[유명] Peter Luger Steak House (178 Broadway, Steak for Two) — 현금($325~350) 필수, Resy 30일 전(11/27)",
+     "time_label": "18:00~19:45",
+     "start_at": "2026-12-27T18:00:00-05:00",
+     "end_at": "2026-12-27T19:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "현금 전용",
+     "source_ids": []
+    },
+    {
+     "id": "d3-11",
+     "title": "윌리엄스버그 → 숙소 (J/M Marcy → Ess",
+     "description": "윌리엄스버그 → 숙소 (J/M Marcy → Essex, F → 2nd Ave, 약 30분)",
+     "time_label": "19:55~20:25",
+     "start_at": "2026-12-27T19:55:00-05:00",
+     "end_at": "2026-12-27T20:25:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "도보량이 가장 많은 날 — NMAI가 1순위 컷.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "ℹ️ 내일 Day 4 기상 06:00(NER 190번 07:41). 22:30 취침 목표, 저녁 워터프론트 이동은 지하철, 방한복·가방은 오늘 밤 미리. 실패 시 즉시 Grimaldi's/Juliana's 전환. 폭설·결빙 시 Chambers St(A/C) → High St 지하철 대체.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "컷 순서",
+    "fallback": "NMAI 35분 → 로어맨해튼 도보 → 프로메나드 → DUMBO 순으로 줄입니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "폭설·결빙",
+     "description": "Chambers St(A/C) → High St 지하철로 DUMBO 직행(약 8분).",
+     "effect": "브리지 도보 생략.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "컷 순서",
+     "description": "NMAI 35분 → 로어맨해튼 도보 → 프로메나드 → DUMBO 순으로 줄입니다.",
+     "effect": "Peter Luger 18:00 사수.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "예약 실패",
+     "description": "대기 60분 초과 시 Grimaldi's/Juliana's로 즉시 전환.",
+     "effect": "저녁 식사 확정.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-12-28",
+   "title": "12/28(월) 보스턴 — 자기주도 프리덤 트레일 + 하버드(사진 15분) + Stereo Jack's",
+   "subtitle": "NER 왕복 · 기상 06:00 · 체류 약 5시간 · 순여유 25~30분 · 검산 995분(06:00~22:35)",
+   "region": "보스턴",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "NER 왕복 · 프리덤 트레일 · 하버드 사진 · Stereo Jack's",
+    "transit": "Amtrak NER + MBTA",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "NYP 07:41 출발 하나만 고정 — 보스턴 안에는 고정 예약이 없습니다."
+   },
+   "important_notes": [
+    "가는 편 NER 190번 07:41(Coach $45) — 놓치면 08:45(170번).",
+    "오는 편은 16:50 이후 첫 NER로 amtrak.com 실조회 필요(편성 미확정).",
+    "강설 특보 시 당일치기 포기하고 뉴욕에서 쉬기."
+   ],
+   "activities": [
+    {
+     "id": "d4-01",
+     "title": "기상·세면·방한 준비",
+     "description": "기상·세면·방한 준비 — 수면 약 7시간 (전날 귀가 20:25 → 취침 22:30 목표)",
+     "time_label": "06:00~06:40",
+     "start_at": "2026-12-28T06:00:00-05:00",
+     "end_at": "2026-12-28T06:40:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-02",
+     "title": "숙소 출발 — 지하철",
+     "description": "숙소 출발 — 지하철 (1st Ave L → 14 St–8 Av → A/C/E → 34 St–Penn, 택시 없음)",
+     "time_label": "06:40~07:20",
+     "start_at": "2026-12-28T06:40:00-05:00",
+     "end_at": "2026-12-28T07:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-03",
+     "title": "Penn Station 도착 · 게이트 확인 · 승",
+     "description": "Penn Station 도착 · 게이트 확인 · 승강장 이동 (버퍼 21분)",
+     "time_label": "07:20~07:41",
+     "start_at": "2026-12-28T07:20:00-05:00",
+     "end_at": "2026-12-28T07:41:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-04",
+     "title": "Amtrak NER 190번 → 보스턴 South Station",
+     "description": "Amtrak NER 190번 → 보스턴 South Station (4h25m, Coach $45/인)",
+     "time_label": "07:41~12:06",
+     "start_at": "2026-12-28T07:41:00-05:00",
+     "end_at": "2026-12-28T12:06:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 이 날 유일한 시각 고정",
+     "source_ids": []
+    },
+    {
+     "id": "d4-05",
+     "title": "South Station 도착·정리 → 보스턴 커먼",
+     "description": "South Station 도착·정리 → 보스턴 커먼 비지터 센터 도보 약 13분",
+     "time_label": "12:06~12:30",
+     "start_at": "2026-12-28T12:06:00-05:00",
+     "end_at": "2026-12-28T12:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-06",
+     "title": "자기주도 프리덤 트레일 — 남부 압축 60분",
+     "description": "자기주도 프리덤 트레일 — 남부 압축 60분 (보스턴 커먼 → 주청사 → 그래너리 묘지 → 킹스 채플 → Old State House → 파뇌일 홀, 무료)",
+     "time_label": "12:30~13:30",
+     "start_at": "2026-12-28T12:30:00-05:00",
+     "end_at": "2026-12-28T13:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-07",
+     "title": "퀸시 마켓 점심",
+     "description": "[캐주얼] 퀸시 마켓 점심 (압축, 식비 버퍼 약 60,000원)",
+     "time_label": "13:30~14:00",
+     "start_at": "2026-12-28T13:30:00-05:00",
+     "end_at": "2026-12-28T14:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-08",
+     "title": "파뇌일 홀 → Downtown Crossing → ",
+     "description": "파뇌일 홀 → Downtown Crossing → 레드라인 하버드역 (약 30분, $2.40/인)",
+     "time_label": "14:00~14:30",
+     "start_at": "2026-12-28T14:00:00-05:00",
+     "end_at": "2026-12-28T14:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-09",
+     "title": "하버드 스퀘어 — 사진만 15분",
+     "description": "하버드 스퀘어 — 사진만 15분 (Johnston Gate·존 하버드 동상·The Coop 통과)",
+     "time_label": "14:30~14:45",
+     "start_at": "2026-12-28T14:30:00-05:00",
+     "end_at": "2026-12-28T14:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "⚠ 지연 시 첫 번째 컷",
+     "source_ids": []
+    },
+    {
+     "id": "d4-10",
+     "title": "하버드역 → Davis → 89번 버스 → Ball",
+     "description": "하버드역 → Davis → 89번 버스 → Ball Square (25분)",
+     "time_label": "14:45~15:10",
+     "start_at": "2026-12-28T14:45:00-05:00",
+     "end_at": "2026-12-28T15:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-11",
+     "title": "Stereo Jack's Records",
+     "description": "Stereo Jack's Records (736 Broadway, Somerville — 재즈/블루스 LP 55분, 이 날 최우선 보호 칸)",
+     "time_label": "15:10~16:05",
+     "start_at": "2026-12-28T15:10:00-05:00",
+     "end_at": "2026-12-28T16:05:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-12",
+     "title": "Stereo Jack's → South Statio",
+     "description": "Stereo Jack's → South Station (45분 배정)",
+     "time_label": "16:05~16:50",
+     "start_at": "2026-12-28T16:05:00-05:00",
+     "end_at": "2026-12-28T16:50:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-13",
+     "title": "South Station 탑승 절차 10분 + 순여",
+     "description": "South Station 탑승 절차 10분 + 순여유 15분",
+     "time_label": "16:50~17:15",
+     "start_at": "2026-12-28T16:50:00-05:00",
+     "end_at": "2026-12-28T17:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-14",
+     "title": "16:50 이후 첫 Northeast Regional",
+     "description": "16:50 이후 첫 Northeast Regional → 뉴욕 Penn Station (약 4h20m, Coach)",
+     "time_label": "17:15~21:35",
+     "start_at": "2026-12-28T17:15:00-05:00",
+     "end_at": "2026-12-28T21:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 편성·시각 미확정 — amtrak.com 실조회",
+     "source_ids": []
+    },
+    {
+     "id": "d4-15",
+     "title": "Penn Station → 숙소 (A/C/E → L",
+     "description": "Penn Station → 숙소 (A/C/E → L, 30분) · 귀가·취침 (목표 22:30)",
+     "time_label": "21:35~22:35",
+     "start_at": "2026-12-28T21:35:00-05:00",
+     "end_at": "2026-12-28T22:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "NYP 07:41 출발 하나만 고정 — 보스턴 안에는 고정 예약이 없습니다.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 귀환편 3단 결정트리: ① 16:50 이후 첫 NER(17:00~17:15대) → NYP 약 21:35 ② 16:20~16:30대뿐이면 하버드도 컷 ③ 18:45편이면 체류 +90분(수면 영향 적음). NER 88번(18:08)은 결항 시 대체편.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "컷 순서",
+    "fallback": "하버드 사진 15분 → 파뇌일 홀 이북 → 트레일 압축. Stereo Jack's 55분은 지킵니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "폭설",
+     "description": "출발 3~5일 전 amtrak.com Service Alerts·예보 확인, 특보면 당일치기 취소.",
+     "effect": "당일치기 전체 취소.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "컷 순서",
+     "description": "하버드 사진 15분 → 파뇌일 홀 이북 → 트레일 압축. Stereo Jack's 55분은 지킵니다.",
+     "effect": "재즈 LP 디깅 보호.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "열차 지연",
+     "description": "귀환편이 16:20~16:30대면 하버드도 컷, 18:45편이면 체류 +90분.",
+     "effect": "3단 결정트리.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-12-29",
+   "title": "12/29(화) 웨스트사이드 · Birdland · 자정 Midnight Moment",
+   "subtitle": "[92·93차] Vessel 14:10 → 허드슨야드 식사 → Edge 16:30 일몰 슬롯(90분) → RUN CENTER 배번 2인 → Birdland 19:00 · ⚠ 18:00 이후 연쇄 여유 0분 · 검산 875분",
+   "region": "첼시 · 허드슨야드 · 타임스퀘어",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "Roastery → Los Tacos → Little Island → 하이라인 → Vessel → Edge → RUN CENTER → Birdland → Midnight Moment",
+    "transit": "도보 + 지하철",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "18:00 이후 연쇄(Edge → RUN CENTER → Birdland 19:00)가 여유 0분인 날."
+   },
+   "important_notes": [
+    "Edge 18:00 퇴장 → RUN CENTER 18:25 → 배번 15분 → Birdland 19:00, 여유 0분.",
+    "Edge 예매 시 16:15 슬롯이 있으면 우선.",
+    "NYRR에 12/29 배번 배부 여부·마감 시각 확인(부부 2인 수령).",
+    "Birdland는 TicketWeb 환불 불가."
+   ],
+   "activities": [
+    {
+     "id": "d5-01",
+     "title": "기상·세면·짐 정리 (숙소 여유 30분)",
+     "description": "기상·세면·짐 정리 (숙소 여유 30분)",
+     "time_label": "10:00~10:30",
+     "start_at": "2026-12-29T10:00:00-05:00",
+     "end_at": "2026-12-29T10:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-02",
+     "title": "숙소 → 첼시 마켓 일대 (지하철+도보)",
+     "description": "숙소 → 첼시 마켓 일대 (지하철+도보)",
+     "time_label": "10:30~10:55",
+     "start_at": "2026-12-29T10:30:00-05:00",
+     "end_at": "2026-12-29T10:55:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-03",
+     "title": "Starbucks Reserve Roastery",
+     "description": "Starbucks Reserve Roastery (61 9th Ave, 25분, 무료입장)",
+     "time_label": "10:55~11:20",
+     "start_at": "2026-12-29T10:55:00-05:00",
+     "end_at": "2026-12-29T11:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-04",
+     "title": "첼시 마켓 이동·순버퍼 (10분)",
+     "description": "첼시 마켓 이동·순버퍼 (10분)",
+     "time_label": "11:20~11:30",
+     "start_at": "2026-12-29T11:20:00-05:00",
+     "end_at": "2026-12-29T11:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-05",
+     "title": "Los Tacos No.1",
+     "description": "[유명] Los Tacos No.1 (첼시 마켓 내, 스탠딩, 75분)",
+     "time_label": "11:30~12:45",
+     "start_at": "2026-12-29T11:30:00-05:00",
+     "end_at": "2026-12-29T12:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-06",
+     "title": "Little Island",
+     "description": "Little Island (Pier 55, 무료, 06:00~21:00)",
+     "time_label": "13:00~13:12",
+     "start_at": "2026-12-29T13:00:00-05:00",
+     "end_at": "2026-12-29T13:12:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-07",
+     "title": "하이라인 북행 산책 (58분, 상한 65분)",
+     "description": "하이라인 북행 산책 (58분, 상한 65분)",
+     "time_label": "13:12~14:10",
+     "start_at": "2026-12-29T13:12:00-05:00",
+     "end_at": "2026-12-29T14:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-08",
+     "title": "The Vessel",
+     "description": "The Vessel (20 Hudson Yards, 타임드 $14/인·Klook $11.50 안팎, 40분) — Edge보다 먼저",
+     "time_label": "14:10~14:50",
+     "start_at": "2026-12-29T14:10:00-05:00",
+     "end_at": "2026-12-29T14:50:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "92차 사용자 편집",
+     "source_ids": []
+    },
+    {
+     "id": "d5-09",
+     "title": "허드슨야드 식사",
+     "description": "[캐주얼] 허드슨야드 식사 (55분) — 이후 Birdland까지 정식 끼니 없음, 든든하게",
+     "time_label": "14:50~15:45",
+     "start_at": "2026-12-29T14:50:00-05:00",
+     "end_at": "2026-12-29T15:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "92차 사용자 편집",
+     "source_ids": []
+    },
+    {
+     "id": "d5-10",
+     "title": "허드슨야드 순여유 45분 — Edge 보안·입장 대",
+     "description": "허드슨야드 순여유 45분 — Edge 보안·입장 대비, The Shops 구경",
+     "time_label": "15:45~16:30",
+     "start_at": "2026-12-29T15:45:00-05:00",
+     "end_at": "2026-12-29T16:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-11",
+     "title": "Edge at Hudson Yards 전망대",
+     "description": "Edge at Hudson Yards 전망대 (지정입장, 일몰 약 16:38~블루아워~야경, 관람 90분) — 예매 시 16:15 슬롯이 있으면 우선",
+     "time_label": "16:30~18:00",
+     "start_at": "2026-12-29T16:30:00-05:00",
+     "end_at": "2026-12-29T18:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 지정입장 · 93차 90분 복원",
+     "source_ids": []
+    },
+    {
+     "id": "d5-12",
+     "title": "NYRR RUN CENTER",
+     "description": "Edge → NYRR RUN CENTER (320 W 57th St, A/C/E 34 St → 42 St + 도보 또는 도보 약 20분)",
+     "time_label": "18:00~18:25",
+     "start_at": "2026-12-29T18:00:00-05:00",
+     "end_at": "2026-12-29T18:25:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d5-13",
+     "title": "⚠ 부부 2인 Midnight Run 배번 수령",
+     "description": "⚠ 부부 2인 Midnight Run 배번 수령 (15분) — 아내도 러너(206,000원 결제), 각자 배번·신분증. 공원 현장 수령 불가",
+     "time_label": "18:25~18:40",
+     "start_at": "2026-12-29T18:25:00-05:00",
+     "end_at": "2026-12-29T18:40:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 12/29 배부·마감 시각 NYRR 확인(P1) · 93차",
+     "source_ids": []
+    },
+    {
+     "id": "d5-14",
+     "title": "Birdland",
+     "description": "RUN CENTER → Birdland 직행 (44가 도보 13블록 20분, 여유 0분). 타임스퀘어 통과는 삭제",
+     "time_label": "18:40~19:00",
+     "start_at": "2026-12-29T18:40:00-05:00",
+     "end_at": "2026-12-29T19:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": "⚠ 여유 0분",
+     "source_ids": []
+    },
+    {
+     "id": "d5-15",
+     "title": "Birdland Jazz Club",
+     "description": "Birdland Jazz Club (315 W 44th St) — TicketWeb 사전 티켓 필수·환불 불가, $20/인 F&B 미니멈",
+     "time_label": "19:00~21:45",
+     "start_at": "2026-12-29T19:00:00-05:00",
+     "end_at": "2026-12-29T21:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 확정 공연",
+     "source_ids": []
+    },
+    {
+     "id": "d5-16",
+     "title": "타임스퀘어 일대",
+     "description": "타임스퀘어 일대 — 심야 상점·Junior's 디저트·전광판 (컨디션 나쁘면 생략·22:00 귀가)",
+     "time_label": "21:45~23:57",
+     "start_at": "2026-12-29T21:45:00-05:00",
+     "end_at": "2026-12-29T23:57:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": "78차",
+     "source_ids": []
+    },
+    {
+     "id": "d5-17",
+     "title": "Midnight Moment",
+     "description": "Midnight Moment — 타임스퀘어 전광판 92개 일제 전환 (3분)",
+     "time_label": "23:57~00:00",
+     "start_at": "2026-12-29T23:57:00-05:00",
+     "end_at": "2026-12-30T00:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 23:57 고정점",
+     "source_ids": []
+    },
+    {
+     "id": "d5-18",
+     "title": "숙소 귀가 (N/R/W Times Sq–42 St ",
+     "description": "숙소 귀가 (N/R/W Times Sq–42 St → 8 St–NYU + 도보 11분)",
+     "time_label": "00:00~00:35",
+     "start_at": null,
+     "end_at": null,
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "18:00 이후 연쇄(Edge → RUN CENTER → Birdland 19:00)가 여유 0분인 날.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 18:00 이후 연쇄가 이 날의 최대 위험입니다. Edge 18:00 퇴장 → RUN CENTER 18:25 → 배번 15분 → Birdland 19:00 입장, 여유 0분(Birdland는 환불 불가). 흡수 순서: ① Edge를 16:15 슬롯으로 예매 ② 허드슨야드 순여유 45분을 줄여 Edge를 앞당겨 입장 ③ 그래도 밀리면 RUN CENTER를 포기하고 12/30 오전으로 이월(Birdland 19:00 사수).",
+      "source_ids": [
+       "S01"
+      ]
+     },
+     {
+      "heading": "실행 메모",
+      "body": "⚠ NYRR에 「Midnight Run 배번을 12/29(레이스 2일 전)부터 RUN CENTER에서 배부하는가」와 그날 마감 시각을 출발 전 확인. 3~4일 전부터만이면 12/30 오전(10:15~10:50 커피 칸)을 RUN CENTER 방문으로 전환.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "컨디션",
+    "fallback": "21:45~23:57 타임스퀘어 심야 블록은 통째로 생략하고 22:00 귀가할 수 있습니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "한파",
+     "description": "하이라인·Little Island는 바람이 강하면 생략하고 첼시 마켓 실내에서 쉽니다.",
+     "effect": "옥외 구간 축소.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "컨디션",
+     "description": "21:45~23:57 타임스퀘어 심야 블록은 통째로 생략하고 22:00 귀가할 수 있습니다.",
+     "effect": "손실 0.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "연쇄 지연",
+     "description": "허드슨야드 순여유 45분을 먼저 쓰고, 그래도 밀리면 RUN CENTER를 12/30 오전으로 이월합니다.",
+     "effect": "Birdland 19:00 사수.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-12-30",
+   "title": "12/30(수) 그리니치빌리지 재즈 LP → SUMMIT 전망대 → Smalls",
+   "subtitle": "[93차] 전망대 ESB → SUMMIT One Vanderbilt(봉봉 일자 항목 기준, 배정 130,000 유지) · 회복형 날 · 검산 840분",
+   "region": "그리니치빌리지 · 미드타운",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "재즈 LP → SUMMIT → Smalls",
+    "transit": "L선 + 6호선 + 도보",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "회복형 날 — SUMMIT 16:30만 고정."
+   },
+   "important_notes": [
+    "전망대는 SUMMIT One Vanderbilt(봉봉 페이지 일자 항목 기준, 배정 130,000원 유지).",
+    "86차에 12/26을 ToR로 되돌린 근거(미러룸·혼잡)를 알고 고른 것인지 사용자 확인 필요.",
+    "Smalls 라인업·환불·커버는 11월 확인."
+   ],
+   "activities": [
+    {
+     "id": "d6-01",
+     "title": "기상·숙소 커피·정비 — 수면 약 8.5시간 (전날",
+     "description": "기상·숙소 커피·정비 — 수면 약 8.5시간 (전날 00:35 귀가)",
+     "time_label": "09:30~10:15",
+     "start_at": "2026-12-30T09:30:00-05:00",
+     "end_at": "2026-12-30T10:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-02",
+     "title": "숙소 인근 커피·간단 요기 (Joe's 전이라 가볍",
+     "description": "숙소 인근 커피·간단 요기 (Joe's 전이라 가볍게)",
+     "time_label": "10:15~10:50",
+     "start_at": "2026-12-30T10:15:00-05:00",
+     "end_at": "2026-12-30T10:50:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-03",
+     "title": "숙소 → 그리니치빌리지 (L선 1 Av → 6 Av",
+     "description": "숙소 → 그리니치빌리지 (L선 1 Av → 6 Av + 도보)",
+     "time_label": "10:50~11:30",
+     "start_at": "2026-12-30T10:50:00-05:00",
+     "end_at": "2026-12-30T11:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-04",
+     "title": "그리니치·웨스트빌리지 산책 — 워싱턴 스퀘어·크리스",
+     "description": "그리니치·웨스트빌리지 산책 — 워싱턴 스퀘어·크리스토퍼 스트리트·Friends 아파트(90 Bedford)·캐리 브라운스톤(66 Perry, 길에서 촬영)",
+     "time_label": "11:30~12:35",
+     "start_at": "2026-12-30T11:30:00-05:00",
+     "end_at": "2026-12-30T12:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-05",
+     "title": "Joe's Pizza",
+     "description": "[유명] Joe's Pizza (7 Carmine St, 워크인 카운터)",
+     "time_label": "12:35~13:30",
+     "start_at": "2026-12-30T12:35:00-05:00",
+     "end_at": "2026-12-30T13:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-06",
+     "title": "Village Revival Records",
+     "description": "Village Revival Records (197 Bleecker St, 재즈 LP 1순위, 평시 12~22시)",
+     "time_label": "13:35~14:20",
+     "start_at": "2026-12-30T13:35:00-05:00",
+     "end_at": "2026-12-30T14:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-07",
+     "title": "Academy Records EV",
+     "description": "Academy Records EV (415 E 12th St, 재즈 LP 디깅 — 12/30 영업 확인)",
+     "time_label": "14:50~15:30",
+     "start_at": "2026-12-30T14:50:00-05:00",
+     "end_at": "2026-12-30T15:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-08",
+     "title": "르뱅 베이커리 Flatiron점",
+     "description": "르뱅 베이커리 Flatiron점 (2 W 18th St, 쿠키) — 밀리면 건너뛰고 SUMMIT 직행",
+     "time_label": "15:50~16:10",
+     "start_at": "2026-12-30T15:50:00-05:00",
+     "end_at": "2026-12-30T16:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-09",
+     "title": "SUMMIT One Vanderbilt",
+     "description": "르뱅 → SUMMIT One Vanderbilt (6호선 23 St → Grand Central–42 St + 도보, 약 20분)",
+     "time_label": "16:10~16:30",
+     "start_at": "2026-12-30T16:10:00-05:00",
+     "end_at": "2026-12-30T16:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": "⚠ 빠듯",
+     "source_ids": []
+    },
+    {
+     "id": "d6-10",
+     "title": "SUMMIT One Vanderbilt 전망대",
+     "description": "SUMMIT One Vanderbilt 전망대 (Vanderbilt Ave @ E 42nd St, 일몰 약 16:35~야경, 지정시간) — 평일 약 $43/인 ≈ 2인 114,000원, 배정 130,000 유지",
+     "time_label": "16:30~18:00",
+     "start_at": "2026-12-30T16:30:00-05:00",
+     "end_at": "2026-12-30T18:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 지정입장 · 93차 ESB에서 변경 · ❓ 취향 재확인(86차 근거)",
+     "source_ids": []
+    },
+    {
+     "id": "d6-11",
+     "title": "SUMMIT → 웨스트빌리지 (지하철, 실측 30분",
+     "description": "SUMMIT → 웨스트빌리지 (지하철, 실측 30분이면 저녁 시작을 5분 늦춤)",
+     "time_label": "18:00~18:25",
+     "start_at": "2026-12-30T18:00:00-05:00",
+     "end_at": "2026-12-30T18:25:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-12",
+     "title": "웨스트빌리지 이른 저녁",
+     "description": "[캐주얼] 웨스트빌리지 이른 저녁 (Smalls 도보권, 90분)",
+     "time_label": "18:25~19:55",
+     "start_at": "2026-12-30T18:25:00-05:00",
+     "end_at": "2026-12-30T19:55:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-13",
+     "title": "웨스트빌리지 골목 산책·레코드숍 아이쇼핑·커피 — ",
+     "description": "웨스트빌리지 골목 산책·레코드숍 아이쇼핑·커피 — 회복형 날의 의도적 여유",
+     "time_label": "19:55~20:45",
+     "start_at": "2026-12-30T19:55:00-05:00",
+     "end_at": "2026-12-30T20:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-14",
+     "title": "Smalls 인근 도착·대기 (도어 21:00, 공",
+     "description": "Smalls 인근 도착·대기 (도어 21:00, 공휴 기간 30분 전 도착)",
+     "time_label": "20:45~21:30",
+     "start_at": "2026-12-30T20:45:00-05:00",
+     "end_at": "2026-12-30T21:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d6-15",
+     "title": "Smalls Jazz Club",
+     "description": "Smalls Jazz Club (183 W 10th St, 지하) — 예약 $35/인 + 1드링크(비알코올 가능) ≈ 2인 135,000원. 만석 시 Mezzrow(≈120,000원)",
+     "time_label": "21:30~23:00",
+     "start_at": "2026-12-30T21:30:00-05:00",
+     "end_at": "2026-12-30T23:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 라인업·환불·커버 11월 확인",
+     "source_ids": []
+    },
+    {
+     "id": "d6-16",
+     "title": "Smalls → 숙소 (L선 6 Av → 1 Av ",
+     "description": "Smalls → 숙소 (L선 6 Av → 1 Av + 도보, 택시 없음)",
+     "time_label": "23:00~23:30",
+     "start_at": "2026-12-30T23:00:00-05:00",
+     "end_at": "2026-12-30T23:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "회복형 날 — SUMMIT 16:30만 고정.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 이 날은 회복형입니다. SUMMIT 16:30이 유일한 고정점. 지연 흡수: 빌리지 산책 65 → Academy 40 → 웨스트빌리지 산책 50분. 12/27 Peter Luger 백업이 발동하면 이 날 저녁을 쓰고 Smalls(135,000)를 포기합니다. 86차에 12/26을 ToR로 되돌린 근거(SUMMIT의 미러룸·인스타 명소·혼잡이 취향과 어긋남, Edge와 유리 전망대 중복)가 12/30 SUMMIT에도 적용되는지 한 번 확인하세요 — 아니면 ESB(130,000 배정 유지 중)로 되돌릴 수 있습니다.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "컨디션",
+    "fallback": "빌리지 산책 65 → Academy 40 → 웨스트빌리지 산책 50분 순으로 줄입니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "한파",
+     "description": "SUMMIT 실내·실외 혼합이라 추위에는 비교적 유리. 비 오면 Village Revival·Academy 체류를 늘립니다.",
+     "effect": "산책 축소.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "컨디션",
+     "description": "빌리지 산책 65 → Academy 40 → 웨스트빌리지 산책 50분 순으로 줄입니다.",
+     "effect": "Smalls 21:30 사수.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "르뱅 지연",
+     "description": "르뱅을 건너뛰고 SUMMIT으로 직행합니다.",
+     "effect": "쿠키는 1/2 회수.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2026-12-31",
+   "title": "12/31(목) 새해 전야 · The Met 한국어 도슨트 → 센트럴파크 → 자정 Midnight Run(부부)",
+   "subtitle": "[92·93차] 도슨트 10:10 집결으로 07:00 기상 — 이번 여행 최장일(19시간 25분) · 아내도 러너(2인 206,000원 결제 완료) · 검산 1,165분",
+   "region": "어퍼이스트사이드 · 센트럴파크",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "The Met 한국어 도슨트 → 센트럴파크 → 자정 Midnight Run(부부)",
+    "transit": "6호선",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "이번 여행 최장일(07:00 기상 → 02:25 귀가, 19시간 25분)."
+   },
+   "important_notes": [
+    "아내도 러너 — 부부 2인 등록(206,000원 결제 완료).",
+    "배번은 12/29 RUN CENTER에서 수령(당일은 타임스퀘어 통제구역).",
+    "완주 직후 땀 젖은 상태 — 마른 상의 여벌·바람막이·핫팩 소지.",
+    "큰 가방·백팩은 The Met 반입 불가(중앙홀 왼쪽 보관소)."
+   ],
+   "activities": [
+    {
+     "id": "d7-01",
+     "title": "기상 + 숙소에서 간단히 먹기 (도슨트 집결에 맞춰",
+     "description": "기상 + 숙소에서 간단히 먹기 (도슨트 집결에 맞춰 기상 +2.5시간)",
+     "time_label": "07:00~08:30",
+     "start_at": "2026-12-31T07:00:00-05:00",
+     "end_at": "2026-12-31T08:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": "92차 사용자 편집",
+     "source_ids": []
+    },
+    {
+     "id": "d7-02",
+     "title": "숙소 → The Met (6호선 Astor Pl →",
+     "description": "숙소 → The Met (6호선 Astor Pl → 86th St, 60분)",
+     "time_label": "08:30~09:30",
+     "start_at": "2026-12-31T08:30:00-05:00",
+     "end_at": "2026-12-31T09:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-03",
+     "title": "The Met 도착 → 9:50까지 양쪽 계단 줄 ",
+     "description": "The Met 도착 → 9:50까지 양쪽 계단 줄 → 파라오상 앞 집결. ⚠ 큰 가방·백팩 반입 불가(중앙홀 왼쪽 보관소), 캐리어는 보관소도 불가",
+     "time_label": "09:30~10:10",
+     "start_at": "2026-12-31T09:30:00-05:00",
+     "end_at": "2026-12-31T10:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "⚠ 가방",
+     "source_ids": []
+    },
+    {
+     "id": "d7-04",
+     "title": "The Met 한국어 도슨트 「조희성 소수투어」",
+     "description": "The Met 한국어 도슨트 「조희성 소수투어」 — 마이리얼트립, 토스 결제 173,966원, 입장 포함·재입장 가능, 2h30m. 유럽 회화 → 카라바조 → 드가·로댕 → 고흐 → 로스코",
+     "time_label": "10:10~12:40",
+     "start_at": "2026-12-31T10:10:00-05:00",
+     "end_at": "2026-12-31T12:40:00-05:00",
+     "place_id": null,
+     "booking_id": "act-met-docent",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "✅ 결제 완료",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    {
+     "id": "d7-05",
+     "title": "투어 종료 후 자유 관람·뮤지엄숍 (입장권 유효)",
+     "description": "투어 종료 후 자유 관람·뮤지엄숍 (입장권 유효)",
+     "time_label": "12:40~13:00",
+     "start_at": "2026-12-31T12:40:00-05:00",
+     "end_at": "2026-12-31T13:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-06",
+     "title": "센트럴파크 인근 점심 (장소 미정)",
+     "description": "[캐주얼] 센트럴파크 인근 점심 (장소 미정)",
+     "time_label": "13:00~14:00",
+     "start_at": "2026-12-31T13:00:00-05:00",
+     "end_at": "2026-12-31T14:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-07",
+     "title": "센트럴파크 구경",
+     "description": "[저강도] 센트럴파크 구경 (170분) — 컨디션 보고 접어도 손실 0. 이 날 최장일이라 접고 낮잠 권장. Naumburg Bandshell(72가) 지형 답사 겸",
+     "time_label": "14:00~16:50",
+     "start_at": "2026-12-31T14:00:00-05:00",
+     "end_at": "2026-12-31T16:50:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": "선택·접기 가능",
+     "source_ids": []
+    },
+    {
+     "id": "d7-08",
+     "title": "센트럴파크 → 숙소 (6호선, 50분)",
+     "description": "센트럴파크 → 숙소 (6호선, 50분)",
+     "time_label": "16:50~17:40",
+     "start_at": "2026-12-31T16:50:00-05:00",
+     "end_at": "2026-12-31T17:40:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-09",
+     "title": "숙소 복귀·정리 (35분)",
+     "description": "숙소 복귀·정리 (35분)",
+     "time_label": "17:40~18:15",
+     "start_at": "2026-12-31T17:40:00-05:00",
+     "end_at": "2026-12-31T18:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-10",
+     "title": "저녁 — 숙소에서 해 먹기",
+     "description": "[캐주얼→취사] 저녁 — 숙소에서 해 먹기 (75분, 레이스 약 4시간 30분 전)",
+     "time_label": "18:15~19:30",
+     "start_at": "2026-12-31T18:15:00-05:00",
+     "end_at": "2026-12-31T19:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "92차 사용자 편집",
+     "source_ids": []
+    },
+    {
+     "id": "d7-11",
+     "title": "방한 레이어링·최종 점검",
+     "description": "방한 레이어링·최종 점검 — 발열내의+다운+방풍셸, 방수부츠+발 핫팩, 손 핫팩, 보온병. 배번은 부부 각자 겉옷 위 고정",
+     "time_label": "19:30~21:00",
+     "start_at": "2026-12-31T19:30:00-05:00",
+     "end_at": "2026-12-31T21:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-12",
+     "title": "휴식·몸 데우기 (자정 레이스 + 옥외 대기 대비 ",
+     "description": "휴식·몸 데우기 (자정 레이스 + 옥외 대기 대비 최소 버퍼)",
+     "time_label": "21:00~22:30",
+     "start_at": "2026-12-31T21:00:00-05:00",
+     "end_at": "2026-12-31T22:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-13",
+     "title": "숙소 → 센트럴파크 Naumburg Bandshel",
+     "description": "숙소 → 센트럴파크 Naumburg Bandshell (6호선 → 68th St–Hunter College, 약 45분)",
+     "time_label": "22:30~23:15",
+     "start_at": "2026-12-31T22:30:00-05:00",
+     "end_at": "2026-12-31T23:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-14",
+     "title": "부부 둘 다",
+     "description": "부부 둘 다: 배번 최종 확인·집결 · 72번가 체크포인트 통과(21:00부터 개방, 배번으로 통과)",
+     "time_label": "23:15~23:45",
+     "start_at": "2026-12-31T23:15:00-05:00",
+     "end_at": "2026-12-31T23:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "93차 아내도 러너",
+     "source_ids": []
+    },
+    {
+     "id": "d7-15",
+     "title": "스타트 구역 정렬 · 카운트다운 대기 (23:59 ",
+     "description": "스타트 구역 정렬 · 카운트다운 대기 (23:59 시작)",
+     "time_label": "23:45~00:00",
+     "start_at": "2026-12-31T23:45:00-05:00",
+     "end_at": "2027-01-01T00:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-16",
+     "title": "자정 정각 — 불꽃놀이 약 20분 + 4마일(6.4km) 레이스 스타트",
+     "description": "자정 정각 — 불꽃놀이 약 20분 + 4마일(6.4km) 레이스 스타트",
+     "time_label": "00:00~00:20",
+     "start_at": null,
+     "end_at": null,
+     "place_id": null,
+     "booking_id": "act-midnight-run",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "🔒 등록 완료",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    {
+     "id": "d7-17",
+     "title": "부부 둘 다",
+     "description": "부부 둘 다: 완주·사이더·Glow Tunnel·기념 티셔츠 — 합류 지점은 출발 전에 말로 정해 둘 것. ⚠ 완주 직후 땀 젖은 상태 — 마른 상의 여벌·바람막이·핫팩 소지해 바로 갈아입기",
+     "time_label": "00:20~01:10",
+     "start_at": null,
+     "end_at": null,
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "⚠ 체온 관리",
+     "source_ids": []
+    },
+    {
+     "id": "d7-18",
+     "title": "정리·인파 해산 대기",
+     "description": "정리·인파 해산 대기",
+     "time_label": "01:10~01:40",
+     "start_at": null,
+     "end_at": null,
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d7-19",
+     "title": "센트럴파크 → 숙소 (공원 도보 + 6호선 심야 2",
+     "description": "센트럴파크 → 숙소 (공원 도보 + 6호선 심야 20~25분, 대안 없음·택시 없음)",
+     "time_label": "01:40~02:25",
+     "start_at": null,
+     "end_at": null,
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "이번 여행 최장일(07:00 기상 → 02:25 귀가, 19시간 25분).",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠⚠ [93차] 아내도 달립니다 — 옛 「아내 3시간 정적 관람 대기」 전제 폐기. 정적 노출은 스타트 대기 약 45분 + 완주 후 해산·귀가 약 70분. 땀 젖은 체온 관리가 핵심. 취소 임계선(출발 1주 전 예보): 자정 체감 -18℃ 이하·강설·강풍이면 부부 다 불참 검토. 등록비 2인 206,000원은 이미 결제(매몰). 불꽃놀이는 악천후·가뭄·화재위험으로 취소된 전례가 있어 레이스만 진행될 수 있음.",
+      "source_ids": [
+       "S01"
+      ]
+     },
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 하루 19시간 25분 + 이후 야간 옥외 — 이번 여행 최장일. 센트럴파크 14:00~16:50은 낮잠·휴식으로 비우는 것을 권장. 배번은 12/29 RUN CENTER에서 수령(당일 12/31엔 타임스퀘어 통제구역 가장자리라 불가).",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "낮 휴식",
+    "fallback": "센트럴파크 14:00~16:50은 접고 낮잠으로 비우는 것을 권장합니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "한파·강풍",
+     "description": "자정 체감 -18℃ 이하·강설·강풍이면 부부 모두 불참을 검토합니다.",
+     "effect": "레이스 불참.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "낮 휴식",
+     "description": "센트럴파크 14:00~16:50은 접고 낮잠으로 비우는 것을 권장합니다.",
+     "effect": "이후 일정 영향 없음.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "레이스 취소",
+     "description": "취소 시 22:30 이후만 비므로 이스트빌리지에서 새해를 맞습니다.",
+     "effect": "손실은 등록비 매몰.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2027-01-01",
+   "title": "1/1(금) 새해 첫날 · 업타운 + 구겐하임",
+   "subtitle": "수면 약 6~6.5시간(전날 02:25 귀가) · 검산 720분(09:30~21:30)",
+   "region": "어퍼이스트사이드 · 센트럴파크",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "구겐하임 → 센트럴파크 → 월먼 링크 → 트램 → J.G. Melon",
+    "transit": "6호선 + 도보",
+    "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
+    "purpose": "전날 자정 레이스 후 수면 6~6.5시간 — 빼도 되는 칸을 먼저 접으세요."
+   },
+   "important_notes": [
+    "월먼 링크 150,000원은 2025-26 시즌 공시 기준(2026-27 미발표).",
+    "J.G. Melon은 현금 $90 · 신정 영업 확인.",
+    "컨디션이 나쁘면 월먼 링크를 1순위로 생략."
+   ],
+   "activities": [
+    {
+     "id": "d8-01",
+     "title": "기상·커피 · 숙소 여유 (끼니 미포함)",
+     "description": "기상·커피 · 숙소 여유 (끼니 미포함)",
+     "time_label": "09:30~10:35",
+     "start_at": "2027-01-01T09:30:00-05:00",
+     "end_at": "2027-01-01T10:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-02",
+     "title": "숙소 → 구겐하임 (6호선 → 86th St + 도",
+     "description": "숙소 → 구겐하임 (6호선 → 86th St + 도보)",
+     "time_label": "10:35~11:15",
+     "start_at": "2027-01-01T10:35:00-05:00",
+     "end_at": "2027-01-01T11:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-03",
+     "title": "구겐하임 미술관 관람",
+     "description": "구겐하임 미술관 관람 (2시간, 성인 $30, 1/1/2027 10:00~18:00 개관 확인)",
+     "time_label": "11:15~13:15",
+     "start_at": "2027-01-01T11:15:00-05:00",
+     "end_at": "2027-01-01T13:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-04",
+     "title": "어퍼이스트사이드 점심",
+     "description": "[캐주얼] 어퍼이스트사이드 점심 (매디슨 애비뉴 88~92가)",
+     "time_label": "13:15~14:15",
+     "start_at": "2027-01-01T13:15:00-05:00",
+     "end_at": "2027-01-01T14:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-05",
+     "title": "구겐하임 → 90번가 Engineers' Gate ",
+     "description": "구겐하임 → 90번가 Engineers' Gate → 센트럴파크 남하 · 여유 20분",
+     "time_label": "14:15~15:00",
+     "start_at": "2027-01-01T14:15:00-05:00",
+     "end_at": "2027-01-01T15:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-06",
+     "title": "센트럴파크 남하 산책",
+     "description": "센트럴파크 남하 산책 (90분, Bethesda Terrace → The Mall → Gapstow Bridge)",
+     "time_label": "15:00~16:30",
+     "start_at": "2027-01-01T15:00:00-05:00",
+     "end_at": "2027-01-01T16:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-07",
+     "title": "월먼 링크 스케이팅",
+     "description": "월먼 링크 스케이팅 (90분, 약 150,000원 — 2025-26 시즌 공시 기준)",
+     "time_label": "16:30~18:15",
+     "start_at": "2027-01-01T16:30:00-05:00",
+     "end_at": "2027-01-01T18:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 2026-27 요금표 미발표",
+     "source_ids": []
+    },
+    {
+     "id": "d8-08",
+     "title": "루즈벨트 아일랜드 트램 왕복",
+     "description": "루즈벨트 아일랜드 트램 왕복 (1/1 정상 운행 확인)",
+     "time_label": "18:30~19:10",
+     "start_at": "2027-01-01T18:30:00-05:00",
+     "end_at": "2027-01-01T19:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d8-09",
+     "title": "J.G. Melon",
+     "description": "[유명] J.G. Melon (UES 버거, 75분, 현금 $90)",
+     "time_label": "19:30~20:45",
+     "start_at": "2027-01-01T19:30:00-05:00",
+     "end_at": "2027-01-01T20:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": "❓ 신정 영업 확인",
+     "source_ids": []
+    },
+    {
+     "id": "d8-10",
+     "title": "여유 15분 · 숙소 귀가",
+     "description": "여유 15분 · 숙소 귀가",
+     "time_label": "20:45~21:30",
+     "start_at": "2027-01-01T20:45:00-05:00",
+     "end_at": "2027-01-01T21:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    }
+   ],
+   "guide": {
+    "intro": "전날 자정 레이스 후 수면 6~6.5시간 — 빼도 되는 칸을 먼저 접으세요.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 컨디션이 나쁘면 월먼 링크(150,000원, 취소비 0)를 1순위로 생략. 시간 지연 시 트램 → 월먼 링크 → 점심 단축 → 관람 축소 순.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "컷 순서",
+    "fallback": "트램 → 월먼 링크 → 점심 단축 → 관람 1.5시간 순."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "한파",
+     "description": "스케이팅 전후 Wollman Café 실내 휴식을 15분씩 늘립니다.",
+     "effect": "옥외 노출 축소.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "컷 순서",
+     "description": "트램 → 월먼 링크 → 점심 단축 → 관람 1.5시간 순.",
+     "effect": "월먼 링크 취소비 0원.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "지연",
+     "description": "시간 지연 시 트램을 먼저 생략합니다.",
+     "effect": "J.G. Melon 사수.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2027-01-02",
+   "title": "1/2(토) 오전 리버티 크라운 → 스트리트웨어 → 밤 공항",
+   "subtitle": "[93차] 체크아웃 16:00 복원(짐은 19:00까지 호스트 무료 보관) · Stüssy 제외 · 숙소 19:15 출발·공항 21:15 도착(OZ223 00:30) · 검산 855분",
+   "region": "배터리파크 · 로어이스트사이드 · JFK",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "리버티 크라운 → Katz's → Bowery/NoLIta → 체크아웃 → Russ & Daughters → JFK",
+    "transit": "6호선 + F + E + AirTrain",
+    "stay": "체크아웃 후 JFK 출발",
+    "purpose": "OZ223 00:30 출발 — 숙소 19:15 출발, 공항 21:15 도착."
+   },
+   "important_notes": [
+    "체크아웃 16:00(사용자 일정) — 예약서는 15:00(가방만 19:00까지). 호스트 서면 확인 필요.",
+    "크라운 실물 티켓·손목밴드는 Battery Park 매표소에서 수령(탑승 마감 08:30).",
+    "1/2~1/3 MTA 주말 공사(E·6선)를 1주 전 확인."
+   ],
+   "activities": [
+    {
+     "id": "d9-01",
+     "title": "기상·최종 점검",
+     "description": "기상·최종 점검 — 짐은 방에 두고 나감 (1/1 밤에 미리 싸 둘 것)",
+     "time_label": "07:00~07:20",
+     "start_at": "2027-01-02T07:00:00-05:00",
+     "end_at": "2027-01-02T07:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "rest",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-02",
+     "title": "숙소 → 배터리파크 (6호선 Astor Pl → B",
+     "description": "숙소 → 배터리파크 (6호선 Astor Pl → Bowling Green, 35분)",
+     "time_label": "07:20~07:55",
+     "start_at": "2027-01-02T07:20:00-05:00",
+     "end_at": "2027-01-02T07:55:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-03",
+     "title": "Battery Park 매표소에서 크라운 실물 티켓·손목밴드 수령",
+     "description": "Battery Park 매표소에서 크라운 실물 티켓·손목밴드 수령 + 보안검색 (성수기 30~45분). 탑승 마감 08:30",
+     "time_label": "07:55~08:30",
+     "start_at": "2027-01-02T07:55:00-05:00",
+     "end_at": "2027-01-02T08:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "예약서 지시",
+     "source_ids": []
+    },
+    {
+     "id": "d9-04",
+     "title": "탑승 후 출항 대기",
+     "description": "탑승 후 출항 대기",
+     "time_label": "08:30~09:00",
+     "start_at": "2027-01-02T08:30:00-05:00",
+     "end_at": "2027-01-02T09:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-05",
+     "title": "Statue City Cruises 09:00 배 (Crown Reserve)",
+     "description": "Statue City Cruises 09:00 배 (Crown Reserve) → 리버티 아일랜드",
+     "time_label": "09:00~09:20",
+     "start_at": "2027-01-02T09:00:00-05:00",
+     "end_at": "2027-01-02T09:20:00-05:00",
+     "place_id": null,
+     "booking_id": "act-liberty",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "✅ 예약 완료",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    {
+     "id": "d9-06",
+     "title": "⚠ 크라운 등반(162계단) + 페데스탈 + 잔디밭 + 박물관",
+     "description": "⚠ 크라운 등반(162계단) + 페데스탈 + 잔디밭 + 박물관 (160분) — 엘리베이터 없음·냉난방 없음, 큰 가방 반입 불가(사물함)",
+     "time_label": "09:20~12:00",
+     "start_at": "2027-01-02T09:20:00-05:00",
+     "end_at": "2027-01-02T12:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 크라운 지정시각 확인",
+     "source_ids": []
+    },
+    {
+     "id": "d9-07",
+     "title": "귀환 페리(엘리스 경유·하선 없음) → Batter",
+     "description": "귀환 페리(엘리스 경유·하선 없음) → Battery Park (35분)",
+     "time_label": "12:00~12:35",
+     "start_at": "2027-01-02T12:00:00-05:00",
+     "end_at": "2027-01-02T12:35:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-08",
+     "title": "Battery Park → 로어이스트사이드 (F선,",
+     "description": "Battery Park → 로어이스트사이드 (F선, 30분)",
+     "time_label": "12:35~13:05",
+     "start_at": "2027-01-02T12:35:00-05:00",
+     "end_at": "2027-01-02T13:05:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-09",
+     "title": "Katz's Delicatessen",
+     "description": "[유명] Katz's Delicatessen (205 E Houston St, 워크인, 60분)",
+     "time_label": "13:05~14:05",
+     "start_at": "2027-01-02T13:05:00-05:00",
+     "end_at": "2027-01-02T14:05:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-10",
+     "title": "Bowery/NoLIta 스트리트웨어 + 피자",
+     "description": "Bowery/NoLIta 스트리트웨어 + 피자 — Supreme(190 Bowery, 35분) → Prince St Pizza(10분) → Kith(337 Lafayette, 20분). Stüssy는 16:00 체크아웃 확보를 위해 제외(사용자 편집)",
+     "time_label": "14:05~16:00",
+     "start_at": "2027-01-02T14:05:00-05:00",
+     "end_at": "2027-01-02T16:00:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "❓ 연말 영업 확인",
+     "source_ids": []
+    },
+    {
+     "id": "d9-11",
+     "title": "체크아웃",
+     "description": "체크아웃 — 짐 최종 정리·호스트에게 맡기기 (19:00까지 무료 보관)",
+     "time_label": "16:00~16:20",
+     "start_at": "2027-01-02T16:00:00-05:00",
+     "end_at": "2027-01-02T16:20:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": "⚠ 예약서 15:00 — 호스트에게 16:00 서면 확인",
+     "source_ids": []
+    },
+    {
+     "id": "d9-12",
+     "title": "이스트빌리지 마지막 산책·기념품·커피 (짐 없이 가",
+     "description": "이스트빌리지 마지막 산책·기념품·커피 (짐 없이 가볍게, 르뱅 쿠키 등 회수)",
+     "time_label": "16:20~16:45",
+     "start_at": "2027-01-02T16:20:00-05:00",
+     "end_at": "2027-01-02T16:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-13",
+     "title": "Russ & Daughters",
+     "description": "[캐주얼→착석] Russ & Daughters (60분) — 1914년 LES 애피타이징 아이콘. 이후 공항까지 정식 끼니 없음",
+     "time_label": "16:45~17:45",
+     "start_at": "2027-01-02T16:45:00-05:00",
+     "end_at": "2027-01-02T17:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-14",
+     "title": "저녁 → 숙소 도보 10분 · 짐 회수 15분 (호",
+     "description": "저녁 → 숙소 도보 10분 · 짐 회수 15분 (호스트 마감 19:00 대비 여유)",
+     "time_label": "17:45~18:10",
+     "start_at": "2027-01-02T17:45:00-05:00",
+     "end_at": "2027-01-02T18:10:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-15",
+     "title": "방한복 정리·최종 점검·여유 (현관 앞/인근 카페,",
+     "description": "방한복 정리·최종 점검·여유 (현관 앞/인근 카페, 65분)",
+     "time_label": "18:10~19:15",
+     "start_at": "2027-01-02T18:10:00-05:00",
+     "end_at": "2027-01-02T19:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d9-16",
+     "title": "숙소 → JFK 대중교통",
+     "description": "숙소 → JFK 대중교통 — Astor Pl(6) → 51 St → E선 → Jamaica → AirTrain (120분, 2인 $23.30)",
+     "time_label": "19:15~21:15",
+     "start_at": "2027-01-02T19:15:00-05:00",
+     "end_at": "2027-01-02T21:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "plane",
+     "note": "❓ 1/2~1/3 주말 공사 1주 전 확인",
+     "source_ids": []
+    },
+    {
+     "id": "d9-17",
+     "title": "OZ223 1/3 00:30 출발, T1, B777",
+     "description": "체크인·수하물·출국 수속 (OZ223 1/3 00:30 출발, T1, B777 — 체크인 마감 약 23:30, 여유 약 2시간)",
+     "time_label": "21:15",
+     "start_at": "2027-01-02T21:15:00-05:00",
+     "end_at": null,
+     "place_id": null,
+     "booking_id": "flight-oz223",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "plane",
+     "note": null,
+     "source_ids": [
+      "S01"
+     ]
+    }
+   ],
+   "guide": {
+    "intro": "OZ223 00:30 출발 — 숙소 19:15 출발, 공항 21:15 도착.",
+    "sections": [
+     {
+      "heading": "실행 메모",
+      "body": "⚠ 마지막 구간이 이 날의 위험: 여행 1주 전 MTA \"Planned Service Changes\"에서 1/2~1/3 E·6선 주말 공사 확인. 막히면 LIRR. 라운지는 체크인 24시간 전 출발 터미널(T1) 확인 후 결정, 공항 도착 21:15는 유지. Astor Pl은 엘리베이터 없음.",
+      "source_ids": [
+       "S01"
+      ]
+     }
+    ],
+    "fallback_title": "컨디션",
+    "fallback": "크라운 등반이 유일한 고강도 — 오후는 식사·쇼핑 위주입니다."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "강풍",
+     "description": "크라운 계단은 실내. 강풍 예보 시 섬 체류를 줄이고 이른 배로 복귀합니다.",
+     "effect": "섬 체류 단축.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "fatigue": {
+     "title": "컨디션",
+     "description": "크라운 등반이 유일한 고강도 — 오후는 식사·쇼핑 위주입니다.",
+     "effect": "저녁 45분으로 축소 가능.",
+     "source_ids": [
+      "S01"
+     ]
+    },
+    "delay": {
+     "title": "공사·배차",
+     "description": "막히면 LIRR로 우회, 저녁을 줄여 18:30 출발.",
+     "effect": "공항 도착 21:15 유지.",
+     "source_ids": [
+      "S01"
+     ]
+    }
+   }
+  },
+  {
+   "date": "2027-01-03",
+   "title": "귀국 — OZ223 00:30 출발",
+   "subtitle": "1/2 밤 공항 체크인 후 자정 넘어 출발",
+   "region": "JFK",
+   "place_ids": [
+    "nyc"
+   ],
+   "summary": {
+    "agenda": "OZ223 JFK T1 00:30 → ICN T2 1/4 06:10",
+    "transit": "항공",
+    "stay": "기내",
+    "purpose": "체크인 마감 약 23:30."
+   },
+   "important_notes": [
+    "예약서 기종 B777 — e-ticket과 대조.",
+    "라운지는 체크인 24시간 전 출발 터미널(T1) 확인 후 결정."
+   ],
+   "activities": [
+    {
+     "id": "d10-01",
+     "title": "OZ223 JFK(T1) 출발",
+     "description": "아시아나 OZ223 — JFK T1 1/3 00:30 → 인천 T2 1/4 06:10 (비행 15h40m, B777). 체크인 마감 약 23:30.",
+     "time_label": "00:30",
+     "start_at": "2027-01-03T00:30:00-05:00",
+     "end_at": null,
+     "place_id": null,
+     "booking_id": "flight-oz223",
+     "status": "confirmed",
+     "type": "activity",
+     "icon": "plane",
+     "note": null,
+     "source_ids": [
+      "S01"
+     ]
+    }
+   ],
+   "guide": {
+    "intro": "밤 비행기 — 21:15 공항 도착으로 여유 약 2시간.",
+    "sections": [],
+    "fallback_title": "지연 시",
+    "fallback": "항공사 안내를 확인하고 라운지·터미널 대기."
+   },
+   "alternatives": {
+    "weather": {
+     "title": "결항·지연",
+     "description": "아시아나 공지를 확인합니다.",
+     "effect": "재예약 문의.",
+     "source_ids": []
+    },
+    "fatigue": {
+     "title": "휴식",
+     "description": "라운지에서 휴식.",
+     "effect": "체력 회복.",
+     "source_ids": []
+    },
+    "delay": {
+     "title": "지연",
+     "description": "체크인 마감 전 도착 유지.",
+     "effect": "탑승 확보.",
+     "source_ids": []
+    }
+   }
+  }
+ ],
+ "photo_attempts": []
+}
