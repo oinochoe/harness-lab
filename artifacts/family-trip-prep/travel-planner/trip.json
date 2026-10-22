@@ -15,7 +15,7 @@
   "pdf"
  ],
  "timezone": "America/New_York",
- "notice": "저장소 정본 02-itinerary-current v48(2026-10-21) 기준. 결제 완료 항목은 사용자 노션 기록, 나머지는 계획·추정값입니다. 비밀번호·여권번호는 포함하지 않았습니다.",
+ "notice": "저장소 정본 02-itinerary-current v50(2026-10-22, 95차 검토 정정 반영 · 12/28 TopView+Whitney) 기준. 결제 완료 항목은 사용자 노션 기록, 나머지는 계획·추정값입니다. 비밀번호·여권번호는 포함하지 않았습니다.",
  "party": {
   "adults": 2,
   "children": 0
@@ -225,8 +225,8 @@
   },
   {
    "id": "c-act",
-   "category": "기타 액티비티(전망대·Amtrak·Smalls·MBTA·구겐하임 등)",
-   "total_amount": "1710000",
+   "category": "기타 액티비티(전망대·TopView·Whitney·Smalls·구겐하임 등)",
+   "total_amount": "1485000",
    "paid_amount": null,
    "currency": "KRW",
    "booking_id": null,
@@ -310,7 +310,7 @@
   {
    "id": "c-buffer",
    "category": "미배분 완충",
-   "total_amount": "702752",
+   "total_amount": "927752",
    "paid_amount": null,
    "currency": "KRW",
    "booking_id": null,
@@ -332,7 +332,7 @@
  "sources": [
   {
    "id": "S01",
-   "title": "사용자 노션 「봉봉겨울뉴욕여행」 확정 예약 기록 + 02-itinerary-current v48",
+   "title": "사용자 노션 「봉봉겨울뉴욕여행」 확정 예약 기록 + 02-itinerary-current v50",
    "type": "user",
    "url": null,
    "checked_at": "2026-10-21",
@@ -360,7 +360,7 @@
   },
   {
    "id": "ck4",
-   "text": "Keens 12/26 Resy(pre-theater, 19:10 퇴점 명시) — 11/26 오전 10시경(ET)",
+   "text": "Keens 12/26 Resy(pre-theater, 19:05 퇴점 명시) — 오픈 일수 미확인(KST 11/27 00시경 가정), 지금 Notify 등록",
    "checked": false
   },
   {
@@ -370,7 +370,7 @@
   },
   {
    "id": "ck6",
-   "text": "Amtrak NER 12/28 왕복 예매(오는 편 16:50 이후 첫 편 실조회)",
+   "text": "TopView 24시간 패스 · Whitney 입장료 12/28 실가 확인·예매",
    "checked": false
   },
   {
@@ -410,7 +410,7 @@
   },
   {
    "id": "ck14",
-   "text": "출발 1주 전: 12/31 자정 예보 · 1/2~1/3 MTA 주말 공사(E·6선) · 12/28 보스턴 예보",
+   "text": "출발 1주 전: 12/31 자정 예보 · 1/2~1/3 MTA 주말 공사(E·6선) · 12/28 TopView 오픈탑 예보",
    "checked": false
   }
  ],
@@ -881,41 +881,56 @@
      "status": "proposed",
      "type": "food",
      "icon": "cup",
-     "note": "⚠ 착석 18:00으로 밀려도 19:10 퇴점 사수",
+     "note": "⚠ 착석 18:00으로 밀려도 19:05 퇴점 사수",
      "source_ids": []
     },
     {
      "id": "d2-14",
      "title": "Keens Steakhouse",
-     "description": "[유명] Keens Steakhouse (72 W 36th St, 머튼찹) — 프리시어터 75분. 예약 시 \"pre-theater seating\"·\"19:10 퇴점\" 명시",
-     "time_label": "17:55~19:10",
+     "description": "[유명] Keens Steakhouse (72 W 36th St, 머튼찹) — 프리시어터 70분. 예약 시 \"pre-theater seating\"·\"19:05 퇴점\" 명시",
+     "time_label": "17:55~19:05",
      "start_at": "2026-12-26T17:55:00-05:00",
-     "end_at": "2026-12-26T19:10:00-05:00",
+     "end_at": "2026-12-26T19:05:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
      "type": "food",
      "icon": "cup",
-     "note": "🔒 예약 고정(Resy 11/26)",
+     "note": "🔒 예약 고정 (Resy 오픈 KST 11/27 00시경 가정)",
      "source_ids": []
     },
     {
      "id": "d2-15",
-     "title": "Keens → 브라이언트 파크 윈터 빌리지 도보 통",
-     "description": "Keens → 브라이언트 파크 윈터 빌리지 도보 통과 10분 → NYPL 사자상 → New Amsterdam Theatre",
-     "time_label": "19:10~19:30",
-     "start_at": "2026-12-26T19:10:00-05:00",
-     "end_at": "2026-12-26T19:30:00-05:00",
+     "title": "New Amsterdam Theatre",
+     "description": "Keens → New Amsterdam Theatre 직행 도보 15분 (추정 11~14분)",
+     "time_label": "19:05~19:20",
+     "start_at": "2026-12-26T19:05:00-05:00",
+     "end_at": "2026-12-26T19:20:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
      "type": "food",
      "icon": "cup",
-     "note": "셋 다 42가 한 줄",
+     "note": null,
      "source_ids": []
     },
     {
      "id": "d2-16",
+     "title": "입장·착석 10분 (커튼 10분 전 도착)",
+     "description": "입장·착석 10분 (커튼 10분 전 도착)",
+     "time_label": "19:20~19:30",
+     "start_at": "2026-12-26T19:20:00-05:00",
+     "end_at": "2026-12-26T19:30:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "activity",
+     "icon": "pin",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d2-17",
      "title": "「Disney's Aladdin」",
      "description": "「Disney's Aladdin」 (New Amsterdam Theatre, 214 W 42nd St) — 앞자리 A열 103·104, $543 = 728,418원 결제 완료 (Ticketmaster). 러닝타임 2h30m + 인터미션 15분",
      "time_label": "19:30~22:00",
@@ -932,7 +947,7 @@
      ]
     },
     {
-     "id": "d2-17",
+     "id": "d2-18",
      "title": "극장 → 숙소 (도보 2분 + N/R/W Times",
      "description": "극장 → 숙소 (도보 2분 + N/R/W Times Sq–42 St → 8 St–NYU 약 12분 + 도보 11분, 택시 없음)",
      "time_label": "22:00~22:35",
@@ -1224,31 +1239,31 @@
   },
   {
    "date": "2026-12-28",
-   "title": "12/28(월) 보스턴 — 자기주도 프리덤 트레일 + 하버드(사진 15분) + Stereo Jack's",
-   "subtitle": "NER 왕복 · 기상 06:00 · 체류 약 5시간 · 순여유 25~30분 · 검산 995분(06:00~22:35)",
-   "region": "보스턴",
+   "title": "12/28(월) 뉴욕 홀리데이 2층 버스투어 + Whitney Museum",
+   "subtitle": "[v49] 보스턴 당일치기 삭제 → TopView + Whitney · 기상 09:00 · 검산 680분(09:00~20:20) · 금액은 둘 다 추정",
+   "region": "미드타운 · 미트패킹",
    "place_ids": [
     "nyc"
    ],
    "summary": {
-    "agenda": "NER 왕복 · 프리덤 트레일 · 하버드 사진 · Stereo Jack's",
-    "transit": "Amtrak NER + MBTA",
+    "agenda": "TopView 2층 버스투어 · Whitney Museum",
+    "transit": "지하철 + TopView 버스",
     "stay": "이스트빌리지 에어비앤비(331 E 8th St)",
-    "purpose": "NYP 07:41 출발 하나만 고정 — 보스턴 안에는 고정 예약이 없습니다."
+    "purpose": "9일 중 가장 가벼운 회복일(680분) — 고정 예약이 없습니다."
    },
    "important_notes": [
-    "가는 편 NER 190번 07:41(Coach $45) — 놓치면 08:45(170번).",
-    "오는 편은 16:50 이후 첫 NER로 amtrak.com 실조회 필요(편성 미확정).",
-    "강설 특보 시 당일치기 포기하고 뉴욕에서 쉬기."
+    "TopView 24시간 패스(약 120,000원, 미확인 — $45/인부터·세금 별도·최대 $75)와 Whitney 입장료(약 80,000원)는 둘 다 추정 — 예매 임박 재확인.",
+    "보스턴 당일치기는 삭제했습니다(Amtrak 예매 불필요).",
+    "야간투어는 12월 오픈탑 추위로 채택하지 않았습니다."
    ],
    "activities": [
     {
      "id": "d4-01",
-     "title": "기상·세면·방한 준비",
-     "description": "기상·세면·방한 준비 — 수면 약 7시간 (전날 귀가 20:25 → 취침 22:30 목표)",
-     "time_label": "06:00~06:40",
-     "start_at": "2026-12-28T06:00:00-05:00",
-     "end_at": "2026-12-28T06:40:00-05:00",
+     "title": "기상·세면·정비 (보스턴 새벽 출발 고정점 소멸)",
+     "description": "기상·세면·정비 (보스턴 새벽 출발 고정점 소멸)",
+     "time_label": "09:00~09:45",
+     "start_at": "2026-12-28T09:00:00-05:00",
+     "end_at": "2026-12-28T09:45:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1259,11 +1274,11 @@
     },
     {
      "id": "d4-02",
-     "title": "숙소 출발 — 지하철",
-     "description": "숙소 출발 — 지하철 (1st Ave L → 14 St–8 Av → A/C/E → 34 St–Penn, 택시 없음)",
-     "time_label": "06:40~07:20",
-     "start_at": "2026-12-28T06:40:00-05:00",
-     "end_at": "2026-12-28T07:20:00-05:00",
+     "title": "숙소 인근 커피·간단 요기 (끼니 미포함)",
+     "description": "숙소 인근 커피·간단 요기 (끼니 미포함)",
+     "time_label": "09:45~10:15",
+     "start_at": "2026-12-28T09:45:00-05:00",
+     "end_at": "2026-12-28T10:15:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1274,41 +1289,11 @@
     },
     {
      "id": "d4-03",
-     "title": "Penn Station 도착 · 게이트 확인 · 승",
-     "description": "Penn Station 도착 · 게이트 확인 · 승강장 이동 (버퍼 21분)",
-     "time_label": "07:20~07:41",
-     "start_at": "2026-12-28T07:20:00-05:00",
-     "end_at": "2026-12-28T07:41:00-05:00",
-     "place_id": null,
-     "booking_id": null,
-     "status": "proposed",
-     "type": "activity",
-     "icon": "pin",
-     "note": null,
-     "source_ids": []
-    },
-    {
-     "id": "d4-04",
-     "title": "Amtrak NER 190번 → 보스턴 South Station",
-     "description": "Amtrak NER 190번 → 보스턴 South Station (4h25m, Coach $45/인)",
-     "time_label": "07:41~12:06",
-     "start_at": "2026-12-28T07:41:00-05:00",
-     "end_at": "2026-12-28T12:06:00-05:00",
-     "place_id": null,
-     "booking_id": null,
-     "status": "proposed",
-     "type": "activity",
-     "icon": "pin",
-     "note": "🔒 이 날 유일한 시각 고정",
-     "source_ids": []
-    },
-    {
-     "id": "d4-05",
-     "title": "South Station 도착·정리 → 보스턴 커먼",
-     "description": "South Station 도착·정리 → 보스턴 커먼 비지터 센터 도보 약 13분",
-     "time_label": "12:06~12:30",
-     "start_at": "2026-12-28T12:06:00-05:00",
-     "end_at": "2026-12-28T12:30:00-05:00",
+     "title": "숙소 → TopView 탑승 지점(타임스퀘어 인근 ",
+     "description": "숙소 → TopView 탑승 지점(타임스퀘어 인근 정류장) — 지하철 + 도보",
+     "time_label": "10:15~10:45",
+     "start_at": "2026-12-28T10:15:00-05:00",
+     "end_at": "2026-12-28T10:45:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1318,27 +1303,27 @@
      "source_ids": []
     },
     {
-     "id": "d4-06",
-     "title": "자기주도 프리덤 트레일 — 남부 압축 60분",
-     "description": "자기주도 프리덤 트레일 — 남부 압축 60분 (보스턴 커먼 → 주청사 → 그래너리 묘지 → 킹스 채플 → Old State House → 파뇌일 홀, 무료)",
-     "time_label": "12:30~13:30",
-     "start_at": "2026-12-28T12:30:00-05:00",
-     "end_at": "2026-12-28T13:30:00-05:00",
+     "id": "d4-04",
+     "title": "TopView Sightseeing 2층 버스투어 — 24시간 홉온홉오프",
+     "description": "TopView Sightseeing 2층 버스투어 — 24시간 홉온홉오프 (다운타운·업타운 루프, 2인 약 120,000원 추정)",
+     "time_label": "10:45~14:15",
+     "start_at": "2026-12-28T10:45:00-05:00",
+     "end_at": "2026-12-28T14:15:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
      "type": "activity",
      "icon": "pin",
-     "note": null,
+     "note": "❓ 실가·노선 예매 임박 재확인",
      "source_ids": []
     },
     {
-     "id": "d4-07",
-     "title": "퀸시 마켓 점심",
-     "description": "[캐주얼] 퀸시 마켓 점심 (압축, 식비 버퍼 약 60,000원)",
-     "time_label": "13:30~14:00",
-     "start_at": "2026-12-28T13:30:00-05:00",
-     "end_at": "2026-12-28T14:00:00-05:00",
+     "id": "d4-05",
+     "title": "점심",
+     "description": "[캐주얼] 점심 (버스 루프 중 정류장 인근)",
+     "time_label": "14:15~14:45",
+     "start_at": "2026-12-28T14:15:00-05:00",
+     "end_at": "2026-12-28T14:45:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1348,42 +1333,72 @@
      "source_ids": []
     },
     {
-     "id": "d4-08",
-     "title": "파뇌일 홀 → Downtown Crossing → ",
-     "description": "파뇌일 홀 → Downtown Crossing → 레드라인 하버드역 (약 30분, $2.40/인)",
-     "time_label": "14:00~14:30",
-     "start_at": "2026-12-28T14:00:00-05:00",
-     "end_at": "2026-12-28T14:30:00-05:00",
+     "id": "d4-06",
+     "title": "Whitney Museum",
+     "description": "이동 → Whitney Museum (99 Gansevoort St, 미트패킹·하이라인 남단) — 지하철 + 도보",
+     "time_label": "14:45~15:15",
+     "start_at": "2026-12-28T14:45:00-05:00",
+     "end_at": "2026-12-28T15:15:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
+     "note": null,
+     "source_ids": []
+    },
+    {
+     "id": "d4-07",
+     "title": "Whitney Museum 관람",
+     "description": "Whitney Museum 관람 (2시간, 2인 약 80,000원 추정)",
+     "time_label": "15:15~17:15",
+     "start_at": "2026-12-28T15:15:00-05:00",
+     "end_at": "2026-12-28T17:15:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
      "type": "activity",
      "icon": "pin",
+     "note": "❓ 입장료·특별전 재확인",
+     "source_ids": []
+    },
+    {
+     "id": "d4-08",
+     "title": "Whitney → 웨스트빌리지/첼시 이동 (선택: ",
+     "description": "Whitney → 웨스트빌리지/첼시 이동 (선택: 하이라인 남단 짧은 산책)",
+     "time_label": "17:15~17:45",
+     "start_at": "2026-12-28T17:15:00-05:00",
+     "end_at": "2026-12-28T17:45:00-05:00",
+     "place_id": null,
+     "booking_id": null,
+     "status": "proposed",
+     "type": "walk",
+     "icon": "leaf",
      "note": null,
      "source_ids": []
     },
     {
      "id": "d4-09",
-     "title": "하버드 스퀘어 — 사진만 15분",
-     "description": "하버드 스퀘어 — 사진만 15분 (Johnston Gate·존 하버드 동상·The Coop 통과)",
-     "time_label": "14:30~14:45",
-     "start_at": "2026-12-28T14:30:00-05:00",
-     "end_at": "2026-12-28T14:45:00-05:00",
+     "title": "저녁",
+     "description": "[캐주얼] 저녁 (웨스트빌리지 인근, 여유롭게 90분)",
+     "time_label": "17:45~19:15",
+     "start_at": "2026-12-28T17:45:00-05:00",
+     "end_at": "2026-12-28T19:15:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
-     "type": "activity",
-     "icon": "pin",
-     "note": "⚠ 지연 시 첫 번째 컷",
+     "type": "food",
+     "icon": "cup",
+     "note": null,
      "source_ids": []
     },
     {
      "id": "d4-10",
-     "title": "하버드역 → Davis → 89번 버스 → Ball",
-     "description": "하버드역 → Davis → 89번 버스 → Ball Square (25분)",
-     "time_label": "14:45~15:10",
-     "start_at": "2026-12-28T14:45:00-05:00",
-     "end_at": "2026-12-28T15:10:00-05:00",
+     "title": "숙소 복귀 — 지하철",
+     "description": "숙소 복귀 — 지하철",
+     "time_label": "19:15~19:50",
+     "start_at": "2026-12-28T19:15:00-05:00",
+     "end_at": "2026-12-28T19:50:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1394,71 +1409,11 @@
     },
     {
      "id": "d4-11",
-     "title": "Stereo Jack's Records",
-     "description": "Stereo Jack's Records (736 Broadway, Somerville — 재즈/블루스 LP 55분, 이 날 최우선 보호 칸)",
-     "time_label": "15:10~16:05",
-     "start_at": "2026-12-28T15:10:00-05:00",
-     "end_at": "2026-12-28T16:05:00-05:00",
-     "place_id": null,
-     "booking_id": null,
-     "status": "proposed",
-     "type": "activity",
-     "icon": "pin",
-     "note": null,
-     "source_ids": []
-    },
-    {
-     "id": "d4-12",
-     "title": "Stereo Jack's → South Statio",
-     "description": "Stereo Jack's → South Station (45분 배정)",
-     "time_label": "16:05~16:50",
-     "start_at": "2026-12-28T16:05:00-05:00",
-     "end_at": "2026-12-28T16:50:00-05:00",
-     "place_id": null,
-     "booking_id": null,
-     "status": "proposed",
-     "type": "activity",
-     "icon": "pin",
-     "note": null,
-     "source_ids": []
-    },
-    {
-     "id": "d4-13",
-     "title": "South Station 탑승 절차 10분 + 순여",
-     "description": "South Station 탑승 절차 10분 + 순여유 15분",
-     "time_label": "16:50~17:15",
-     "start_at": "2026-12-28T16:50:00-05:00",
-     "end_at": "2026-12-28T17:15:00-05:00",
-     "place_id": null,
-     "booking_id": null,
-     "status": "proposed",
-     "type": "rest",
-     "icon": "leaf",
-     "note": null,
-     "source_ids": []
-    },
-    {
-     "id": "d4-14",
-     "title": "16:50 이후 첫 Northeast Regional",
-     "description": "16:50 이후 첫 Northeast Regional → 뉴욕 Penn Station (약 4h20m, Coach)",
-     "time_label": "17:15~21:35",
-     "start_at": "2026-12-28T17:15:00-05:00",
-     "end_at": "2026-12-28T21:35:00-05:00",
-     "place_id": null,
-     "booking_id": null,
-     "status": "proposed",
-     "type": "activity",
-     "icon": "pin",
-     "note": "❓ 편성·시각 미확정 — amtrak.com 실조회",
-     "source_ids": []
-    },
-    {
-     "id": "d4-15",
-     "title": "Penn Station → 숙소 (A/C/E → L",
-     "description": "Penn Station → 숙소 (A/C/E → L, 30분) · 귀가·취침 (목표 22:30)",
-     "time_label": "21:35~22:35",
-     "start_at": "2026-12-28T21:35:00-05:00",
-     "end_at": "2026-12-28T22:35:00-05:00",
+     "title": "숙소 도착·정리·휴식 — 12/29 Birdland",
+     "description": "숙소 도착·정리·휴식 — 12/29 Birdland + 자정 Midnight Moment 대비 체력 비축",
+     "time_label": "19:50~20:20",
+     "start_at": "2026-12-28T19:50:00-05:00",
+     "end_at": "2026-12-28T20:20:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1469,40 +1424,40 @@
     }
    ],
    "guide": {
-    "intro": "NYP 07:41 출발 하나만 고정 — 보스턴 안에는 고정 예약이 없습니다.",
+    "intro": "9일 중 가장 가벼운 회복일(680분) — 고정 예약이 없습니다.",
     "sections": [
      {
       "heading": "실행 메모",
-      "body": "⚠ 귀환편 3단 결정트리: ① 16:50 이후 첫 NER(17:00~17:15대) → NYP 약 21:35 ② 16:20~16:30대뿐이면 하버드도 컷 ③ 18:45편이면 체류 +90분(수면 영향 적음). NER 88번(18:08)은 결항 시 대체편.",
+      "body": "TopView 24시간 패스는 하차 후에도 재승차 가능. 야간투어는 12월 오픈탑 추위로 채택하지 않음.",
       "source_ids": [
        "S01"
       ]
      }
     ],
     "fallback_title": "컷 순서",
-    "fallback": "하버드 사진 15분 → 파뇌일 홀 이북 → 트레일 압축. Stereo Jack's 55분은 지킵니다."
+    "fallback": "저녁 90분 → 하이라인 산책 → 버스 정류장 수 순으로 줄입니다."
    },
    "alternatives": {
     "weather": {
-     "title": "폭설",
-     "description": "출발 3~5일 전 amtrak.com Service Alerts·예보 확인, 특보면 당일치기 취소.",
-     "effect": "당일치기 전체 취소.",
+     "title": "한파·강설",
+     "description": "오픈탑이 추우면 하층(실내)에서 관람하고, 눈이 많으면 Whitney를 먼저 갑니다.",
+     "effect": "버스 구간 단축.",
      "source_ids": [
       "S01"
      ]
     },
     "fatigue": {
      "title": "컷 순서",
-     "description": "하버드 사진 15분 → 파뇌일 홀 이북 → 트레일 압축. Stereo Jack's 55분은 지킵니다.",
-     "effect": "재즈 LP 디깅 보호.",
+     "description": "저녁 90분 → 하이라인 산책 → 버스 정류장 수 순으로 줄입니다.",
+     "effect": "12/29 체력 비축.",
      "source_ids": [
       "S01"
      ]
     },
     "delay": {
-     "title": "열차 지연",
-     "description": "귀환편이 16:20~16:30대면 하버드도 컷, 18:45편이면 체류 +90분.",
-     "effect": "3단 결정트리.",
+     "title": "노선 불일치",
+     "description": "버스가 Whitney까지 안 가면 지하철로 이동합니다(이미 그렇게 계획).",
+     "effect": "일정 영향 없음.",
      "source_ids": [
       "S01"
      ]
@@ -1524,7 +1479,7 @@
     "purpose": "18:00 이후 연쇄(Edge → RUN CENTER → Birdland 19:00)가 여유 0분인 날."
    },
    "important_notes": [
-    "Edge 18:00 퇴장 → RUN CENTER 18:25 → 배번 15분 → Birdland 19:00, 여유 0분.",
+    "Edge 18:00 퇴장 → RUN CENTER 18:30 → 배번 15분 → Birdland 19:00, 여유 0분.",
     "Edge 예매 시 16:15 슬롯이 있으면 우선.",
     "NYRR에 12/29 배번 배부 여부·마감 시각 확인(부부 2인 수령).",
     "Birdland는 TicketWeb 환불 불가."
@@ -1698,10 +1653,10 @@
     {
      "id": "d5-12",
      "title": "NYRR RUN CENTER",
-     "description": "Edge → NYRR RUN CENTER (320 W 57th St, A/C/E 34 St → 42 St + 도보 또는 도보 약 20분)",
-     "time_label": "18:00~18:25",
+     "description": "Edge → NYRR RUN CENTER (320 W 57th St, 도보 약 30분 또는 7호선 → A/C 59 St, 추정 25~35분)",
+     "time_label": "18:00~18:30",
      "start_at": "2026-12-29T18:00:00-05:00",
-     "end_at": "2026-12-29T18:25:00-05:00",
+     "end_at": "2026-12-29T18:30:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
@@ -1712,25 +1667,25 @@
     },
     {
      "id": "d5-13",
-     "title": "⚠ 부부 2인 Midnight Run 배번 수령",
-     "description": "⚠ 부부 2인 Midnight Run 배번 수령 (15분) — 아내도 러너(206,000원 결제), 각자 배번·신분증. 공원 현장 수령 불가",
-     "time_label": "18:25~18:40",
-     "start_at": "2026-12-29T18:25:00-05:00",
-     "end_at": "2026-12-29T18:40:00-05:00",
+     "title": "부부 2인 Midnight Run 배번 수령",
+     "description": "부부 2인 Midnight Run 배번 수령 (15분) — 아내도 러너(206,000원 결제), 각자 배번·신분증",
+     "time_label": "18:30~18:45",
+     "start_at": "2026-12-29T18:30:00-05:00",
+     "end_at": "2026-12-29T18:45:00-05:00",
      "place_id": null,
      "booking_id": null,
      "status": "proposed",
      "type": "activity",
      "icon": "pin",
-     "note": "❓ 12/29 배부·마감 시각 NYRR 확인(P1) · 93차",
+     "note": "❓ 12/28·12/29 배부·마감 NYRR 확인",
      "source_ids": []
     },
     {
      "id": "d5-14",
      "title": "Birdland",
-     "description": "RUN CENTER → Birdland 직행 (44가 도보 13블록 20분, 여유 0분). 타임스퀘어 통과는 삭제",
-     "time_label": "18:40~19:00",
-     "start_at": "2026-12-29T18:40:00-05:00",
+     "description": "RUN CENTER → Birdland 직행 (도보 15분, 여유 0분)",
+     "time_label": "18:45~19:00",
+     "start_at": "2026-12-29T18:45:00-05:00",
      "end_at": "2026-12-29T19:00:00-05:00",
      "place_id": null,
      "booking_id": null,
@@ -1806,7 +1761,7 @@
     "sections": [
      {
       "heading": "실행 메모",
-      "body": "⚠ 18:00 이후 연쇄가 이 날의 최대 위험입니다. Edge 18:00 퇴장 → RUN CENTER 18:25 → 배번 15분 → Birdland 19:00 입장, 여유 0분(Birdland는 환불 불가). 흡수 순서: ① Edge를 16:15 슬롯으로 예매 ② 허드슨야드 순여유 45분을 줄여 Edge를 앞당겨 입장 ③ 그래도 밀리면 RUN CENTER를 포기하고 12/30 오전으로 이월(Birdland 19:00 사수).",
+      "body": "⚠ 18:00 이후 연쇄가 이 날의 최대 위험입니다. Edge 18:00 퇴장 → RUN CENTER 18:30 → 배번 15분 → Birdland 19:00 입장, 여유 0분(Birdland는 환불 불가). 흡수 순서: ① Edge를 16:15 슬롯으로 예매 ② 허드슨야드 순여유 45분을 줄여 Edge를 앞당겨 입장 ③ 그래도 밀리면 RUN CENTER를 포기하고 12/30 오전으로 이월(Birdland 19:00 사수).",
       "source_ids": [
        "S01"
       ]

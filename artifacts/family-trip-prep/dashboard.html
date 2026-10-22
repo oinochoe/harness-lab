@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>뉴욕 여행 준비 대시보드 v41</title>
+    <title>뉴욕 여행 준비 대시보드 v50</title>
     <!-- 경고 배지: 🔒 고정 시각(예약·지정입장, 절대 못 미룸) / ⏱ 여유 0분 전환구간(늦으면 뒤가 밀림) / ❓ 미확정 가정(개관시각 등, 시간 고정 아님) -->
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,7 +47,7 @@
         <div class="bg-white rounded-lg card-shadow p-6 mb-6">
             <h1 class="text-3xl font-bold text-gray-800 mb-2">뉴욕 가족 여행 준비 대시보드</h1>
             <p class="text-gray-600">2026-12-25 ~ 2027-01-03 (9일) | 성인 2명(부부)</p>
-            <p class="mt-2"><span class="inline-block bg-blue-700 text-white text-sm font-bold px-3 py-1 rounded">v49 · 2026-10-21 기준 출발까지 D-65</span></p>
+            <p class="mt-2"><span class="inline-block bg-blue-700 text-white text-sm font-bold px-3 py-1 rounded">v50 · 2026-10-22 기준 출발까지 D-64</span></p>
             <p class="text-xs text-gray-500 mt-2">회차별 변경 이력(v2~v49)은 git 커밋(<code>가족 여행 준비: N차</code>)에 있습니다. <strong>[v49] 사용자 지시 「보스턴 안 간다」:</strong> 12/28 보스턴 당일치기 삭제 → TopView 24시간 버스 + Whitney(9/13 별도 세션에서 사용자가 정한 대체안). 완충 27.17% → 29.51%. <strong>[93차] 사용자 답변 + 노션 봉봉 페이지 재독으로 92차 오독을 정정:</strong> Veselka 삭제 확정 · 아내도 Midnight Run 참가(2인 206,000원 결제) · 12/30 전망대 SUMMIT One Vanderbilt · 1/2 체크아웃 16:00 복원 · 12/29 Edge 90분 복원. <strong>[92차]</strong> 항공 2,934,200·숙소 2,484,664·알라딘 728,418(앞자리 A103·104)·The Met 한국어 도슨트 173,966 실결제 반영, MoMA 현대카드 무료. <strong>[91차]</strong> 12/26 The Modern 점심(미슐랭 1스타) 편입. <span class="text-red-700">완충 약 29.51% — 30% 선 바로 아래.</span> ⚠ 이 대시보드는 v42~v47 변경분(86~91차 포함)을 이번에 한 번에 반영했고, 87~91차는 저장소 checklist-reviewer 검토를 아직 받지 않았습니다.</p>
         </div>
 
@@ -125,27 +125,27 @@
 
         <!-- ⚠️ 지금 잡아야 할 것 -->
         <div class="bg-white rounded-lg card-shadow p-5 mb-6 border-l-4 border-red-500">
-            <h3 class="font-bold text-red-900 text-lg mb-1">🔴 오늘(2026-10-21 · 출발 D-65) 지금 잡아야 할 것</h3>
+            <h3 class="font-bold text-red-900 text-lg mb-1">🔴 오늘(2026-10-22 · 출발 D-64) 지금 잡아야 할 것</h3>
             <p class="text-xs text-gray-500 mb-3"><strong>[2026-09-07 정정]</strong> Amtrak(~11개월 전부터)·9/11 뮤지엄(6개월 전부터)은 이미 예매 가능하고, 12/25~1/2 최고 성수기라 미룰 이유가 없습니다.</p>
             <div class="bg-green-50 rounded px-3 py-2 text-sm text-green-900 mb-2">
                 <strong>✅ 이미 끝난 것</strong> — 리버티 크라운(1/2 09:00 Crown Reserve, 70,000원) · <strong>브로드웨이 「Aladdin」 12/26 19:30, 앞자리 A열 103·104, $543 = 728,418원</strong> · <strong>The Met 한국어 도슨트 12/31 10:10, 173,966원</strong> · <strong>NYRR Midnight Run 부부 2인 $74.02×2 = 206,000원</strong> · 국내외겸용 현대카드 실물 수령(MoMA 12/26 무료) · 항공 2,934,200·숙소 2,484,664 결제.
             </div>
             <div class="bg-red-50 rounded px-3 py-2 text-sm text-red-900 mb-2">
-                <strong>① The Modern 12/26 점심 Resy 예약 — 11/28(D+38) 정오(EST) 오픈</strong> (28일 전)<br>
+                <strong>① The Modern 12/26 점심 Resy 예약 — 11/28(ET) 정오(EST) = KST 11/29 02시 오픈 (D+37)</strong> (28일 전)<br>
                 <span class="text-xs">9 W 53rd St, Bar Room 아라카르트 기준 90분, 배정 300,000원(추정·실가 미확인). 12/26 날짜의 정확한 오픈 시각을 확인해 그 시각에 잡을 것.</span>
             </div>
             <div class="bg-red-50 rounded px-3 py-2 text-sm text-red-900 mb-2">
-                <strong>② 12/28 TopView 24시간 버스 + Whitney 실가 확인(예매 임박)</strong> — 보스턴 삭제로 Amtrak 항목은 소멸. TopView 배정 120,000원·Whitney 80,000원(둘 다 추정)<br>
-                <span class="text-xs">TopView 공식 사이트가 봇 차단이라 실가 미확인, Whitney는 성인 $30/인 추정 — 12월 중순 재확인. 12/28 귀가가 20:20이라 이 날 저녁 RUN CENTER 배번 수령도 가능해졌습니다(12/29 백업).</span>
+                <strong>② 12/28 TopView 24시간 버스 + Whitney 실가 확인(예매 임박)</strong> — 보스턴 삭제로 Amtrak 항목은 소멸. TopView 배정 120,000원(미확인(2차 소스 $45/인부터, 세금·수수료 별도·정가 표기 최대 $75 → 2인 약 90,000~199,500원))·Whitney 80,000원($30/인, 현재 공시)<br>
+                <span class="text-xs">TopView 공식 요금·겨울 시간표·한파 중단 규정은 확인하지 못했습니다(24시간권은 다운타운+업타운 루프만, 바우처 교환은 8th Ave 42~43가 Stop #17 — 2차 소스). Whitney는 12/28(월) 개관(10:30~18:00, 화 휴관). 12/28 귀가가 20:20이라 이 날 저녁 RUN CENTER 배번 수령을 시각 확정 폴백으로 둡니다(17:15~20:20).</span>
             </div>
             <div class="bg-yellow-50 rounded px-3 py-2 text-sm text-yellow-900 mb-2">
-                <strong>③ 전망대·타임드 티켓</strong> — 9/11 메모리얼 12/27 11:00(늦어도 12/13) · Top of the Rock 12/26 16:00(2인 약 150,000원) · <strong>[93차] SUMMIT One Vanderbilt 12/30 16:30</strong>(평일 약 $43/인, 배정 130,000 유지 — ESB에서 변경) · Edge 12/29 16:30(관람 90분, <strong>16:15 슬롯 있으면 우선</strong>) · The Vessel 12/29 14:10($14/인) · 구겐하임 1/1(성인 $30)<br>
-                <span class="text-xs">⚠ SUMMIT은 86차에 12/26에서 ToR로 되돌린 근거(미러룸·인스타 명소·혼잡)가 있어, 12/30 SUMMIT 선택이 그걸 알고 한 것인지 한 번 확인해 주세요. 아니면 ESB(배정 130,000 유지 중)로 되돌릴 수 있습니다.</span>
+                <strong>③ 전망대·타임드 티켓</strong> — 9/11 메모리얼 12/27 11:00(늦어도 12/13) · Top of the Rock 12/26 16:00(2인 약 150,000원) · <strong>[93차] SUMMIT One Vanderbilt 12/30 16:30</strong>(평일 약 $43/인, SUMMIT 배정 130,000 — ESB에서 변경) · Edge 12/29 16:30(관람 90분, <strong>16:15 슬롯 있으면 우선</strong>) · The Vessel 12/29 14:10(타임드 $14/인·Flex $20 + 수수료 $2/장, 2인 약 42,600원 — 12/29 운영시간 미확인) · 구겐하임 1/1(성인 $30)<br>
+                <span class="text-xs">⚠ SUMMIT은 86차에 12/26에서 ToR로 되돌린 근거(미러룸·인스타 명소·혼잡)가 있어, 12/30 SUMMIT 선택이 그걸 알고 한 것인지 한 번 확인해 주세요(SUMMIT 취향 재확인 93-①). ESB 12/25 이설·Exit9 삭제는 사용자가 노션 봉봉 기준으로 종결(94-①).</span>
             </div>
             <div class="bg-gray-50 rounded px-3 py-2 text-xs text-gray-700">
                 <strong>④ 문자·메일 3통</strong> — ① 호스트: 「1/2 체크아웃 16:00, 짐 19:00까지 현관/지정 위치」 서면 확인(예약서는 15:00) ② NYRR: 12/29 RUN CENTER 배번 배부 여부·마감 시각(부부 2인 수령) ③ Birdland TicketWeb·Smalls 라인업 공개 시 예약<br>
-                <strong>⑤ 그 다음 일정</strong> — <strong>D+36(11/26) 오전 10시경(ET) Keens Resy 오픈</strong>(30일 전, 몇 분 만에 매진) · D+37(11/27) Peter Luger Resy 오픈 · 11월 중하순 Smalls 라인업 공개 후 예약 + Birdland TicketWeb(환불 불가) · D+56(12/16 전후) The Met·구겐하임·월먼 링크·J.G. Melon·Top of the Rock 연말 운영 재확인.<br>
-                <strong>패스·도슨트</strong> — 픽패스·빅애플패스는 전망대 일몰 슬롯 표준 제외라 이득 ≈ 0(43·56차). 봉봉 페이지 「예약해야할 것」에 픽패스가 있는데 실제 구매 의사인지 비교 후보인지 확인이 필요합니다(정본 5장 92-⑥).<br>
+                <strong>⑤ 그 다음 일정</strong> — <strong>Keens Resy 오픈: KST 11/27 00시경(= ET 11/26 10시, 추수감사절)</strong> — 우리 추정·오픈 일수 미확인(14~30일 가정), <strong>지금 Resy에서 12/26 Notify(알림) 등록</strong> · D+36(11/27) Peter Luger Resy 오픈(시간대 불명) · NYRR RUN CENTER 12/28~12/30 운영·수령 확인 · TopView·Whitney 예매 임박 재확인 · 11월 중하순 Smalls 라인업 공개 후 예약 + Birdland TicketWeb(환불 불가) · D+55(12/16 전후) The Met·구겐하임·월먼 링크·J.G. Melon·Top of the Rock 연말 운영 재확인.<br>
+                <strong>패스·도슨트</strong> — 픽패스·빅애플패스는 전망대 일몰 슬롯 표준 제외라 이득 ≈ 0(43·56차). 사용자가 픽패스 구매 의향을 밝혔습니다(2026-10-22, 미확정 · 대상·금액 미정 · 예산 미반영, 정본 5장 92-⑥).<br>
                 <strong>여권·ESTA·보험은 기한이 아니라 "빠를수록 좋음"</strong> — ESTA 승인 지연 대비 2주 전 권장, 여권은 입국일 기준 유효기간 6개월 이상.
             </div>
         </div>
@@ -153,7 +153,7 @@
             <div class="flex items-start gap-4">
                 <div class="text-3xl font-bold text-orange-500 flex-shrink-0">⚠️</div>
                 <div class="flex-1">
-                    <h3 class="font-bold text-orange-900 text-lg mb-3">v42~v49 핵심 변경 — 출발 전 반드시 확인</h3>
+                    <h3 class="font-bold text-orange-900 text-lg mb-3">v42~v50 핵심 변경 — 출발 전 반드시 확인</h3>
                     <div class="bg-red-100 rounded px-3 py-2 text-sm text-red-900 mb-2">
                         <strong>⑥ [v49] 완충 29.51% — 30% 선 바로 아래.</strong> 예비비 1,900,000 + 미배분 927,752 = 2,827,752원(잔여 9,581,136의 29.51%). v48 27.17%에서 보스턴 삭제 → TopView 120,000+Whitney 80,000 교체로 +225,000(+2.34%p). 하방 청구자: TopView·Whitney 실가 · Birdland −65,000 · The Modern 실가 · 환율. 30%까지 약 46,000원. 회복 선택지(쇼핑 695,000·홀리데이 마켓 180,000·2-4 버퍼 200,000 일부)는 사용자 결정.
                     </div>
@@ -170,7 +170,7 @@
                         <strong>② [v42 · 86차] 12/26 전망대 SUMMIT → Top of the Rock 되돌림 · 12/27 NMAI 35분 편입.</strong> 취향 적합도 근거, 배정 150,000 유지. ToR이 록펠러 구내라 굿즈 3곳과 한 블록, ToR→그랜드 센트럴 도보 10분 신설.
                     </div>
                     <div class="bg-teal-100 rounded px-3 py-2 text-sm text-teal-900 mb-2">
-                        <strong>① [v49] 12/28 보스턴 삭제 → TopView 24시간 버스 + Whitney</strong> · 기상 09:00 · Day 4 검산 680분(9일 중 최단). Amtrak·MBTA 425,000 삭제, TopView+Whitney 200,000 신설. [v40·84차] 12/26 알라딘 편입 / [v34] 리버티 1/2 오전·OZ223 00:30.
+                        <strong>⓪ [v50 · 95차 검토 정정]</strong> 12/26 Keens 퇴점 19:05 → 극장 직행(커튼 10분 전 도착) · 12/29 Edge→RUN CENTER 30분(Birdland 여유 0분 유지, 12/28 저녁 RUN CENTER 폴백 신설) · 12/28 TopView 오픈탑 한파 노출(최대 약 3.5시간, 한파 순위 2위) · 1/2 지하철 경로 정정 · 픽패스는 구매 의향만(미확정, 예산 미반영). 예산 숫자는 v49와 동일.<br><strong>① [v49] 12/28 보스턴 삭제 → TopView 24시간 버스 + Whitney</strong> · 기상 09:00 · Day 4 검산 680분(9일 중 두 번째로 짧음). Amtrak·MBTA 425,000 삭제, TopView+Whitney 200,000 신설. [v40·84차] 12/26 알라딘 편입 / [v34] 리버티 1/2 오전·OZ223 00:30.
                     </div>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                     <tbody>
                         <tr class="border-b"><td class="px-3 py-2">항공권</td><td class="text-right px-3 py-2 font-semibold">2,934,200원</td><td class="text-right px-3 py-2 text-gray-600">19.6%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">숙소(8박)</td><td class="text-right px-3 py-2 font-semibold">2,484,664원</td><td class="text-right px-3 py-2 text-gray-600">16.6%</td></tr>
-                        <tr class="border-b"><td class="px-3 py-2">식비(유명 7 + 캐주얼 11 — 외식 18끼)</td><td class="text-right px-3 py-2 font-semibold">2,750,000원</td><td class="text-right px-3 py-2 text-gray-600">18.3%</td></tr>
+                        <tr class="border-b"><td class="px-3 py-2">식비(유명 7 + 캐주얼 9 + 12/31 점심 1 + 버퍼 1 — 외식 18끼)</td><td class="text-right px-3 py-2 font-semibold">2,750,000원</td><td class="text-right px-3 py-2 text-gray-600">18.3%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">액티비티(전망대 ToR·Edge·SUMMIT·<strong>알라딘 728,418</strong>·Met 도슨트 173,966·Smalls 135,000·<strong>TopView 120,000·Whitney 80,000</strong>)</td><td class="text-right px-3 py-2 font-semibold">2,457,384원</td><td class="text-right px-3 py-2 text-gray-600">16.4%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">새해 전야(12/31 점심 + <strong>Midnight Run 2인 206,000</strong>)</td><td class="text-right px-3 py-2 font-semibold">286,000원</td><td class="text-right px-3 py-2 text-gray-600">1.9%</td></tr>
                         <tr class="border-b"><td class="px-3 py-2">이동(공항 75,000 + OMNY 190,000 — 택시 0원)</td><td class="text-right px-3 py-2 font-semibold">265,000원</td><td class="text-right px-3 py-2 text-gray-600">1.8%</td></tr>
@@ -228,7 +228,7 @@
                 </table>
             </div>
             <div class="mt-4 pt-4 border-t border-gray-200">
-                <p class="text-sm text-gray-600"><strong>총 예산:</strong> <span class="text-lg font-bold text-blue-600">15,000,000원</span> (항공 2,934,200 + 숙소 2,484,664 + 잔여 배분 9,581,136) | 예비비+미배분: 2,827,752원(총예산의 18.9% · 잔여 배분의 <strong>29.51%</strong>) <span class="text-red-700 font-semibold">— [v49] 30% 선 바로 아래(v48 27.17%에서 +2.34%p)</span><br><span class="text-xs text-amber-700">⚠ 하방: TopView·Whitney 실가 미확인(추정 120,000+80,000) · The Modern 실가 미확인(배정 300,000) · Birdland 초과 최대 −65,000 · 환율(스팟 1,357 vs 가정 1,330). 상방: SUMMIT 실가가 ESB 배정(130,000)보다 낮으면 약 +16,000.</span></p>
+                <p class="text-sm text-gray-600"><strong>총 예산:</strong> <span class="text-lg font-bold text-blue-600">15,000,000원</span> (항공 2,934,200 + 숙소 2,484,664 + 잔여 배분 9,581,136) | 예비비+미배분: 2,827,752원(총예산의 18.9% · 잔여 배분의 <strong>29.51%</strong>) <span class="text-red-700 font-semibold">— [v49] 30% 선 바로 아래(v48 27.17%에서 +2.34%p)</span><br><span class="text-xs text-amber-700">⚠ 하방: TopView·Whitney 실가 미확인(추정 120,000+80,000) · The Modern 실가 미확인(배정 300,000) · Birdland 초과 최대 −65,000 · 환율(스팟 1,357 vs 가정 1,330). 상방: SUMMIT 실가가 배정(130,000)보다 낮으면 약 +16,000.</span></p>
             </div>
         </div>
 
@@ -288,14 +288,15 @@
                     <div class="flex gap-2"><span class="time-label">16:00~17:20</span><span><strong>Top of the Rock 전망대</strong> (67·69·70층, 일몰 약 16:33~야경, 2인 약 150,000원, 80분). 70층은 유리펜스 없는 완전 개방형 옥외 — 방풍 셸·장갑 챙길 것 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 지정입장 고정</span></span></div>
                     <div class="flex gap-2"><span class="time-label">17:20~17:30</span><span>ToR → 그랜드 센트럴 도보 10분 (실측 10~12분 — 17:25까지 미도착이면 그랜드 센트럴 스킵·Keens 직행) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 하단값</span></span></div>
                     <div class="flex gap-2"><span class="time-label">17:30~17:45</span><span><strong>그랜드 센트럴 터미널</strong> — 중앙홀·천장 별자리·속삭이는 회랑 (15분, 무료, 붐비면 접기)</span></div>
-                    <div class="flex gap-2"><span class="time-label">17:45~17:55</span><span>그랜드 센트럴 → <strong>Keens</strong> (도보 10분, 실측 12~14분) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 착석 18:00으로 밀려도 19:10 퇴점 사수</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">17:55~19:10</span><span>[유명] <strong>Keens Steakhouse</strong> (72 W 36th St, 머튼찹) — 프리시어터 75분. 예약 시 "pre-theater seating"·"19:10 퇴점" 명시 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 예약 고정(Resy 11/26)</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">19:10~19:30</span><span>Keens → 브라이언트 파크 윈터 빌리지 도보 통과 10분 → NYPL 사자상 → New Amsterdam Theatre <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">셋 다 42가 한 줄</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">19:30~22:00</span><span><strong>「Disney's Aladdin」</strong> (New Amsterdam Theatre, 214 W 42nd St) — <strong>앞자리 A열 103·104, $543 = 728,418원 결제 완료</strong> (Ticketmaster). 러닝타임 2h30m + 인터미션 15분 <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">✅ 결제 완료</span> <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 19:30 커튼</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:45~17:55</span><span>그랜드 센트럴 → <strong>Keens</strong> (도보 10분, 실측 12~14분) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 착석 18:00으로 밀려도 19:05 퇴점 사수</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">17:55~19:05</span><span>[유명] <strong>Keens Steakhouse</strong> (72 W 36th St, 머튼찹) — 프리시어터 70분. 예약 시 "pre-theater seating"·"19:05 퇴점" 명시 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 예약 고정(Resy 11/26)</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">19:05~19:20</span><span>Keens → New Amsterdam Theatre(214 W 42nd St) 직행 도보 15분 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">추정 11~14분 · 실측 필요</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">19:20~19:30</span><span>입장·착석 10분 (커튼 10분 전 도착) <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">윈터 빌리지·NYPL은 19:00 전 퇴점한 날만 선택</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">19:30~22:00</span><span><strong>「Disney's Aladdin」</strong> (New Amsterdam Theatre, 214 W 42nd St) — <strong>앞자리 A열 103·104, $543 = 728,418원 결제 완료</strong> (Ticketmaster). 러닝타임 약 2h30m(인터미션 포함으로 알려짐 — 확인 필요) <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">✅ 결제 완료</span> <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 19:30 커튼</span></span></div>
                     <div class="flex gap-2"><span class="time-label">22:00~22:35</span><span>극장 → 숙소 (도보 2분 + N/R/W Times Sq–42 St → 8 St–NYU 약 12분 + 도보 11분, 택시 없음)</span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-red-200 bg-red-50 px-3 py-2 rounded text-xs text-red-900">
-                    ⚠ <strong>이 날 고정점은 둘 — Top of the Rock 16:00 · 알라딘 19:30.</strong> 저녁 여유 0분. 지연은 순여유 20분에서 흡수하고, 그래도 밀리면 그랜드 센트럴 15분을 접어 Keens 직행. 잘라내는 순서: LEGO 20 → FAO 15 → 윈터 빌리지 통과 10→5 → 그랜드 센트럴 15. Keens 실패 시 18:05까지 착석 없으면 Wolfgang's 타임스퀘어점으로 전환.
+                    ⚠ <strong>이 날 고정점은 둘 — Top of the Rock 16:00 · 알라딘 19:30.</strong> 저녁 여유 0분. 지연은 순여유 20분에서 흡수하고, 그래도 밀리면 그랜드 센트럴 15분을 접어 Keens 직행. 잘라내는 순서: LEGO 20 → FAO 15 → 그랜드 센트럴 15. Keens 실패 시 18:05까지 착석 없으면 Wolfgang's 타임스퀘어점으로 전환.
                 </div>
                 <div class="mt-3 pt-3 border-t border-green-200 bg-green-50 px-3 py-2 rounded text-xs text-green-900">
                     ✅ <strong>오후 창 12:30~16:00 = 210분</strong> = The Modern 90 + 이동 10 + LEGO 20 + 이동 10 + Nintendo 30 + FAO 15 + 순여유 20 + ToR 대기 15 (91차에 Rough Trade·커피 브레이크 삭제로 재배열, 합 불변).
@@ -329,24 +330,24 @@
             <!-- Day 4 -->
             <div class="bg-white rounded-lg card-shadow p-5 mb-4">
                 <div class="flex items-start justify-between mb-3">
-                    <div><h3 class="text-lg font-bold text-gray-800">🚌 Day 4 — 12/28(월) 뉴욕 홀리데이 2층 버스투어 + Whitney</h3><p class="text-sm text-green-700 font-semibold">[9/13 구92차] 보스턴 당일치기 삭제 → TopView 버스투어+Whitney 신설 · 검산 680분(09:00~20:20, 9일 중 최단·유일한 진짜 여유일)</p></div>
+                    <div><h3 class="text-lg font-bold text-gray-800">🚌 Day 4 — 12/28(월) 뉴욕 홀리데이 2층 버스투어 + Whitney</h3><p class="text-sm text-green-700 font-semibold">[v50] 보스턴 삭제 → TopView 버스투어+Whitney · 검산 680분(09:00~20:20, 9일 중 두 번째로 짧은 날 · 최단은 12/27 약 655분) · ⚠ 오픈탑 한파 노출 최대 약 3시간 30분</p></div>
                     <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">회복</span>
                 </div>
                 <div class="space-y-1 text-sm">
                     <div class="flex gap-2"><span class="time-label">09:00~09:45</span><span>기상·세면·정비 — <strong>[9/13 구92차] 06:00 → 09:00</strong>(보스턴 새벽 출발 고정점 소멸, 여유로운 아침)</span></div>
                     <div class="flex gap-2"><span class="time-label">09:45~10:15</span><span>숙소 인근 커피·간단 요기(끼니 미포함)</span></div>
-                    <div class="flex gap-2"><span class="time-label">10:15~10:45</span><span>숙소 → 버스 탑승 지점(타임스퀘어 인근, TopView 정류장)</span></div>
-                    <div class="flex gap-2"><span class="time-label">10:45~14:15</span><span><strong>TopView Sightseeing 2층 버스투어 — 24시간 홉온홉오프 패스</strong>(다운타운 루프 + 업타운 루프, 23개 정류장) — <strong>배정 120,000원(추정, 실가 미확인)</strong> — 원하는 정류장에서 자유롭게 하차·재승차 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 예매 임박 재확인</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">10:15~10:45</span><span>숙소 → 버스 탑승 지점(8th Ave 42~43가 사이 Stop #17, 바우처 교환 — 2차 소스)</span></div>
+                    <div class="flex gap-2"><span class="time-label">10:45~14:15</span><span><strong>TopView Sightseeing 2층 버스투어 — 24시간 홉온홉오프 패스</strong>(다운타운 + 업타운 루프만 — 브루클린 루프는 24시간권에 없음) — <strong>배정 120,000원(미확인(2차 소스 $45/인부터, 세금·수수료 별도·정가 표기 최대 $75 → 2인 약 90,000~199,500원))</strong> — 하차 후에도 24시간 안엔 재승차 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 체감 20°F(-7℃) 이하·우천·강설이면 버스 컷, Whitney 체류 연장</span> <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 예매 임박 재확인</span></span></div>
                     <div class="flex gap-2"><span class="time-label">14:15~14:45</span><span><strong>[캐주얼] 점심</strong>(버스 루프 중, 캐주얼)</span></div>
-                    <div class="flex gap-2"><span class="time-label">14:45~15:15</span><span>이동 → **Whitney Museum**(99 Gansevoort St)</span></div>
-                    <div class="flex gap-2"><span class="time-label">15:15~17:15</span><span><strong>Whitney Museum 관람</strong>(2시간) — 미국 현대미술 전문, 하이라인 남단 · <strong>배정 80,000원(추정, $30/인 기준)</strong> <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 예매 임박 재확인</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">14:45~15:15</span><span>이동 → <strong>Whitney Museum</strong>(99 Gansevoort St) — 지하철 + 도보</span></div>
+                    <div class="flex gap-2"><span class="time-label">15:15~17:15</span><span><strong>Whitney Museum 관람</strong>(2시간) — 월 10:30~18:00 개관(화 휴관), 성인 $30 · <strong>배정 80,000원</strong> <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 예매 임박 재확인</span></span></div>
                     <div class="flex gap-2"><span class="time-label">17:15~17:45</span><span>Whitney → 웨스트빌리지/첼시 이동(여유 있으면 하이라인 남단 산책)</span></div>
                     <div class="flex gap-2"><span class="time-label">17:45~19:15</span><span><strong>[캐주얼] 저녁</strong>(웨스트빌리지 인근, 여유롭게)</span></div>
                     <div class="flex gap-2"><span class="time-label">19:15~19:50</span><span>숙소 복귀</span></div>
                     <div class="flex gap-2"><span class="time-label">19:50~20:20</span><span>숙소 도착·정리·휴식 — 다음날(12/29) Birdland+자정 Midnight Moment 대비 체력 비축</span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-green-200 bg-green-50 px-3 py-2 rounded text-xs text-green-900">
-                    <strong>[9/13 구92차 신설] 이 날은 유일하게 [유명] 끼니가 없는 날입니다.</strong> 보스턴 강설·Amtrak 결항·NER 실가 초과 리스크가 전부 사라짐. 9일 중 최단 일정(680분, 이전 최단은 Day 2 830분).
+                    <strong>이 날은 [유명] 끼니가 없는 3일(12/25·12/28·12/31) 중 하나입니다.</strong> 보스턴 강설·Amtrak 결항 리스크는 사라졌습니다. 680분(9일 중 두 번째로 짧음).<br>⚠ <strong>TopView는 오픈탑이라 정적 착석이 최대 약 3시간 30분 — 이번 여행 한파 노출 2위</strong>(체감 평년 약 -5~0℃). 하층 병행 · 일몰(16:35) 후 상층 회피 · 핫팩. TopView 요금·한파 중단 규정은 미확인, 운행 다운타운 약 08:00~17:45·업타운 약 10:00~16:00(업타운 배차 약 1시간, 2차 소스) — 운영사 평점 낮고 대기 75분 후기 있음. 업타운을 먼저 타는 편이 안전(추정).<br><strong>🔁 12/28 저녁 RUN CENTER 폴백(배번 수령, 시각 확정)</strong>: 17:15~17:50 Whitney → RUN CENTER(A/C 14 St → 59 St) · 17:50~18:05 부부 2인 배번 수령 · 18:05~18:15 헬스키친 도보 · 18:15~19:25 저녁 · 19:25~20:00 귀가(A/C/E → 14 St–8 Av → L) · 20:00~20:20 정리. 이동 시간은 추정. 수령 순서: 12/28 → 12/29 → 12/30 오전 → 12/31 최종(마감 22:00, 통제구역이라 최후 폴백). RUN CENTER 평일 09:00~20:00(2차 소스, 연말 시간 미발표).
                 </div>
             </div>
 
@@ -367,16 +368,16 @@
                     <div class="flex gap-2"><span class="time-label">14:50~15:45</span><span>[캐주얼] <strong>허드슨야드 식사</strong> (55분) — 이후 Birdland까지 정식 끼니 없음, 든든하게 <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">92차 사용자 편집</span></span></div>
                     <div class="flex gap-2"><span class="time-label">15:45~16:30</span><span>허드슨야드 순여유 45분 — Edge 보안·입장 대비, The Shops 구경</span></div>
                     <div class="flex gap-2"><span class="time-label">16:30~18:00</span><span><strong>Edge at Hudson Yards 전망대</strong> (지정입장, 일몰 약 16:38~블루아워~야경, <strong>관람 90분</strong>) — 예매 시 16:15 슬롯이 있으면 우선 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 지정입장</span> <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">93차 90분 복원</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">18:00~18:25</span><span>Edge → <strong>NYRR RUN CENTER</strong> (320 W 57th St, A/C/E 34 St → 42 St + 도보 또는 도보 약 20분)</span></div>
-                    <div class="flex gap-2"><span class="time-label">18:25~18:40</span><span><strong>⚠ 부부 2인 Midnight Run 배번 수령</strong> (15분) — 아내도 러너(206,000원 결제), 각자 배번·신분증. 공원 현장 수령 불가 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 12/29 배부·마감 시각 NYRR 확인(P1)</span> <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">93차</span></span></div>
-                    <div class="flex gap-2"><span class="time-label">18:40~19:00</span><span>RUN CENTER → <strong>Birdland</strong> 직행 (44가 도보 13블록 20분, 여유 0분). 타임스퀘어 통과는 삭제 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 여유 0분</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">18:00~18:30</span><span>Edge → <strong>NYRR RUN CENTER</strong> (320 W 57th St, 도보 약 30분 또는 7호선 → Times Sq–42 St 연결 → A/C 59 St–Columbus Circle) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">추정 25~35분 · 실측 필요</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">18:30~18:45</span><span><strong>⚠ 부부 2인 Midnight Run 배번 수령</strong> (15분) — 아내도 러너(206,000원 결제), 각자 배번·신분증. 공원 현장 수령 불가 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 12/28·12/29 배부·마감 시각 NYRR 확인(P1) — 12/28에 받으면 이 칸 해소</span> <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">93차</span></span></div>
+                    <div class="flex gap-2"><span class="time-label">18:45~19:00</span><span>RUN CENTER → <strong>Birdland</strong> 직행 (도보 15분, 여유 0분). 타임스퀘어 통과는 삭제 <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 여유 0분</span></span></div>
                     <div class="flex gap-2"><span class="time-label">19:00~21:45</span><span><strong>Birdland Jazz Club</strong> (315 W 44th St) — TicketWeb 사전 티켓 필수·환불 불가, $20/인 F&B 미니멈 <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 확정 공연</span></span></div>
                     <div class="flex gap-2"><span class="time-label">21:45~23:57</span><span><strong>타임스퀘어 일대</strong> — 심야 상점·Junior's 디저트·전광판 (컨디션 나쁘면 생략·22:00 귀가) <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">78차</span></span></div>
                     <div class="flex gap-2"><span class="time-label">23:57~00:00</span><span><strong>Midnight Moment</strong> — 타임스퀘어 전광판 92개 일제 전환 (3분) <span class="inline-block bg-red-100 text-red-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">🔒 23:57 고정점</span></span></div>
                     <div class="flex gap-2"><span class="time-label">00:00~00:35</span><span>숙소 귀가 (N/R/W Times Sq–42 St → 8 St–NYU + 도보 11분)</span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-red-200 bg-red-50 px-3 py-2 rounded text-xs text-red-900">
-                    ⚠ <strong>18:00 이후 연쇄가 이 날의 최대 위험입니다.</strong> Edge 18:00 퇴장 → RUN CENTER 18:25 → 배번 15분 → Birdland 19:00 입장, 여유 0분(Birdland는 환불 불가). 흡수 순서: ① Edge를 16:15 슬롯으로 예매 ② 허드슨야드 순여유 45분을 줄여 Edge를 앞당겨 입장 ③ 그래도 밀리면 RUN CENTER를 포기하고 12/30 오전으로 이월(Birdland 19:00 사수).
+                    ⚠ <strong>18:00 이후 연쇄가 이 날의 최대 위험입니다.</strong> Edge 18:00 퇴장 → RUN CENTER 18:30 → 배번 15분 → Birdland 19:00 입장, 여유 0분(Birdland는 환불 불가). 12/28 저녁에 배번을 받으면 이 연쇄에 약 35분 여유가 생깁니다. Edge 퇴장 후 지상 도달 5~7분이 30분 배정 밖이면 RUN CENTER 도착 18:35~18:45, Birdland 입장 19:05~19:15가 됩니다. 흡수 순서: ① Edge를 16:15 슬롯으로 예매 ② 허드슨야드 순여유 45분을 줄여 Edge를 앞당겨 입장 ③ 그래도 밀리면 RUN CENTER를 12/30 오전으로 이월(Birdland 19:00 사수).
                 </div>
                 <div class="mt-3 pt-3 border-t border-red-200 bg-red-50 px-3 py-2 rounded text-xs text-red-900">
                     ⚠ NYRR에 「Midnight Run 배번을 12/29(레이스 2일 전)부터 RUN CENTER에서 배부하는가」와 그날 마감 시각을 출발 전 확인. 3~4일 전부터만이면 12/30 오전(10:15~10:50 커피 칸)을 RUN CENTER 방문으로 전환.
@@ -386,7 +387,7 @@
             <!-- Day 6 -->
             <div class="bg-white rounded-lg card-shadow p-5 mb-4 border-l-4 border-red-400">
                 <div class="flex items-start justify-between mb-3">
-                    <div><h3 class="text-lg font-bold text-gray-800">🎷 Day 6 — 12/30(수) 그리니치빌리지 재즈 LP → SUMMIT 전망대 → Smalls</h3><p class="text-sm text-red-600 font-semibold">[93차] 전망대 ESB → SUMMIT One Vanderbilt(봉봉 일자 항목 기준, 배정 130,000 유지) · 회복형 날 · 검산 840분</p></div>
+                    <div><h3 class="text-lg font-bold text-gray-800">🎷 Day 6 — 12/30(수) 그리니치빌리지 재즈 LP → SUMMIT 전망대 → Smalls</h3><p class="text-sm text-red-600 font-semibold">[93차] 전망대 ESB → SUMMIT One Vanderbilt(봉봉 일자 항목 기준, SUMMIT 배정 130,000) · 회복형 날 · 검산 840분</p></div>
                 </div>
                 <div class="space-y-1 text-sm">
                     <div class="flex gap-2"><span class="time-label">09:30~10:15</span><span>기상·숙소 커피·정비 — 수면 약 8.5시간 (전날 00:35 귀가)</span></div>
@@ -407,7 +408,7 @@
                     <div class="flex gap-2"><span class="time-label">23:00~23:30</span><span>Smalls → 숙소 (L선 6 Av → 1 Av + 도보, 택시 없음)</span></div>
                 </div>
                 <div class="mt-3 pt-3 border-t border-red-200 bg-red-50 px-3 py-2 rounded text-xs text-red-900">
-                    ⚠ 이 날은 회복형입니다. SUMMIT 16:30이 유일한 고정점. 지연 흡수: 빌리지 산책 65 → Academy 40 → 웨스트빌리지 산책 50분. 12/27 Peter Luger 백업이 발동하면 이 날 저녁을 쓰고 Smalls(135,000)를 포기합니다. 86차에 12/26을 ToR로 되돌린 근거(SUMMIT의 미러룸·인스타 명소·혼잡이 취향과 어긋남, Edge와 유리 전망대 중복)가 12/30 SUMMIT에도 적용되는지 한 번 확인하세요 — 아니면 ESB(130,000 배정 유지 중)로 되돌릴 수 있습니다.
+                    ⚠ 이 날은 회복형입니다. SUMMIT 16:30이 유일한 고정점. 지연 흡수: 빌리지 산책 65 → Academy 40 → 웨스트빌리지 산책 50분. 12/27 Peter Luger 백업이 발동하면 이 날 저녁을 쓰고 Smalls(135,000)를 포기합니다. 86차에 12/26을 ToR로 되돌린 근거(SUMMIT의 미러룸·인스타 명소·혼잡이 취향과 어긋남, Edge와 유리 전망대 중복)가 12/30 SUMMIT에도 적용되는지 한 번 확인하세요(93-①). ESB 위치 문제(94-①)는 노션 봉봉 기준으로 종결됐습니다.
                 </div>
             </div>
 
@@ -480,13 +481,13 @@
                 </div>
                 <div class="space-y-1 text-sm">
                     <div class="flex gap-2"><span class="time-label">07:00~07:20</span><span><strong>기상·최종 점검</strong> — 짐은 방에 두고 나감 (1/1 밤에 미리 싸 둘 것)</span></div>
-                    <div class="flex gap-2"><span class="time-label">07:20~07:55</span><span>숙소 → 배터리파크 (6호선 Astor Pl → Bowling Green, 35분)</span></div>
+                    <div class="flex gap-2"><span class="time-label">07:20~07:55</span><span>숙소 → 배터리파크 (6호선 Astor Pl → Brooklyn Bridge–City Hall → 4/5 → Bowling Green, 35분)</span></div>
                     <div class="flex gap-2"><span class="time-label">07:55~08:30</span><span><strong>Battery Park 매표소에서 크라운 실물 티켓·손목밴드 수령</strong> + 보안검색 (성수기 30~45분). 탑승 마감 08:30 <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">예약서 지시</span></span></div>
                     <div class="flex gap-2"><span class="time-label">08:30~09:00</span><span>탑승 후 출항 대기</span></div>
                     <div class="flex gap-2"><span class="time-label">09:00~09:20</span><span><strong>Statue City Cruises 09:00 배 (Crown Reserve)</strong> → 리버티 아일랜드 <span class="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">✅ 예약 완료</span></span></div>
                     <div class="flex gap-2"><span class="time-label">09:20~12:00</span><span><strong>⚠ 크라운 등반(162계단) + 페데스탈 + 잔디밭 + 박물관</strong> (160분) — 엘리베이터 없음·냉난방 없음, 큰 가방 반입 불가(사물함) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 크라운 지정시각 확인</span></span></div>
                     <div class="flex gap-2"><span class="time-label">12:00~12:35</span><span>귀환 페리(엘리스 경유·하선 없음) → Battery Park (35분)</span></div>
-                    <div class="flex gap-2"><span class="time-label">12:35~13:05</span><span>Battery Park → 로어이스트사이드 (F선, 30분)</span></div>
+                    <div class="flex gap-2"><span class="time-label">12:35~13:05</span><span>Battery Park → 로어이스트사이드 (4/5 → Fulton St → J/Z → Essex St, 30분)</span></div>
                     <div class="flex gap-2"><span class="time-label">13:05~14:05</span><span>[유명] <strong>Katz's Delicatessen</strong> (205 E Houston St, 워크인, 60분)</span></div>
                     <div class="flex gap-2"><span class="time-label">14:05~16:00</span><span><strong>Bowery/NoLIta 스트리트웨어 + 피자</strong> — Supreme(190 Bowery, 35분) → Prince St Pizza(10분) → Kith(337 Lafayette, 20분). Stüssy는 16:00 체크아웃 확보를 위해 제외(사용자 편집) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">❓ 연말 영업 확인</span></span></div>
                     <div class="flex gap-2"><span class="time-label">16:00~16:20</span><span><strong>체크아웃</strong> — 짐 최종 정리·호스트에게 맡기기 (19:00까지 무료 보관) <span class="inline-block bg-yellow-100 text-yellow-800 text-[10px] font-bold px-1.5 py-0.5 rounded align-middle">⚠ 예약서 15:00 — 호스트에게 16:00 서면 확인</span></span></div>
@@ -537,7 +538,7 @@
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">배정 300,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
-                    <div><h4 class="font-semibold text-gray-800">Keens Steakhouse 12/26 17:55</h4><p class="text-sm text-gray-600">72 W 36th St | Resy 또는 전화(212-947-3636) | <strong>"pre-theater seating" + "19:10 퇴점" 명시</strong> | 11/26 오전 10시경(ET) 오픈</p></div>
+                    <div><h4 class="font-semibold text-gray-800">Keens Steakhouse 12/26 17:55</h4><p class="text-sm text-gray-600">72 W 36th St | Resy 또는 전화(212-947-3636) | <strong>"pre-theater seating" + "19:05 퇴점" 명시</strong> | 오픈 일수·시각 미확인(KST 11/27 00시경 가정, 11/26 추수감사절)</p></div>
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">배정 450,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
@@ -565,7 +566,7 @@
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">약 135,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
-                    <div><h4 class="font-semibold text-gray-800">TopView 24시간 버스 + Whitney 12/28</h4><p class="text-sm text-gray-600">TopView 10:45~14:15 + Whitney 15:15~17:15 | ⚠ 둘 다 실가 미확인(공식 사이트 봇 차단) — 예매 임박 재확인</p></div>
+                    <div><h4 class="font-semibold text-gray-800">TopView 24시간 버스 + Whitney 12/28</h4><p class="text-sm text-gray-600">TopView 10:45~14:15 + Whitney 15:15~17:15 | ⚠ TopView 미확인(2차 소스 $45/인부터, 세금·수수료 별도·정가 표기 최대 $75 → 2인 약 90,000~199,500원) · 오픈탑 한파 · Whitney $30 — 예매 임박 재확인</p></div>
                     <div class="flex items-center gap-2"><span class="text-lg font-bold text-orange-600">약 200,000원</span><span class="badge-approve text-xs font-semibold px-2 py-1 rounded">사람 승인 필요</span></div>
                 </div>
                 <div class="flex items-center justify-between p-3 bg-yellow-50 rounded border border-yellow-200">
@@ -577,7 +578,7 @@
 
         <!-- 푸터 -->
         <div class="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
-            <p>뉴욕 여행 준비 대시보드 v49 | 2026-10-21 업데이트 · [v49] 보스턴 삭제→TopView+Whitney · [93차] 92차 오독 정정(Veselka 삭제·아내 Midnight Run·12/30 SUMMIT·1/2 체크아웃 16:00·Edge 90분) · [92차] 항공·숙소·알라딘·도슨트 실결제 반영 · [91차] The Modern 점심 편입 · 완충 약 29.51%(30% 선 바로 아래) · 87~91차는 저장소 checklist-reviewer 검토 전</p>
+            <p>뉴욕 여행 준비 대시보드 v50 | 2026-10-22 업데이트 · [v50] 95차 검토 조건부 사항 정정(Day 2 극장 도착 19:20 이전 · Day 5 이동 30분 · TopView 한파 · 12/28 RUN CENTER 폴백) · [v49] 보스턴 삭제→TopView+Whitney · [93차] 92차 오독 정정(Veselka 삭제·아내 Midnight Run·12/30 SUMMIT·1/2 체크아웃 16:00·Edge 90분) · [92차] 항공·숙소·알라딘·도슨트 실결제 반영 · [91차] The Modern 점심 편입 · 완충 약 29.51%(30% 선 바로 아래 · 실가 반영 밴드 약 28.0~30.2%) · 84~94차는 95차 T04 통합 검토(조건부 승인) 후 정정, 96차 재검토 반영</p>
         </div>
 
     </div>
@@ -587,9 +588,9 @@
         new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: ['식비(18.3%)', '액티비티(17.9%)', '예비비(12.7%)', '항공(19.6%)', '숙소(16.6%)', '이동(1.8%)', '쇼핑(4.6%)', '재즈 라이브(1.3%)', '새해전야(1.9%)', '보험(0.7%)', '미배분(4.7%)'],
+                labels: ['식비(18.3%)', '액티비티(16.4%)', '예비비(12.7%)', '항공(19.6%)', '숙소(16.6%)', '이동(1.8%)', '쇼핑(4.6%)', '재즈 라이브(1.3%)', '새해전야(1.9%)', '보험(0.7%)', '미배분(6.2%)'],
                 datasets: [{
-                    data: [2750, 2682.384, 1900, 2934.2, 2484.664, 265, 695, 200, 286, 100, 702.752],
+                    data: [2750, 2457.384, 1900, 2934.2, 2484.664, 265, 695, 200, 286, 100, 927.752],
                     backgroundColor: ['#f59e0b', '#8b5cf6', '#84cc16', '#3b82f6', '#10b981', '#06b6d4', '#f97316', '#14b8a6', '#ec4899', '#6366f1', '#6b7280'],
                     borderColor: '#ffffff',
                     borderWidth: 2
